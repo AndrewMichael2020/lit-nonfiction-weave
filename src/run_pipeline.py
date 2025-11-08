@@ -204,7 +204,24 @@ def _mk_markdown(s: StoryState) -> str:
     lines = []
     title = (s.premise or "Story").strip()
     venue = (s.venue or "").strip()
-    lines.append(f"# {title}" + (f" — {venue}" if venue else ""))
+    def _fmt_venue(v: str) -> str:
+        """Return a submission-guidelines safe venue label.
+
+        Rules:
+        - If empty, return empty.
+        - If it already contains the phrase 'submission guidelines', leave unchanged (idempotent).
+        - Otherwise append ' - submission guidelines compatible'.
+        This helps avoid implying official publication while drafting.
+        """
+        v = (v or "").strip()
+        if not v:
+            return ""
+        if "submission guidelines" in v.lower():
+            return v
+        return f"{v} - submission guidelines compatible"
+
+    safe_venue = _fmt_venue(venue)
+    lines.append(f"# {title}" + (f" — {safe_venue}" if safe_venue else ""))
     lines.append("")
 
     # Prefer outline beat order

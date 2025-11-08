@@ -1,4 +1,4 @@
-# A day in Kyiv during water outages — The Atlantic
+# A day in Kyiv during water outages — The Atlantic - submission guidelines compatible
 
 ### BEAT: sirens-and-sinks
 
