@@ -143,11 +143,25 @@ print("  OPENAI_API_KEY:", _has("OPENAI_API_KEY"))
 print("  ANTHROPIC_API_KEY:", _has("ANTHROPIC_API_KEY"))
 
 # -------------------------------------------------------------------
-# 4) Initial StoryState
+# 4) Load all context (codex + notes + sources)
+# -------------------------------------------------------------------
+from storygraph.context_loader import load_all_context
+
+context = load_all_context()
+print("\nLoaded context:")
+print(f"  Codex people: {len(context['codex']['people'])}")
+print(f"  Codex places: {len(context['codex']['places'])}")
+print(f"  Codex claims: {len(context['codex']['claims'])}")
+print(f"  Codex sources: {len(context['codex']['sources'])}")
+print(f"  Notes: {'present' if context['notes'] else 'absent'}")
+print(f"  Source files: {list(context['sources'].keys())}")
+
+# -------------------------------------------------------------------
+# 5) Initial StoryState
 # -------------------------------------------------------------------
 state = StoryState(
-    premise=os.getenv("PREMISE", "A day in Kyiv during water outages"),
-    venue=os.getenv("VENUE", "The Atlantic"),
+    premise=os.getenv("PREMISE", "Youth, mountains, and the stillness that follows ascent"),
+    venue=os.getenv("VENUE", "Serious literary magazine like Granta"),
     seed=int(os.getenv("SEED", "137")),
 )
 
@@ -155,19 +169,19 @@ print("\nInitial StoryState:")
 print(state)
 
 # -------------------------------------------------------------------
-# 5) Execute pipeline end-to-end
+# 6) Execute pipeline end-to-end
 # -------------------------------------------------------------------
 pipe = Pipeline(seed=state.seed)
 
 print("\nRunning planner → draft → fact → revision ...")
-# Pass resolved model configuration to the pipeline
+# Pass resolved model configuration and context to the pipeline
 models = {
     "planner": resolved["planner"],
     "draft": resolved["draft"], 
     "fact": resolved["fact"],
     "revision": resolved["revision"]
 }
-state = pipe.run_minimal(state.premise, state.venue, models=models)
+state = pipe.run_minimal(state.premise, state.venue, models=models, context=context)
 
 print("\nPipeline finished. Metrics:")
 for k, v in state.metrics.items():

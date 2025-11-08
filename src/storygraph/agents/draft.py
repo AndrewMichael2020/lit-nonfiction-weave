@@ -19,12 +19,21 @@ def _split(prompt: str):
 def run(
     state: StoryState,
     model: str = None,
-    voice_matrix: Dict | None = None,
-    vernacular_inline: str = "",
+    context: dict = None,
 ) -> StoryState:
     assert state.outline, "Planner must run first"
     assert model, "Draft agent requires model parameter from centralized config"
     system, output_schema, user_tmpl = _split(PROMPT)
+
+    # Extract context for prompt
+    codex_text = ""
+    notes_fragments = ""
+    if context:
+        from ..context_loader import format_codex_for_prompt, extract_notes_fragments
+        if "codex" in context:
+            codex_text = format_codex_for_prompt(context["codex"])
+        if "notes" in context:
+            notes_fragments = extract_notes_fragments(context["notes"])
 
     client = LLMClient(LLMConfig(model=model, seed=state.seed))
     drafts: Dict[str, SceneDraft] = {}
@@ -35,8 +44,8 @@ def run(
             .replace("{purpose}", b.purpose)
             .replace("{n}", str(b.target_words))
             .replace("{motifs}", ",".join(state.outline.motifs or []))
-            .replace("{voice}", json.dumps(voice_matrix or {}))
-            .replace("{vernacular_inline}", vernacular_inline)
+            .replace("{codex}", codex_text)
+            .replace("{notes_fragments}", notes_fragments)
         )
         obj = client.complete_json(system, user, output_schema)
 

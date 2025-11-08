@@ -1,0 +1,110 @@
+AUTHOR INTENT (revised for explicit entity binding and safe factual anchors)
+
+PRIMARY ENTITY ANCHORS
+
+Nikita Marwah — a real climber active in British Columbia and Washington between 2020 and 2023.
+Documented to have died after summiting Canadian Border Peak in Chilliwack at age twenty-three.
+Publicly acknowledged through a family statement and funeral fundraiser.
+All mentions must remain factual, respectful, and limited to verifiable or plausibly reconstructable contexts.
+
+Narrator — Andrew, climbing partner, eyewitness to several ascents, and reflective observer.
+Serves as chronicler; voice is first-person, quiet, and emotionally restrained.
+
+Chris — episodic, known climbing partner on some British Columbia ascents, deceased in a separate mountaineering accident on Atwell Peak the following year.
+
+Steven — episodic, climbing partner on certain routes; present in supportive, non-dramatic scenes.
+
+AUTHOR INTENT
+
+I want a literary short story in English that portrays the short, bright mountaineering life of Nikita Marwah [E1], who died shortly after turning twenty-three.
+The tone should be quiet, observational, and restrained, suitable for publication in a serious literary magazine.
+Imagination is permitted only within the verified factual world defined below.
+The story must integrate documented events with sensory realism and emotional precision.
+
+The narrative voice (Narrator) should remain factual, non-sentimental, and first-person, describing climbs and memories shared with Nikita in the Pacific Northwest.
+The story should evoke youth, risk, and brevity without fictionalizing biography beyond normal narrative inference.
+
+FACTUAL GROUNDING
+
+Verified facts and allowable anchors:
+
+Nikita Marwah climbed actively in British Columbia and Washington during a brief but intense period (2020–2023).
+
+She died on Canadian Border Peak after a successful solo summit, unroped and without a helmet.
+
+Her death was publicly acknowledged by her family in a GoFundMe statement.
+
+Her frequent partners included Chris (later died  on Atwell Peak) and Steven.
+
+She was known for fast, light ascents and rapid learning with limited formal training.
+
+All geography, route names, and environmental details must remain geographically accurate to the Pacific Northwest.
+
+Appearance (from verifiable photograph):
+Petite, lightly built; dark hair worn simply; dark eyes with focused expression; youth and quiet confidence visible in face and posture.
+Descriptions should remain respectful and observational, avoiding dramatization or speculative emotion.
+
+REQUIRED SCENES AND EVENTS
+
+Tomyhoi Peak: She forgot her helmet; I lent her mine. No rope used.
+
+Mount Wedge: Solo climb; late descent; midnight call from Whistler after missing the last bus; early-morning work shift following day.
+
+Mount Baker (May 1–2): Joint ascent; she summited, I turned back at 11 a.m. due to exhaustion; we descended via a difficult moraine.
+
+Forbidden Peak, West Ridge: She reached Cat Scratch Gully, evaluated fourth-class start, decided to turn back.
+
+Scenes with Chris and Steven: depict shared energy and youth; mention Chris’s later fatal accident on Atwell Peak factually and briefly.
+
+Optional interstitial moments:
+camp mornings, roadside breakfasts, quiet conversations at trailheads, reflections during approaches, unguarded dialogue revealing personality and ethos.
+
+ALLOWED FICTIONALIZATION
+
+Realistic dialogue consistent with climbing culture between the narrator, Nikita, Chris, and Steven.
+
+Imagined but plausible weather, sensory, and environmental descriptions (light, snow texture, wind).
+
+Reflective or interior monologue by the narrator that interprets experience without inventing unverified facts.
+
+Travel details and logistics inferred from normal climbing practice.
+
+Moderate scene compression for pacing (no invented accidents or achievements).
+
+NOT ALLOWED
+
+Any speculative or invented biography outside verifiable timeframe and geography.
+
+Supernatural, symbolic, or mythic interpretation of events.
+
+Negative portrayal of real persons or attribution of statements not publicly recorded.
+
+Glamourization of risk or romanticization of death.
+
+Direct emotional representation of Nikita’s family or private grief.
+
+THEMES
+
+Youth in the mountains.
+
+Skill acquired quickly under constraint of time.
+
+Awareness of risk and deliberate restraint.
+
+The dual nature of lightness — grace versus vulnerability.
+
+What remains after a short, intense life in motion.
+
+The thin line between preparation and acceptance.
+
+OUTPUT PARAMETERS
+
+Language: Canadian/US English of the Pacific Northwest.
+
+Target length: approximately 3,200 words (±10%).
+
+Perspective: first person (the narrator).
+
+Tone: factual, restrained, lyrical only through observation.
+
+Style: real-world mountaineering realism with quiet reflection; no dramatized sentiment.

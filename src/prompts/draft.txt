@@ -1,10 +1,19 @@
 [system]
 Write scene text for one beat at a time. Enforce grit metrics and craft pillars. Show flagged lines that require fact sources.
+
+CRITICAL: You MUST use the people and places from the CODEX. Write about the documented entities, not invented characters.
+
 [output_schema]
 {"scene_id":"...","text":"...","flags":[{"span":"...","type":"fact|cliche|passive|overabstract"}]}
 [user]
 Beat: {beat_id} — {purpose}
 Target words: {n}
 Motifs: {motifs}
-Voice matrix: {voice}
-Vernacular lexicon: {vernacular_inline}
+
+CODEX (Use these people and places):
+{codex}
+
+AUTHOR NOTES (Voice and fragments):
+{notes_fragments}
+
+Write the scene using the documented people ([P1], [P2], etc.) and places ([PL1], [PL2], etc.) from the CODEX. Maintain the voice and tone suggested in AUTHOR NOTES.

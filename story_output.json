@@ -1,825 +1,1233 @@
 {
   "seed": 137,
-  "premise": "A day in Kyiv during water outages",
-  "venue": "The Atlantic",
+  "premise": "Youth, mountains, and the stillness that follows ascent",
+  "venue": "Serious literary magazine like Granta",
   "outline": {
-    "template": "braided",
+    "template": "dual_timeline",
     "beats": [
       {
-        "id": "sirens-and-sinks",
-        "purpose": "Open at dawn with an empty kettle and a sputtering tap, establishing the sensory reality of outage life and the broader stakes of infrastructure targeted by war, in a tone suitable for The Atlantic’s analytical reportage.",
-        "target_words": 190
-      },
-      {
-        "id": "stairwell-commons",
-        "purpose": "Descend into the stairwell where neighbors coordinate runs for water, sketching a microcosm of civic trust, improvisation, and fatigue; frame the building as a social organism adapting in real time.",
-        "target_words": 190
-      },
-      {
-        "id": "control-room-braid",
-        "purpose": "Braid in a reported thread from utility dispatchers and engineers rerouting around damaged mains, describing screens, valves, and decision trees to show the hidden choreography keeping a city alive.",
+        "id": "NOW-01",
+        "purpose": "Open in the hush that follows reaching a high saddle: pulse decelerating, wind paused, insects audible. Establish stillness as its own terrain and set a measured, attentive voice.",
         "target_words": 200
       },
       {
-        "id": "domestic-triage",
-        "purpose": "Render the household calculus of rationing—tea, washing, sanitation—showing how outages reorder time and dignity, and how habit becomes policy at the sink.",
-        "target_words": 190
-      },
-      {
-        "id": "infrastructure-memory",
-        "purpose": "Provide historical context on Kyiv’s water system and the Dnipro’s place in the city’s life, tracing vulnerabilities from Soviet-era design to contemporary targeting without lapsing into nostalgia.",
+        "id": "THEN-01",
+        "purpose": "Flash to late adolescence: racing friends up scree, jokes tossed like talus, the summit imagined as victory. Introduce bravado and the first misunderstanding of mountains.",
         "target_words": 200
       },
       {
-        "id": "queue-economies",
-        "purpose": "At a neighborhood distribution point and kiosks, map the ethics and economics of bottled water, price stability, and quiet profiteering; balance empathy with scrutiny.",
-        "target_words": 190
+        "id": "NOW-02",
+        "purpose": "In the present, climb alone. Track breath counts, the economy of older knees, the deliberate pace that invites listening. Stillness as a practice rather than a prize.",
+        "target_words": 200
       },
       {
-        "id": "digital-mesh",
-        "purpose": "Show the Telegram channels, outage maps, and ad hoc spreadsheets that constitute a new public square, exploring trust, rumor, and the state’s bandwidth under stress.",
-        "target_words": 190
+        "id": "THEN-02",
+        "purpose": "A mentor—parent, coach, or neighbor—teaches knots and contour lines. First summit with borrowed boots; the sky feels owned. Seed the future undoing of that certainty.",
+        "target_words": 200
       },
       {
-        "id": "night-cycle",
-        "purpose": "As evening falls, track coping rituals—bathtub reservoirs, sterilization hacks, quiet floors where elevators sleep—linking the city’s circadian rhythm to damaged grids.",
-        "target_words": 190
+        "id": "NOW-03",
+        "purpose": "Attend to weather and light: inversion layer like gauze in the valley, marmot whistle, the way sound falls away at altitude. Stillness reframed as physics and attention.",
+        "target_words": 200
       },
       {
-        "id": "pressure-returns-coda",
-        "purpose": "Close with the tentative rush of water returning, resisting triumphalism; reflect on endurance as a civic practice and the fragile normal that Kyiv keeps remaking.",
-        "target_words": 190
+        "id": "THEN-03",
+        "purpose": "A youthful near-miss: storm rolls in; granite slick, hair lifting with static. Humility arrives with the thunder. Introduce fear and the first honest listening to the mountain.",
+        "target_words": 200
+      },
+      {
+        "id": "NOW-04",
+        "purpose": "Consider the body as a ledger: lungs, scars, imperceptible tremors quieting with altitude. Hunger for the moment after effort when the self thins and landscape enters.",
+        "target_words": 200
+      },
+      {
+        "id": "THEN-04",
+        "purpose": "A relationship formed on switchbacks—friend or lover—two compasses sometimes aligned, sometimes not. An argument above treeline about pace and purpose. Learning to wait.",
+        "target_words": 200
+      },
+      {
+        "id": "NOW-05",
+        "purpose": "Turn toward descent before the absolute top. Redefine summit as the place you choose to stop climbing. Stillness as decision, not destination, resisting the old urge to tally.",
+        "target_words": 200
+      },
+      {
+        "id": "THEN-05",
+        "purpose": "Return from an early climb unable to translate altitude to a kitchen table. Parent asks practical questions; you answer with weather and light. The gap between tongues widens.",
+        "target_words": 200
+      },
+      {
+        "id": "NOW-06",
+        "purpose": "A small ritual: palm on lichen, a cairn left unchanged. Consider leaving no story, too. Silence as an ethics in mountain places and on the page.",
+        "target_words": 200
+      },
+      {
+        "id": "THEN-06",
+        "purpose": "The last reckless ascent: a fall that doesn’t break bone but does break belief. Youth closes like a weather window; a private vow to listen next time.",
+        "target_words": 200
+      },
+      {
+        "id": "NOW-07",
+        "purpose": "Sit on the descent’s overlook and let the valley’s noise drift up thinly. Articulate the essay’s hinge: ascent is a preface to the stillness that teaches what to carry down.",
+        "target_words": 200
+      },
+      {
+        "id": "THEN-07",
+        "purpose": "A quiet, unremarkable walk years ago after the scare: slow, companionable, naming plants instead of peaks. Foreshadow the adult pace and the worth of arriving late.",
+        "target_words": 200
       }
     ],
     "motifs": [
-      "sputtering taps",
-      "blue jerrycans",
-      "Telegram pings",
-      "maps glowing in dark rooms",
-      "plastic crackle of bottled water",
-      "city veins and valves",
-      "kettle steam without tea",
-      "echoing stairwells",
-      "handwritten notices on doors",
-      "Dnipro breadth under low sky",
-      "elevators asleep",
-      "footprints of damp boots"
+      "thin air",
+      "stillness after effort",
+      "contour lines and maps",
+      "cairns",
+      "echo and its absence",
+      "snowmelt and rivulets",
+      "adolescent bravado",
+      "wind shifts",
+      "stone and lichen",
+      "breath counting",
+      "false summits",
+      "thunderheads",
+      "rope and knots",
+      "valley noise from above",
+      "light changing with altitude"
     ]
   },
   "drafts": {
-    "sirens-and-sinks": {
-      "scene_id": "sirens-and-sinks",
-      "text": "The kettle sits empty on the stove at 6:47 a.m., its aluminum base cold. Olena turns the tap—a sputter, a cough of air, then nothing. The silence where water should run carries its own weight.  This is the fourth morning this month without pressure in her seventh-floor apartment. The building's pipes, like thousands across Dnipro, have become instruments measuring what missiles do to pumping stations sixty kilometers away. Infrastructure is not backdrop here; it is plot.  She fills the kettle from a blue jerrycan in the hallway, its plastic handle worn smooth by her neighbors' hands. The water sloshes with a particular sound—the acoustic signature of rationing. Her phone pings: Telegram channels mapping which districts have power, which have water, the city's circulatory system rendered in crowded threads and user-reported outages.  Through the kitchen window, the Dnipro River spreads gray under March sky. The city's namesake artery flows oblivious while the veins and valves humans built above it fail in sequence. Olena lights the gas—that still works—and watches steam rise without tea to steep. The kettle's whistle, when it comes, sounds like a question no one in the stairwell can answer.",
+    "NOW-01": {
+      "scene_id": "NOW-01",
+      "text": "The saddle arrives without fanfare. One moment the trail climbs through krummholz and scree, the next it crests into a pocket of air so still you can hear your pulse in your temples. I stop because stopping feels like the only honest response to this sudden absence of wind.  My breath comes hard and measured—four counts in, four counts out—a rhythm learned from my father on a different ridge in a different range. The pack straps have printed red lines across my collarbones. I can feel them without looking.  Below, the valley holds its noise: a logging truck downshifting on the switchbacks, maybe the distant static of the Clearwater over stones. Up here, the soundscape narrows to what's immediate. A horsefly orbits my left ear. Somewhere in the talus, a pika chips twice, then quits.  The topo map in my chest pocket shows this saddle as a tight bundle of contour lines between two unnamed peaks. On paper it looked like a simple matter of elevation gain. But standing in it, the saddle becomes its own terrain—a threshold where effort converts to stillness, where the body's hammer-thud quiets enough to hear the smaller mechanics of the world.",
       "flags": [
         {
-          "span": "Infrastructure is not backdrop here; it is plot.",
-          "type": "overabstract"
-        },
-        {
-          "span": "missiles do to pumping stations sixty kilometers away",
+          "span": "a rhythm learned from my father on a different ridge in a different range",
           "type": "fact"
         },
         {
-          "span": "fourth morning this month",
+          "span": "the Clearwater",
           "type": "fact"
         }
       ]
     },
-    "stairwell-commons": {
-      "scene_id": "stairwell-commons",
-      "text": "The stairwell smells of wet concrete and boot rubber. Olena descends past handwritten notices taped to doors—\"Water 14:00, bring containers\"—their edges curling in the damp. On the third-floor landing, Mykola props open the fire door with a blue jerrycan, its handle wrapped in electrical tape. His phone glows: Telegram pings cascading through the building's group chat, neighbors coordinating like dispatchers.  \"Pressure's back in sector four,\" he says, not looking up. \"Ten minutes, maybe.\"  Two floors down, Svitlana hauls a sloshing canister, pausing every six steps. The stairwell echoes with footfalls, a rhythm of fatigue and function. Someone has sketched a hand-drawn map on the wall—blue marker tracing the city's water grid, valves circled, question marks where pipes failed.  Olena reaches the lobby. Plastic crackle: a neighbor tears open a shrink-wrapped case of bottled water, distributing six-packs like rations. The elevator doors stand dark, their call buttons unlit. Outside, the Dnipro stretches under low sky, indifferent.  Upstairs, a kettle whistles without tea—just boiling for safety. The building breathes: sputtering taps, shuffling boots, the hum of a social organism rewiring itself one errand at a time.",
+    "THEN-01": {
+      "scene_id": "THEN-01",
+      "text": "We were seventeen when we raced the scree field below Torreys Peak, boots skittering over loose talus like we were invincible. Jake threw insults upslope—\"My grandma climbs faster than you\"—and I fired back between breaths, lungs already tight at twelve thousand feet. The thin air didn't matter. Nothing mattered except reaching the cairn first.  We'd studied the contour lines on Jake's USGS map the night before, tracing our fingers along the switchbacks like we were reading prophecy. The summit was a circle, a destination, a place where we'd stand above everything. We didn't understand yet that mountains aren't conquered. That the stillness after effort isn't victory—it's just your body remembering how to breathe.  I beat Jake by thirty seconds. Touched the summit cairn and shouted into the wind, waiting for an echo that never came. Below us, valley noise rose faint—a truck downshifting, maybe, or a dog barking in Bakerville. The light had changed in the climb, sharper and colder, but we didn't notice. We were too busy taking photos, flexing against the sky.  On the descent, thunderheads built to the west. We ignored them. We were young enough to believe weather was something that happened to other people.",
       "flags": [
         {
-          "span": "indifferent",
-          "type": "overabstract"
-        },
-        {
-          "span": "social organism rewiring itself",
-          "type": "overabstract"
-        }
-      ]
-    },
-    "control-room-braid": {
-      "scene_id": "control-room-braid",
-      "text": "In the dispatch center on Heroiv Pratsi Street, three monitors cast blue light across Oleksandr Koval's face. He'd been rerouting water pressure for eleven hours. His finger traced a schematic—the city's arterial grid, red lines pulsing where mains had ruptured under shelling two nights prior.  \"Sector 4-B, close valve 17,\" he said into the headset. On screen, a digital marker blinked green. Somewhere in Shevchenkivskyi, an engineer in a flooded basement turned a wheel the size of a tractor tire.  The system was a living thing: close one valve, pressure spiked in another district. Open a bypass, risk blowing a joint weakened by decades of deferred maintenance. Koval's decision tree had seventeen branches. He'd memorized them all.  \"Confirming flow to hospital zone,\" a voice crackled through. \"Pressure holding at 2.1 bar.\"  On his desk: cold tea, a half-eaten sandwich, a printout of neighborhoods ranked by vulnerability—elderly populations, dialysis clinics, shelters. His Telegram pinged: a photo from Saltivka, blue jerrycans lined outside an apartment block, residents waiting with the stillness of people who'd learned patience as survival skill.  Koval toggled to the next schematic. The hidden choreography continued. The city drank, or it didn't, based on decisions made in rooms like this.",
-      "flags": [
-        {
-          "span": "Heroiv Pratsi Street",
+          "span": "Torreys Peak",
           "type": "fact"
         },
         {
-          "span": "three monitors",
+          "span": "twelve thousand feet",
           "type": "fact"
         },
         {
-          "span": "eleven hours",
+          "span": "USGS map",
           "type": "fact"
         },
         {
-          "span": "two nights prior",
-          "type": "fact"
-        },
-        {
-          "span": "Shevchenkivskyi",
-          "type": "fact"
-        },
-        {
-          "span": "2.1 bar",
-          "type": "fact"
-        },
-        {
-          "span": "Saltivka",
-          "type": "fact"
-        },
-        {
-          "span": "seventeen branches",
+          "span": "Bakerville",
           "type": "fact"
         }
       ]
     },
-    "domestic-triage": {
-      "scene_id": "domestic-triage",
-      "text": "Olena wakes at 0530, before the tap sputters dry. She fills two blue jerrycans, the kettle, three saucepans. The Telegram ping arrives at 0547: water off until 1400, maybe longer. She screenshots the message, adds it to a folder labeled \"Utilities\" that now holds forty-seven images.  At the sink, she parcels yesterday's dishwater into today's toilet flush. The calculus is automatic now—one liter per flush, half a liter to rinse soap from her daughter's hair, a cupful to wipe counters. Habit has become policy. She boils water for tea but drinks it black; the sugar ration goes to Mykola, who works the night shift at the filtration plant.  In the stairwell, a handwritten notice: \"Elevator asleep indefinitely. Conserve stair lighting 1800-0600.\" Someone has added in pencil, \"Conserve dignity too?\" Olena climbs to the ninth floor, jerrycans pulling at her shoulders, footprints of damp boots marking each landing.  Through the kitchen window, the Dnipro spreads under low sky, vast and indifferent. The city's veins and valves are failing, but the river flows on, unrationed, untapped, mocking the plastic crackle of bottled water stacked in her hallway. She pours carefully. Not a drop wasted.",
+    "NOW-02": {
+      "scene_id": "NOW-02",
+      "text": "The trail switchbacks through lodgepole pine, each turn tighter than memory suggests. I count breaths—four in, four out—the way my knees now dictate pace rather than ambition. Fifty-three years old means listening to cartilage, to the small negotiations between bone and gradient.  A cairn marks the treeline. Someone stacked these stones with cold fingers, left a breadcrumb for strangers. I add one, palm-sized granite still warm from yesterday's sun.  The air thins. Not dramatically—this is only nine thousand feet—but enough that my chest registers the difference. Enough that I stop pretending I'm twenty-five, that I could sprint these switchbacks the way I once did, all adolescent bravado and borrowed confidence.  Stillness arrives between gusts. The valley noise—highway hum, chainsaw whine—fades to nothing. Just wind through lichen-crusted rock, just the metronome of my own breathing.  A false summit reveals another ridge beyond. The map said two miles. The contour lines lied, or I forgot how to read suffering into topography.  I sit on a boulder still cold from last week's snowmelt. A rivulet threads between stones, no wider than my thumb. I drink. I wait. I notice the thunderheads building west, the way light shifts when weather thinks about arriving.  This is the practice: not reaching, but moving. Not conquering, but attending.",
       "flags": [
         {
-          "span": "the river flows on, unrationed, untapped, mocking the plastic crackle",
+          "span": "borrowed confidence",
           "type": "overabstract"
         },
         {
-          "span": "filtration plant",
+          "span": "The map said two miles",
           "type": "fact"
         },
         {
-          "span": "0530",
-          "type": "fact"
-        },
-        {
-          "span": "ninth floor",
+          "span": "nine thousand feet",
           "type": "fact"
         }
       ]
     },
-    "infrastructure-memory": {
-      "scene_id": "infrastructure-memory",
-      "text": "The Dnipro carved Kyiv into hills and lowlands long before Soviet engineers laid the first water mains in the 1930s, threading pipes beneath cobblestone and clay. Those pipes—cast iron, concrete-lined—were built for a city half this size, designed when redundancy meant a second pump station, not distributed nodes. By the 1980s, the system sprawled: treatment plants on both banks, reservoirs perched on high ground, pressure zones mapped to elevation. It worked because it was vast and dumb, a single organism with the river as its heart.  That centralization became the vulnerability. Knock out the Dnieper Station and the right bank goes dry. Sever the trunk line near Vydubychi and a hundred thousand taps sputter to silence. The engineers who built it never imagined someone would target water as doctrine, that maps glowing in dark rooms would trace every valve and junction, that blue jerrycans would line stairwells like sandbags.  Now the system's logic is inverted: what made it efficient makes it fragile. Handwritten notices on apartment doors track outages by district. Footprints of damp boots mark the path to working spigots. The river still flows, broad and indifferent under low sky, but the city's veins depend on electricity, on pumps, on the assumption that infrastructure is neutral. It never was.",
+    "THEN-02": {
+      "scene_id": "THEN-02",
+      "text": "Uncle Ray taught me knots on the porch—bowline, figure-eight, clove hitch—his fingers thick as dock pilings but precise. \"Rope remembers,\" he said, cinching a loop. \"Treat it right.\"  The topo map spread across the kitchen table showed contour lines tight as fingerprints. He traced elevation with a callused thumb. \"Lines close together mean steep. Far apart, easy walking. Read the land before you're on it.\"  My first summit: Mount Pilchuck, August 1987. His boots, two sizes too big, stuffed with wool socks. We switchbacked through Douglas fir into subalpine meadow, then granite scree that clicked underfoot. At the lookout tower, the Cascades rolled north and south—Rainier, Baker, Glacier Peak—each ridge a promise.  \"You feel it?\" Ray asked.  I nodded, breath still ragged. The sky felt like property I could claim, the peaks a catalog I'd check off. Adolescent certainty: if I could see it, I could summit it.  Ray studied the horizon, squinting at a line of thunderheads building west. \"Mountains don't care what you feel,\" he said quietly. \"They'll be here when you're dust.\"  I didn't hear him. I was already counting future peaks, mapping my conquest, certain the thin air would always taste this clean.",
       "flags": [
         {
-          "span": "The Dnipro carved Kyiv into hills and lowlands long before Soviet engineers laid the first water mains in the 1930s",
+          "span": "His fingers thick as dock pilings but precise",
+          "type": "fact",
+          "note": "Verify if Uncle Ray was a real person or composite character; confirm biographical accuracy"
+        },
+        {
+          "span": "Mount Pilchuck, August 1987",
+          "type": "fact",
+          "note": "Confirm date and location of first summit; verify against climbing records or journals"
+        },
+        {
+          "span": "Rainier, Baker, Glacier Peak",
+          "type": "fact",
+          "note": "Verify these peaks are visible from Mount Pilchuck lookout tower"
+        }
+      ]
+    },
+    "NOW-03": {
+      "scene_id": "NOW-03",
+      "text": "The inversion layer hung in the valley like surgical gauze, trapping Leadville's sounds—truck brakes, a dog's bark—beneath its membrane. Up here at eleven thousand feet, Cass heard the physics of altitude: a marmot's whistle that didn't echo, just stopped. Sound fell away differently when air thinned, each noise discrete as a bead on a string.  She counted her breaths. Four steps, inhale. Four steps, exhale. Her lungs pulled at atmosphere that wasn't quite there.  A cairn marked the trail junction, stones stacked with the deliberate care of someone who'd needed the marker in whiteout. She added one—palm-sized granite veined with lichen—and felt the stillness reframe itself. Not peace. Physics. At this elevation, wind either screamed or vanished. Right now: vanished.  Below, the valley's contour lines compressed into the actual folds of earth. She traced the route they'd climbed, switchbacks etched by snowmelt and a century of boots. The map in her pack showed what topology felt like: vertical distance as something you carried in your thighs.  Jenna was fifty yards ahead, moving steady. Not fast. Steady. The difference mattered at altitude, where adolescent bravado ran headfirst into oxygen debt.",
+      "flags": [
+        {
+          "span": "Leadville",
           "type": "fact"
         },
         {
-          "span": "Those pipes—cast iron, concrete-lined—were built for a city half this size",
-          "type": "fact"
-        },
-        {
-          "span": "By the 1980s, the system sprawled: treatment plants on both banks, reservoirs perched on high ground",
-          "type": "fact"
-        },
-        {
-          "span": "Knock out the Dnieper Station and the right bank goes dry",
-          "type": "fact"
-        },
-        {
-          "span": "Sever the trunk line near Vydubychi",
+          "span": "eleven thousand feet",
           "type": "fact"
         }
       ]
     },
-    "queue-economies": {
-      "scene_id": "queue-economies",
-      "text": "The distribution point opens at seven. By six-thirty, blue jerrycans already claim positions on the pavement, placeholders for bodies still warming beds in apartments where sputtering taps yield nothing. Oksana arrives with her own containers, counts twelve ahead of her, does the math: forty minutes if the truck is punctual, longer if it isn't.  Inside the kiosk, bottled water stacks to the ceiling. Prices haven't changed in three weeks—18 hryvnias for five liters, same as before the main line broke. Stability that feels either like mercy or strategy. The owner, Petro, moves between shelves with practiced efficiency, the plastic crackle of shrink-wrap following his hands. His Telegram pings constantly; he glances, doesn't answer.  \"You're doing well,\" someone mutters in line.  Petro's face reveals nothing. \"Costs are up. Transport, suppliers raising rates. I'm holding what I can.\"  True or performance? Oksana watches him pocket cash, watches him also hand a six-pack to the pensioner who's four hryvnias short. Both things exist. In the stairwell of her building, a handwritten notice lists three neighbors selling their own stockpiles, undercutting the kiosk by two hryvnias. Quiet profiteering spreads like frost, everyone's ethics tested by empty taps and full bathtubs elsewhere.  The queue shuffles forward. Jerrycans scrape concrete. Oksana lifts hers when her turn comes.",
+    "THEN-03": {
+      "scene_id": "THEN-03",
+      "text": "At sixteen, I summited Longs Peak in a tank top, no pack, racing two college kids who'd started at dawn. I passed them at the Keyhole, lungs burning, legs piston-strong with adolescent bravado. The contour lines on their map meant nothing to me—I knew the route from one summer prior, every cairn, every false summit.  I reached the top at noon. Alone. The valley noise from above was a hush, just wind over stone and lichen, my breath counting down from the sprint.  Then the stillness broke.  My hair lifted. Static crawled across my scalp, arms, the fine hairs standing like antennae. The granite beneath my palms went slick—not with snowmelt, but something else, something charged. I looked west. Thunderheads, black and boiling, already erasing peaks.  I ran.  Down the cables, skidding on wet rock, no thought for rope or knots or the college kids I'd passed. The thunder arrived as I hit the boulder field—not sound but pressure, a fist in my chest. Lightning struck a spire two hundred yards north. The air tasted like copper.  I made the treeline as hail came.  That night, shaking in my tent, I understood: the mountain doesn't care about your legs. It doesn't care at all.",
       "flags": [
         {
-          "span": "Stability that feels either like mercy or strategy.",
-          "type": "overabstract"
-        },
-        {
-          "span": "Costs are up. Transport, suppliers raising rates.",
+          "span": "Longs Peak",
           "type": "fact"
         },
         {
-          "span": "Quiet profiteering spreads like frost",
+          "span": "the Keyhole",
+          "type": "fact"
+        },
+        {
+          "span": "two hundred yards",
+          "type": "fact"
+        }
+      ]
+    },
+    "NOW-04": {
+      "scene_id": "NOW-04",
+      "text": "The body keeps its own accounts. Lungs expand against ribs—three breaths per step now, where two sufficed an hour ago. The scar on my left knee, white as quartz, pulls tight in cold that hasn't existed at sea level since March. My hands shake less at 11,000 feet than they did in the trailhead parking lot, some inverse relationship between elevation and the small betrayals of nerve endings.  I stop where the trail switchbacks through a stand of bristlecone, bark twisted like old rope. Breath clouds hang in air too thin to disperse them quickly. Below, the valley holds its noise—a dog barking, someone's truck door slamming—sounds that carry up here as discrete packets, unconnected to their sources.  The stillness after effort feels like subtraction. Heart rate dropping. Sweat cooling to salt lines on my shirt. In this thinning, something else enters: the granite's patient geometry, lichen mapping time in concentric rings of gray-green, the way contour lines on my map suddenly make sense as lived experience rather than abstraction.  A cairn marks the junction, stones stacked by hands I'll never know. I add one, palm-sized and dark with mica. The wind shifts, carrying the smell of snowmelt from somewhere higher.",
+      "flags": [
+        {
+          "span": "some inverse relationship between elevation and the small betrayals of nerve endings",
+          "type": "overabstract"
+        },
+        {
+          "span": "sounds that carry up here as discrete packets",
+          "type": "overabstract"
+        }
+      ]
+    },
+    "THEN-04": {
+      "scene_id": "THEN-04",
+      "text": "We met on the Flatirons approach trail, both sixteen, both pretending we knew more than we did. Sarah moved faster uphill, her breath even where mine came ragged. I studied contour lines obsessively; she navigated by instinct and the cairns other climbers left.  Above treeline on Longs Peak, we had our first real fight. I wanted to turn back—thunderheads building west, that electric smell in the thin air. She called me cautious. I called her reckless. The wind shifted, carrying valley noise up to us: traffic, someone's dog, the world we'd left.  We learned each other's rhythms slowly. How she'd wait at false summits, sitting on lichen-covered stone while I caught up. How I'd count her breaths when she pushed too hard, remind her to drink from snowmelt rivulets. We tied into the same rope on technical pitches, learning knots that held.  Some days our compasses aligned perfectly—same pace, same purpose, that stillness after effort when we'd summit together. Other days we were separate climbers who happened to share a trail. The mountains taught us both: when to lead, when to follow, when waiting isn't weakness but wisdom.  I never named what we were. Friend felt insufficient. Lover felt presumptuous. We were rope partners, which meant everything.",
+      "flags": [
+        {
+          "span": "electric smell",
+          "type": "fact",
+          "note": "Verify ozone smell before lightning is detectable/common knowledge"
+        },
+        {
+          "span": "Flatirons",
+          "type": "fact",
+          "note": "Confirm location near Boulder, CO and typical approach trail conditions"
+        },
+        {
+          "span": "Longs Peak",
+          "type": "fact",
+          "note": "Verify treeline elevation and typical weather patterns/thunderhead timing"
+        }
+      ]
+    },
+    "NOW-05": {
+      "scene_id": "NOW-05",
+      "text": "The cairn stands thirty meters above us, stacked stones marking what the map calls the summit. I stop on a granite shelf where lichen grows in copper circles, where snowmelt collects in a depression worn smooth by ten thousand seasons.  \"We're not going up?\" Maya asks.  I shake my head. The wind shifts, carrying valley noise—a truck downshifting, someone's dog. The thunderheads that were distant an hour ago now tower directly west, their bases the color of old bruises.  \"This is enough,\" I say.  She looks at me like I've spoken a foreign language. At seventeen, I would have pushed for the cairn, would have needed the tally, the proof. Would have counted it against some internal ledger of summits touched, elevations gained.  Now I sit. The stillness after effort settles into my legs, my lungs. Maya remains standing, uncertain.  \"But we can see it,\" she says. \"We're so close.\"  \"Close enough.\" I unshoulder my pack. \"The summit's wherever you decide you're done climbing.\"  She sits finally, her breath still counting itself out in visible clouds. Below us, contour lines translate to actual ridges, actual distance. The thin air makes everything sharp-edged and far.  We don't speak. The echo of our voices, if we used them, would find nothing to return from.",
+      "flags": [
+        {
+          "span": "ten thousand seasons",
+          "type": "fact",
+          "note": "Geological timeframe for granite weathering and lichen growth patterns—verify typical erosion rates for alpine granite depressions"
+        },
+        {
+          "span": "their bases the color of old bruises",
+          "type": "overabstract",
+          "note": "Simile borders on literary cliché—consider more specific color descriptor"
+        }
+      ]
+    },
+    "THEN-05": {
+      "scene_id": "THEN-05",
+      "text": "I came down from the Flatirons at noon, still tasting altitude in my sinuses. Mom stood at the counter slicing tomatoes, asked how it went.  \"Good,\" I said. \"Clear above nine thousand.\"  She wiped her hands. \"Did you go with anyone?\"  \"Solo. Easier that way.\"  Her knife paused. \"And you wore the—\"  \"Yeah, Mom. I wore it.\"  What I didn't say: how the wind shifted at the saddle, how I'd counted breaths through the scree field, thirty-seven per hundred feet. How the lichen on the summit cairn grew in perfect rosettes, yellow-green against granite. How the valley noise—traffic, dogs, someone's radio—rose as a single hum, flattened by distance into something almost holy.  She asked if I wanted lunch.  I wanted to explain the stillness after effort, that specific silence when your pulse finally drops and you can hear snowmelt trickling between rocks. Wanted to describe the light at altitude, how it sharpens every edge, makes contour lines visible on your own skin.  \"I ate,\" I said, though I hadn't.  She returned to her tomatoes. I stood there smelling basil and dish soap, the kitchen air thick as mud after the thin clarity above. The gap between what I'd seen and what I could say widened with each second, a crevasse I didn't yet have rope for.  I went upstairs.",
+      "flags": [
+        {
+          "span": "something almost holy",
+          "type": "overabstract"
+        },
+        {
+          "span": "I didn't yet have rope for",
           "type": "cliche"
         }
       ]
     },
-    "digital-mesh": {
-      "scene_id": "digital-mesh",
-      "text": "By Thursday the city's digital nervous system had rewired itself. Telegram channels multiplied—@DniproWaterInfo, @VodokanalLive, @MyDistrictH2O—each claiming authority, none quite trusted. Olena scrolled through her phone at 2 a.m., screen glow painting her kitchen blue, cross-referencing three different outage maps that disagreed on which neighborhoods had pressure. One showed her block green. Her sputtering taps said otherwise.  The channels pulsed with contradictions: \"Levoberezhny restored 14:00\"—but someone three comments down posted a video of dry faucets timestamped 14:47. A crowdsourced spreadsheet tracked working public taps, updated every fifteen minutes by strangers who'd become infrastructure scribes. Trust became arithmetic: corroborate twice, verify with neighbors, believe your own ears.  In darkened apartments across the city, screens glowed like votive candles. Pensioners learned to parse Telegram's reply threads. Teenagers became information brokers, their phones hot from constant refresh. The state's bandwidth—both digital and institutional—strained under the load of a population suddenly fluent in decentralized verification.  Rumor and fact blurred in the blue light. Someone claimed tanker trucks tomorrow. Someone else said next week. The maps updated, contradicted, converged. The new public square had no fountain, only the plastic crackle of bottled water and the Dnipro's breadth under low sky, indifferent to the pings.",
+    "NOW-06": {
+      "scene_id": "NOW-06",
+      "text": "At 11,400 feet, I place my palm on a boulder's lichen—chartreuse and rust, older than the town I drove from. The stone holds cold from last night, maybe 34 degrees by the way it pulls heat from my skin. A cairn stands three feet away, five rocks stacked by someone else's hands. I don't add to it. Don't rearrange it.  The impulse is there—to mark, to claim, to say *I was here*. But the lichen grew a centimeter in a decade. The cairn already interrupts the contour of this ridge. Every story I might tell becomes another stone on a pile that doesn't need more weight.  Silence as ethics: not the absence of sound but the refusal to inscribe. The wind shifts from southwest to west, carrying the smell of snowmelt from the couloir above. A marmot whistle echoes once, then stops. I count six breaths. The thunderheads building over the far peaks will arrive in two hours, maybe three.  I lift my hand. The lichen shows no mark of my touch. The cairn stands as I found it. I turn downslope, leaving no new stack, no carved initial, no flag tied to a branch. Some places ask for witness, not record. The page, too, can practice this—showing the mountain without claiming it.",
       "flags": [
         {
-          "span": "By Thursday",
+          "span": "chartreuse and rust, older than the town I drove from",
           "type": "fact",
-          "note": "Requires verification of timeline—when did digital coordination intensify relative to crisis start?"
+          "note": "Verify lichen age relative to typical Colorado mountain town establishment dates"
         },
         {
-          "span": "Telegram channels multiplied—@DniproWaterInfo, @VodokanalLive, @MyDistrictH2O",
+          "span": "maybe 34 degrees",
           "type": "fact",
-          "note": "Need actual channel names/examples from Dnipro water crisis or similar Ukrainian infrastructure events"
+          "note": "Confirm typical overnight rock temperature at 11,400 feet in relevant season"
         },
         {
-          "span": "crowdsourced spreadsheet tracked working public taps",
+          "span": "The lichen grew a centimeter in a decade",
           "type": "fact",
-          "note": "Verify if such crowdsourced tools were actually used during Dnipro outages or similar crises"
+          "note": "Verify lichen growth rates for alpine species"
         }
       ]
     },
-    "night-cycle": {
-      "scene_id": "night_cycle_coping_rituals",
-      "text": "By six p.m., the city shifts into its damaged circadian rhythm. Sputtering taps announce the evening cutoff. Olena fills her bathtub before the pressure dies—a porcelain reservoir holding tomorrow's dishes, tomorrow's hygiene, tomorrow's tea. The blue jerrycans line her hallway like sentries.  Across town, Telegram pings cascade through darkening apartments. \"Sector 4: water 21:00-23:00.\" \"Dniprovskyi: maybe morning.\" Maps glow in dim rooms, fingers tracing which neighborhoods still have pressure, which valves the utility has closed.  Dmytro boils his daily ration on a camping stove—sterilization before storage. Kettle steam rises without tea following, moisture that serves no comfort. The plastic crackle of bottled water punctuates his routine: one liter for drinking, half a liter for cooking, the rest rationed across days he cannot predict.  The elevators sleep. Handwritten notices on lobby doors: \"No water—use stairs.\" Echoing stairwells fill with the trudge of neighbors hauling supplies upward, damp boot prints marking each landing.  From her window, Olena watches the Dnipro's breadth under low sky. The river flows, indifferent and full, while the city's veins and valves ration every drop. She texts her sister the same message she sends each night: \"We have enough. We manage.\"",
+    "THEN-06": {
+      "scene_id": "THEN-06",
+      "text": "The cairn at fourteen thousand feet marked nothing—just someone's optimism stacked in granite. I passed it at noon, legs still strong, ignoring the thunderheads massing over the western ridge. The contour lines on my map showed another thousand feet, maybe ninety minutes if I pushed.  I pushed.  The wind shifted at the false summit. What had been a breeze became something with teeth. My breath came in counts—four in, four out—but the thin air made mathematics irrelevant. Above me, the true peak. Below, valley noise faded to nothing.  I don't remember deciding to go on. Just the adolescent algebra: turning back equals failure.  The fall wasn't dramatic. A patch of verglas hidden under dust, my boot sliding, then the world tilting. I caught myself after ten feet, rope tangled around an outcrop, palms scraped raw against lichen-covered stone. No broken bones. Just stillness after effort, and in that stillness, something cracking that wasn't rock.  I descended in the strange light that comes before storms, watching snowmelt trace rivulets down the trail I'd climbed. At the cairn, I stopped and knocked the top stone loose.  The echo came back wrong—or didn't come back at all.  Next time, I told the mountain. Next time I'll listen.",
       "flags": [
         {
-          "span": "indifferent and full",
+          "span": "The cairn at fourteen thousand feet marked nothing",
+          "type": "fact",
+          "note": "Specific elevation requires verification or should be adjusted to match actual climbing context"
+        },
+        {
+          "span": "verglas",
+          "type": "fact",
+          "note": "Technical climbing term—verify appropriate usage context for thin ice layer"
+        }
+      ]
+    },
+    "NOW-07": {
+      "scene_id": "NOW-07",
+      "text": "I sit on a granite shelf where the descent trail drops into switchbacks, legs dangling over nothing. The valley spreads below—a patchwork of roofs and roads—and its noise drifts up thinly: a dog barking, a truck downshifting, the faint hum of a world that kept turning while I climbed. Up here, the sound arrives stripped of urgency, like news from a country I used to live in.  The stillness after effort is its own altitude. My lungs have stopped their ragged counting. The wind has dropped to nothing. I can hear lichen growing on the cairn beside me, or imagine I can—that patient, imperceptible work of covering stone.  This is the hinge: ascent is only preface. The summit teaches you to see distance. This overlook teaches you what to carry down. Not the adolescent bravado of having stood on top, not the false summits or the thunderheads you outwaited. Just the breath you learned to count. The contour lines you traced with your boots. The knowledge that stillness isn't the absence of effort—it's what effort earns.  Below, a rivulet catches light, snowmelt tracing its old path down. I'll follow soon. But not yet.",
+      "flags": [
+        {
+          "span": "a world that kept turning while I climbed",
+          "type": "cliche"
+        },
+        {
+          "span": "I can hear lichen growing on the cairn beside me, or imagine I can—that patient, imperceptible work of covering stone",
+          "type": "fact"
+        }
+      ]
+    },
+    "THEN-07": {
+      "scene_id": "THEN-07",
+      "text": "Three weeks after the rescue helicopter, we walked the fire road behind the high school. No summit. No plan except Mom's doctor-approved two miles on flat ground.  She stopped every hundred yards to name things. \"Mule's ear. See the shape?\" Her finger traced the leaf's long oval. \"And that's yarrow—the climbers used to chew it for altitude headaches.\"  I kicked gravel, wanted to be anywhere else. Sixteen and immortal again, already planning next summer's routes.  \"Pearly everlasting,\" she said at another stop. Touched the papery white flowers. \"Grows all the way up to eleven thousand feet. Doesn't care how thin the air gets.\"  The sun dropped behind the ridge. We'd covered maybe a mile in an hour.  \"We're going to be late,\" I said.  \"For what?\" She smiled, that new careful smile. \"There's no summit here. That's the point.\"  She crouched by a seep where snowmelt still trickled in July. Showed me the monkey flower's spotted throat, the way it grew in the cold water's edge.  \"Sometimes arriving late means you actually saw something,\" she said.  I didn't understand then. Didn't understand that she was teaching me a different kind of pace, one I'd need decades later when my own breath started counting differently.",
+      "flags": [
+        {
+          "span": "Sixteen and immortal again",
           "type": "overabstract"
-        }
-      ]
-    },
-    "pressure-returns-coda": {
-      "scene_id": "pressure-returns-coda",
-      "text": "The tap sputters at 11:47 p.m.—not a promise, just a possibility. Olena doesn't fill the kettle yet. She watches the stream thin to thread, counts three seconds of flow before it dies again. The blue jerrycan by the radiator still holds two liters. Enough.  Across the courtyard, lights blink on in apartment 34. Someone else testing. Someone else waiting. The Telegram channel updates: pressure returning to sectors 7 through 12, partial restoration, monitor for sediment. Her phone glows against the kitchen tile, a small moon of information.  This is not victory. This is Tuesday.  She thinks of the Dnipro beyond the rooftops, its breadth indifferent under low sky, moving whether the taps run or not. The city's veins and valves, broken and mended and broken again. Endurance as a civic practice—not the kind that makes headlines, but the kind that fills jerrycans at 6 a.m., that leaves handwritten notices on stairwell doors, that knows which neighbor has a working hotplate.  The tap coughs once more. A stronger pulse. Olena places a pot underneath, lets it catch what comes. The plastic crackle of bottled water from the next room. Her daughter, rationing without being asked.  Fragile normal. They keep remaking it.",
-      "flags": [
-        {
-          "span": "its breadth indifferent under low sky, moving whether the taps run or not",
-          "type": "fact",
-          "note": "Verify Dnipro River visibility from typical Kyiv residential areas and seasonal sky conditions"
         },
         {
-          "span": "Telegram channel updates: pressure returning to sectors 7 through 12",
-          "type": "fact",
-          "note": "Confirm typical format and sector numbering system used in Kyiv municipal water service notifications"
+          "span": "that new careful smile",
+          "type": "fact"
+        },
+        {
+          "span": "one I'd need decades later",
+          "type": "overabstract"
         }
       ]
     }
   },
-  "draft_v1_concat": "The kettle sits empty on the stove at 6:47 a.m., its aluminum base cold. Olena turns the tap—a sputter, a cough of air, then nothing. The silence where water should run carries its own weight.  This is the fourth morning this month without pressure in her seventh-floor apartment. The building's pipes, like thousands across Dnipro, have become instruments measuring what missiles do to pumping stations sixty kilometers away. Infrastructure is not backdrop here; it is plot.  She fills the kettle from a blue jerrycan in the hallway, its plastic handle worn smooth by her neighbors' hands. The water sloshes with a particular sound—the acoustic signature of rationing. Her phone pings: Telegram channels mapping which districts have power, which have water, the city's circulatory system rendered in crowded threads and user-reported outages.  Through the kitchen window, the Dnipro River spreads gray under March sky. The city's namesake artery flows oblivious while the veins and valves humans built above it fail in sequence. Olena lights the gas—that still works—and watches steam rise without tea to steep. The kettle's whistle, when it comes, sounds like a question no one in the stairwell can answer.\n\nThe stairwell smells of wet concrete and boot rubber. Olena descends past handwritten notices taped to doors—\"Water 14:00, bring containers\"—their edges curling in the damp. On the third-floor landing, Mykola props open the fire door with a blue jerrycan, its handle wrapped in electrical tape. His phone glows: Telegram pings cascading through the building's group chat, neighbors coordinating like dispatchers.  \"Pressure's back in sector four,\" he says, not looking up. \"Ten minutes, maybe.\"  Two floors down, Svitlana hauls a sloshing canister, pausing every six steps. The stairwell echoes with footfalls, a rhythm of fatigue and function. Someone has sketched a hand-drawn map on the wall—blue marker tracing the city's water grid, valves circled, question marks where pipes failed.  Olena reaches the lobby. Plastic crackle: a neighbor tears open a shrink-wrapped case of bottled water, distributing six-packs like rations. The elevator doors stand dark, their call buttons unlit. Outside, the Dnipro stretches under low sky, indifferent.  Upstairs, a kettle whistles without tea—just boiling for safety. The building breathes: sputtering taps, shuffling boots, the hum of a social organism rewiring itself one errand at a time.\n\nIn the dispatch center on Heroiv Pratsi Street, three monitors cast blue light across Oleksandr Koval's face. He'd been rerouting water pressure for eleven hours. His finger traced a schematic—the city's arterial grid, red lines pulsing where mains had ruptured under shelling two nights prior.  \"Sector 4-B, close valve 17,\" he said into the headset. On screen, a digital marker blinked green. Somewhere in Shevchenkivskyi, an engineer in a flooded basement turned a wheel the size of a tractor tire.  The system was a living thing: close one valve, pressure spiked in another district. Open a bypass, risk blowing a joint weakened by decades of deferred maintenance. Koval's decision tree had seventeen branches. He'd memorized them all.  \"Confirming flow to hospital zone,\" a voice crackled through. \"Pressure holding at 2.1 bar.\"  On his desk: cold tea, a half-eaten sandwich, a printout of neighborhoods ranked by vulnerability—elderly populations, dialysis clinics, shelters. His Telegram pinged: a photo from Saltivka, blue jerrycans lined outside an apartment block, residents waiting with the stillness of people who'd learned patience as survival skill.  Koval toggled to the next schematic. The hidden choreography continued. The city drank, or it didn't, based on decisions made in rooms like this.\n\nOlena wakes at 0530, before the tap sputters dry. She fills two blue jerrycans, the kettle, three saucepans. The Telegram ping arrives at 0547: water off until 1400, maybe longer. She screenshots the message, adds it to a folder labeled \"Utilities\" that now holds forty-seven images.  At the sink, she parcels yesterday's dishwater into today's toilet flush. The calculus is automatic now—one liter per flush, half a liter to rinse soap from her daughter's hair, a cupful to wipe counters. Habit has become policy. She boils water for tea but drinks it black; the sugar ration goes to Mykola, who works the night shift at the filtration plant.  In the stairwell, a handwritten notice: \"Elevator asleep indefinitely. Conserve stair lighting 1800-0600.\" Someone has added in pencil, \"Conserve dignity too?\" Olena climbs to the ninth floor, jerrycans pulling at her shoulders, footprints of damp boots marking each landing.  Through the kitchen window, the Dnipro spreads under low sky, vast and indifferent. The city's veins and valves are failing, but the river flows on, unrationed, untapped, mocking the plastic crackle of bottled water stacked in her hallway. She pours carefully. Not a drop wasted.\n\nThe Dnipro carved Kyiv into hills and lowlands long before Soviet engineers laid the first water mains in the 1930s, threading pipes beneath cobblestone and clay. Those pipes—cast iron, concrete-lined—were built for a city half this size, designed when redundancy meant a second pump station, not distributed nodes. By the 1980s, the system sprawled: treatment plants on both banks, reservoirs perched on high ground, pressure zones mapped to elevation. It worked because it was vast and dumb, a single organism with the river as its heart.  That centralization became the vulnerability. Knock out the Dnieper Station and the right bank goes dry. Sever the trunk line near Vydubychi and a hundred thousand taps sputter to silence. The engineers who built it never imagined someone would target water as doctrine, that maps glowing in dark rooms would trace every valve and junction, that blue jerrycans would line stairwells like sandbags.  Now the system's logic is inverted: what made it efficient makes it fragile. Handwritten notices on apartment doors track outages by district. Footprints of damp boots mark the path to working spigots. The river still flows, broad and indifferent under low sky, but the city's veins depend on electricity, on pumps, on the assumption that infrastructure is neutral. It never was.\n\nThe distribution point opens at seven. By six-thirty, blue jerrycans already claim positions on the pavement, placeholders for bodies still warming beds in apartments where sputtering taps yield nothing. Oksana arrives with her own containers, counts twelve ahead of her, does the math: forty minutes if the truck is punctual, longer if it isn't.  Inside the kiosk, bottled water stacks to the ceiling. Prices haven't changed in three weeks—18 hryvnias for five liters, same as before the main line broke. Stability that feels either like mercy or strategy. The owner, Petro, moves between shelves with practiced efficiency, the plastic crackle of shrink-wrap following his hands. His Telegram pings constantly; he glances, doesn't answer.  \"You're doing well,\" someone mutters in line.  Petro's face reveals nothing. \"Costs are up. Transport, suppliers raising rates. I'm holding what I can.\"  True or performance? Oksana watches him pocket cash, watches him also hand a six-pack to the pensioner who's four hryvnias short. Both things exist. In the stairwell of her building, a handwritten notice lists three neighbors selling their own stockpiles, undercutting the kiosk by two hryvnias. Quiet profiteering spreads like frost, everyone's ethics tested by empty taps and full bathtubs elsewhere.  The queue shuffles forward. Jerrycans scrape concrete. Oksana lifts hers when her turn comes.\n\nBy Thursday the city's digital nervous system had rewired itself. Telegram channels multiplied—@DniproWaterInfo, @VodokanalLive, @MyDistrictH2O—each claiming authority, none quite trusted. Olena scrolled through her phone at 2 a.m., screen glow painting her kitchen blue, cross-referencing three different outage maps that disagreed on which neighborhoods had pressure. One showed her block green. Her sputtering taps said otherwise.  The channels pulsed with contradictions: \"Levoberezhny restored 14:00\"—but someone three comments down posted a video of dry faucets timestamped 14:47. A crowdsourced spreadsheet tracked working public taps, updated every fifteen minutes by strangers who'd become infrastructure scribes. Trust became arithmetic: corroborate twice, verify with neighbors, believe your own ears.  In darkened apartments across the city, screens glowed like votive candles. Pensioners learned to parse Telegram's reply threads. Teenagers became information brokers, their phones hot from constant refresh. The state's bandwidth—both digital and institutional—strained under the load of a population suddenly fluent in decentralized verification.  Rumor and fact blurred in the blue light. Someone claimed tanker trucks tomorrow. Someone else said next week. The maps updated, contradicted, converged. The new public square had no fountain, only the plastic crackle of bottled water and the Dnipro's breadth under low sky, indifferent to the pings.\n\nBy six p.m., the city shifts into its damaged circadian rhythm. Sputtering taps announce the evening cutoff. Olena fills her bathtub before the pressure dies—a porcelain reservoir holding tomorrow's dishes, tomorrow's hygiene, tomorrow's tea. The blue jerrycans line her hallway like sentries.  Across town, Telegram pings cascade through darkening apartments. \"Sector 4: water 21:00-23:00.\" \"Dniprovskyi: maybe morning.\" Maps glow in dim rooms, fingers tracing which neighborhoods still have pressure, which valves the utility has closed.  Dmytro boils his daily ration on a camping stove—sterilization before storage. Kettle steam rises without tea following, moisture that serves no comfort. The plastic crackle of bottled water punctuates his routine: one liter for drinking, half a liter for cooking, the rest rationed across days he cannot predict.  The elevators sleep. Handwritten notices on lobby doors: \"No water—use stairs.\" Echoing stairwells fill with the trudge of neighbors hauling supplies upward, damp boot prints marking each landing.  From her window, Olena watches the Dnipro's breadth under low sky. The river flows, indifferent and full, while the city's veins and valves ration every drop. She texts her sister the same message she sends each night: \"We have enough. We manage.\"\n\nThe tap sputters at 11:47 p.m.—not a promise, just a possibility. Olena doesn't fill the kettle yet. She watches the stream thin to thread, counts three seconds of flow before it dies again. The blue jerrycan by the radiator still holds two liters. Enough.  Across the courtyard, lights blink on in apartment 34. Someone else testing. Someone else waiting. The Telegram channel updates: pressure returning to sectors 7 through 12, partial restoration, monitor for sediment. Her phone glows against the kitchen tile, a small moon of information.  This is not victory. This is Tuesday.  She thinks of the Dnipro beyond the rooftops, its breadth indifferent under low sky, moving whether the taps run or not. The city's veins and valves, broken and mended and broken again. Endurance as a civic practice—not the kind that makes headlines, but the kind that fills jerrycans at 6 a.m., that leaves handwritten notices on stairwell doors, that knows which neighbor has a working hotplate.  The tap coughs once more. A stronger pulse. Olena places a pot underneath, lets it catch what comes. The plastic crackle of bottled water from the next room. Her daughter, rationing without being asked.  Fragile normal. They keep remaking it.",
-  "draft_v2_concat": "The kettle sits empty on the stove at 6:47 a.m., its aluminum base cold. Olena turns the tap—a sputter, a cough of air, then nothing. The silence where water should run carries its own weight.  This is the fourth morning this month without pressure in her seventh-floor apartment. The building's pipes, like thousands across Dnipro, have become instruments measuring what missiles do to pumping stations sixty kilometers away. Infrastructure is not backdrop here; it is plot.  She fills the kettle from a blue jerrycan in the hallway, its plastic handle worn smooth by her neighbors' hands. The water sloshes with a particular sound—the acoustic signature of rationing. Her phone pings: Telegram channels mapping which districts have power, which have water, the city's circulatory system rendered in crowded threads and user-reported outages.  Through the kitchen window, the Dnipro River spreads gray under March sky. The city's namesake artery flows oblivious while the veins and valves humans built above it fail in sequence. Olena lights the gas—that still works—and watches steam rise without tea to steep. The kettle's whistle, when it comes, sounds like a question no one in the stairwell can answer.\n\nThe stairwell smells of wet concrete and boot rubber. Olena descends past handwritten notices taped to doors—\"Water 14:00, bring containers\"—their edges curling in the damp. On the third-floor landing, Mykola props open the fire door with a blue jerrycan, its handle wrapped in electrical tape. His phone glows: Telegram pings cascading through the building's group chat, neighbors coordinating like dispatchers.  \"Pressure's back in sector four,\" he says, not looking up. \"Ten minutes, maybe.\"  Two floors down, Svitlana hauls a sloshing canister, pausing every six steps. The stairwell echoes with footfalls, a rhythm of fatigue and function. Someone has sketched a hand-drawn map on the wall—blue marker tracing the city's water grid, valves circled, question marks where pipes failed.  Olena reaches the lobby. Plastic crackle: a neighbor tears open a shrink-wrapped case of bottled water, distributing six-packs like rations. The elevator doors stand dark, their call buttons unlit. Outside, the Dnipro stretches under low sky, indifferent.  Upstairs, a kettle whistles without tea—just boiling for safety. The building breathes: sputtering taps, shuffling boots, the hum of a social organism rewiring itself one errand at a time.\n\nIn the dispatch center on Heroiv Pratsi Street, three monitors cast blue light across Oleksandr Koval's face. He'd been rerouting water pressure for eleven hours. His finger traced a schematic—the city's arterial grid, red lines pulsing where mains had ruptured under shelling two nights prior.  \"Sector 4-B, close valve 17,\" he said into the headset. On screen, a digital marker blinked green. Somewhere in Shevchenkivskyi, an engineer in a flooded basement turned a wheel the size of a tractor tire.  The system was a living thing: close one valve, pressure spiked in another district. Open a bypass, risk blowing a joint weakened by decades of deferred maintenance. Koval's decision tree had seventeen branches. He'd memorized them all.  \"Confirming flow to hospital zone,\" a voice crackled through. \"Pressure holding at 2.1 bar.\"  On his desk: cold tea, a half-eaten sandwich, a printout of neighborhoods ranked by vulnerability—elderly populations, dialysis clinics, shelters. His Telegram pinged: a photo from Saltivka, blue jerrycans lined outside an apartment block, residents waiting with the stillness of people who'd learned patience as survival skill.  Koval toggled to the next schematic. The hidden choreography continued. The city drank, or it didn't, based on decisions made in rooms like this.\n\nOlena wakes at 0530, before the tap sputters dry. She fills two blue jerrycans, the kettle, three saucepans. The Telegram ping arrives at 0547: water off until 1400, maybe longer. She screenshots the message, adds it to a folder labeled \"Utilities\" that now holds forty-seven images.  At the sink, she parcels yesterday's dishwater into today's toilet flush. The calculus is automatic now—one liter per flush, half a liter to rinse soap from her daughter's hair, a cupful to wipe counters. Habit has become policy. She boils water for tea but drinks it black; the sugar ration goes to Mykola, who works the night shift at the filtration plant.  In the stairwell, a handwritten notice: \"Elevator asleep indefinitely. Conserve stair lighting 1800-0600.\" Someone has added in pencil, \"Conserve dignity too?\" Olena climbs to the ninth floor, jerrycans pulling at her shoulders, footprints of damp boots marking each landing.  Through the kitchen window, the Dnipro spreads under low sky, vast and indifferent. The city's veins and valves are failing, but the river flows on, unrationed, untapped, mocking the plastic crackle of bottled water stacked in her hallway. She pours carefully. Not a drop wasted.\n\nThe Dnipro carved Kyiv into hills and lowlands long before Soviet engineers laid the first water mains in the 1930s, threading pipes beneath cobblestone and clay. Those pipes—cast iron, concrete-lined—were built for a city half this size, designed when redundancy meant a second pump station, not distributed nodes. By the 1980s, the system sprawled: treatment plants on both banks, reservoirs perched on high ground, pressure zones mapped to elevation. It worked because it was vast and dumb, a single organism with the river as its heart.  That centralization became the vulnerability. Knock out the Dnieper Station and the right bank goes dry. Sever the trunk line near Vydubychi and a hundred thousand taps sputter to silence. The engineers who built it never imagined someone would target water as doctrine, that maps glowing in dark rooms would trace every valve and junction, that blue jerrycans would line stairwells like sandbags.  Now the system's logic is inverted: what made it efficient makes it fragile. Handwritten notices on apartment doors track outages by district. Footprints of damp boots mark the path to working spigots. The river still flows, broad and indifferent under low sky, but the city's veins depend on electricity, on pumps, on the assumption that infrastructure is neutral. It never was.\n\nThe distribution point opens at seven. By six-thirty, blue jerrycans already claim positions on the pavement, placeholders for bodies still warming beds in apartments where sputtering taps yield nothing. Oksana arrives with her own containers, counts twelve ahead of her, does the math: forty minutes if the truck is punctual, longer if it isn't.  Inside the kiosk, bottled water stacks to the ceiling. Prices haven't changed in three weeks—18 hryvnias for five liters, same as before the main line broke. Stability that feels either like mercy or strategy. The owner, Petro, moves between shelves with practiced efficiency, the plastic crackle of shrink-wrap following his hands. His Telegram pings constantly; he glances, doesn't answer.  \"You're doing well,\" someone mutters in line.  Petro's face reveals nothing. \"Costs are up. Transport, suppliers raising rates. I'm holding what I can.\"  True or performance? Oksana watches him pocket cash, watches him also hand a six-pack to the pensioner who's four hryvnias short. Both things exist. In the stairwell of her building, a handwritten notice lists three neighbors selling their own stockpiles, undercutting the kiosk by two hryvnias. Quiet profiteering spreads like frost, everyone's ethics tested by empty taps and full bathtubs elsewhere.  The queue shuffles forward. Jerrycans scrape concrete. Oksana lifts hers when her turn comes.\n\nBy Thursday the city's digital nervous system had rewired itself. Telegram channels multiplied—@DniproWaterInfo, @VodokanalLive, @MyDistrictH2O—each claiming authority, none quite trusted. Olena scrolled through her phone at 2 a.m., screen glow painting her kitchen blue, cross-referencing three different outage maps that disagreed on which neighborhoods had pressure. One showed her block green. Her sputtering taps said otherwise.  The channels pulsed with contradictions: \"Levoberezhny restored 14:00\"—but someone three comments down posted a video of dry faucets timestamped 14:47. A crowdsourced spreadsheet tracked working public taps, updated every fifteen minutes by strangers who'd become infrastructure scribes. Trust became arithmetic: corroborate twice, verify with neighbors, believe your own ears.  In darkened apartments across the city, screens glowed like votive candles. Pensioners learned to parse Telegram's reply threads. Teenagers became information brokers, their phones hot from constant refresh. The state's bandwidth—both digital and institutional—strained under the load of a population suddenly fluent in decentralized verification.  Rumor and fact blurred in the blue light. Someone claimed tanker trucks tomorrow. Someone else said next week. The maps updated, contradicted, converged. The new public square had no fountain, only the plastic crackle of bottled water and the Dnipro's breadth under low sky, indifferent to the pings.\n\nBy six p.m., the city shifts into its damaged circadian rhythm. Sputtering taps announce the evening cutoff. Olena fills her bathtub before the pressure dies—a porcelain reservoir holding tomorrow's dishes, tomorrow's hygiene, tomorrow's tea. The blue jerrycans line her hallway like sentries.  Across town, Telegram pings cascade through darkening apartments. \"Sector 4: water 21:00-23:00.\" \"Dniprovskyi: maybe morning.\" Maps glow in dim rooms, fingers tracing which neighborhoods still have pressure, which valves the utility has closed.  Dmytro boils his daily ration on a camping stove—sterilization before storage. Kettle steam rises without tea following, moisture that serves no comfort. The plastic crackle of bottled water punctuates his routine: one liter for drinking, half a liter for cooking, the rest rationed across days he cannot predict.  The elevators sleep. Handwritten notices on lobby doors: \"No water—use stairs.\" Echoing stairwells fill with the trudge of neighbors hauling supplies upward, damp boot prints marking each landing.  From her window, Olena watches the Dnipro's breadth under low sky. The river flows, indifferent and full, while the city's veins and valves ration every drop. She texts her sister the same message she sends each night: \"We have enough. We manage.\"\n\nThe tap sputters at 11:47 p.m.—not a promise, just a possibility. Olena doesn't fill the kettle yet. She watches the stream thin to thread, counts three seconds of flow before it dies again. The blue jerrycan by the radiator still holds two liters. Enough.  Across the courtyard, lights blink on in apartment 34. Someone else testing. Someone else waiting. The Telegram channel updates: pressure returning to sectors 7 through 12, partial restoration, monitor for sediment. Her phone glows against the kitchen tile, a small moon of information.  This is not victory. This is Tuesday.  She thinks of the Dnipro beyond the rooftops, its breadth indifferent under low sky, moving whether the taps run or not. The city's veins and valves, broken and mended and broken again. Endurance as a civic practice—not the kind that makes headlines, but the kind that fills jerrycans at 6 a.m., that leaves handwritten notices on stairwell doors, that knows which neighbor has a working hotplate.  The tap coughs once more. A stronger pulse. Olena places a pot underneath, lets it catch what comes. The plastic crackle of bottled water from the next room. Her daughter, rationing without being asked.  Fragile normal. They keep remaking it.",
+  "draft_v1_concat": "The saddle arrives without fanfare. One moment the trail climbs through krummholz and scree, the next it crests into a pocket of air so still you can hear your pulse in your temples. I stop because stopping feels like the only honest response to this sudden absence of wind.  My breath comes hard and measured—four counts in, four counts out—a rhythm learned from my father on a different ridge in a different range. The pack straps have printed red lines across my collarbones. I can feel them without looking.  Below, the valley holds its noise: a logging truck downshifting on the switchbacks, maybe the distant static of the Clearwater over stones. Up here, the soundscape narrows to what's immediate. A horsefly orbits my left ear. Somewhere in the talus, a pika chips twice, then quits.  The topo map in my chest pocket shows this saddle as a tight bundle of contour lines between two unnamed peaks. On paper it looked like a simple matter of elevation gain. But standing in it, the saddle becomes its own terrain—a threshold where effort converts to stillness, where the body's hammer-thud quiets enough to hear the smaller mechanics of the world.\n\nWe were seventeen when we raced the scree field below Torreys Peak, boots skittering over loose talus like we were invincible. Jake threw insults upslope—\"My grandma climbs faster than you\"—and I fired back between breaths, lungs already tight at twelve thousand feet. The thin air didn't matter. Nothing mattered except reaching the cairn first.  We'd studied the contour lines on Jake's USGS map the night before, tracing our fingers along the switchbacks like we were reading prophecy. The summit was a circle, a destination, a place where we'd stand above everything. We didn't understand yet that mountains aren't conquered. That the stillness after effort isn't victory—it's just your body remembering how to breathe.  I beat Jake by thirty seconds. Touched the summit cairn and shouted into the wind, waiting for an echo that never came. Below us, valley noise rose faint—a truck downshifting, maybe, or a dog barking in Bakerville. The light had changed in the climb, sharper and colder, but we didn't notice. We were too busy taking photos, flexing against the sky.  On the descent, thunderheads built to the west. We ignored them. We were young enough to believe weather was something that happened to other people.\n\nThe trail switchbacks through lodgepole pine, each turn tighter than memory suggests. I count breaths—four in, four out—the way my knees now dictate pace rather than ambition. Fifty-three years old means listening to cartilage, to the small negotiations between bone and gradient.  A cairn marks the treeline. Someone stacked these stones with cold fingers, left a breadcrumb for strangers. I add one, palm-sized granite still warm from yesterday's sun.  The air thins. Not dramatically—this is only nine thousand feet—but enough that my chest registers the difference. Enough that I stop pretending I'm twenty-five, that I could sprint these switchbacks the way I once did, all adolescent bravado and borrowed confidence.  Stillness arrives between gusts. The valley noise—highway hum, chainsaw whine—fades to nothing. Just wind through lichen-crusted rock, just the metronome of my own breathing.  A false summit reveals another ridge beyond. The map said two miles. The contour lines lied, or I forgot how to read suffering into topography.  I sit on a boulder still cold from last week's snowmelt. A rivulet threads between stones, no wider than my thumb. I drink. I wait. I notice the thunderheads building west, the way light shifts when weather thinks about arriving.  This is the practice: not reaching, but moving. Not conquering, but attending.\n\nUncle Ray taught me knots on the porch—bowline, figure-eight, clove hitch—his fingers thick as dock pilings but precise. \"Rope remembers,\" he said, cinching a loop. \"Treat it right.\"  The topo map spread across the kitchen table showed contour lines tight as fingerprints. He traced elevation with a callused thumb. \"Lines close together mean steep. Far apart, easy walking. Read the land before you're on it.\"  My first summit: Mount Pilchuck, August 1987. His boots, two sizes too big, stuffed with wool socks. We switchbacked through Douglas fir into subalpine meadow, then granite scree that clicked underfoot. At the lookout tower, the Cascades rolled north and south—Rainier, Baker, Glacier Peak—each ridge a promise.  \"You feel it?\" Ray asked.  I nodded, breath still ragged. The sky felt like property I could claim, the peaks a catalog I'd check off. Adolescent certainty: if I could see it, I could summit it.  Ray studied the horizon, squinting at a line of thunderheads building west. \"Mountains don't care what you feel,\" he said quietly. \"They'll be here when you're dust.\"  I didn't hear him. I was already counting future peaks, mapping my conquest, certain the thin air would always taste this clean.\n\nThe inversion layer hung in the valley like surgical gauze, trapping Leadville's sounds—truck brakes, a dog's bark—beneath its membrane. Up here at eleven thousand feet, Cass heard the physics of altitude: a marmot's whistle that didn't echo, just stopped. Sound fell away differently when air thinned, each noise discrete as a bead on a string.  She counted her breaths. Four steps, inhale. Four steps, exhale. Her lungs pulled at atmosphere that wasn't quite there.  A cairn marked the trail junction, stones stacked with the deliberate care of someone who'd needed the marker in whiteout. She added one—palm-sized granite veined with lichen—and felt the stillness reframe itself. Not peace. Physics. At this elevation, wind either screamed or vanished. Right now: vanished.  Below, the valley's contour lines compressed into the actual folds of earth. She traced the route they'd climbed, switchbacks etched by snowmelt and a century of boots. The map in her pack showed what topology felt like: vertical distance as something you carried in your thighs.  Jenna was fifty yards ahead, moving steady. Not fast. Steady. The difference mattered at altitude, where adolescent bravado ran headfirst into oxygen debt.\n\nAt sixteen, I summited Longs Peak in a tank top, no pack, racing two college kids who'd started at dawn. I passed them at the Keyhole, lungs burning, legs piston-strong with adolescent bravado. The contour lines on their map meant nothing to me—I knew the route from one summer prior, every cairn, every false summit.  I reached the top at noon. Alone. The valley noise from above was a hush, just wind over stone and lichen, my breath counting down from the sprint.  Then the stillness broke.  My hair lifted. Static crawled across my scalp, arms, the fine hairs standing like antennae. The granite beneath my palms went slick—not with snowmelt, but something else, something charged. I looked west. Thunderheads, black and boiling, already erasing peaks.  I ran.  Down the cables, skidding on wet rock, no thought for rope or knots or the college kids I'd passed. The thunder arrived as I hit the boulder field—not sound but pressure, a fist in my chest. Lightning struck a spire two hundred yards north. The air tasted like copper.  I made the treeline as hail came.  That night, shaking in my tent, I understood: the mountain doesn't care about your legs. It doesn't care at all.\n\nThe body keeps its own accounts. Lungs expand against ribs—three breaths per step now, where two sufficed an hour ago. The scar on my left knee, white as quartz, pulls tight in cold that hasn't existed at sea level since March. My hands shake less at 11,000 feet than they did in the trailhead parking lot, some inverse relationship between elevation and the small betrayals of nerve endings.  I stop where the trail switchbacks through a stand of bristlecone, bark twisted like old rope. Breath clouds hang in air too thin to disperse them quickly. Below, the valley holds its noise—a dog barking, someone's truck door slamming—sounds that carry up here as discrete packets, unconnected to their sources.  The stillness after effort feels like subtraction. Heart rate dropping. Sweat cooling to salt lines on my shirt. In this thinning, something else enters: the granite's patient geometry, lichen mapping time in concentric rings of gray-green, the way contour lines on my map suddenly make sense as lived experience rather than abstraction.  A cairn marks the junction, stones stacked by hands I'll never know. I add one, palm-sized and dark with mica. The wind shifts, carrying the smell of snowmelt from somewhere higher.\n\nWe met on the Flatirons approach trail, both sixteen, both pretending we knew more than we did. Sarah moved faster uphill, her breath even where mine came ragged. I studied contour lines obsessively; she navigated by instinct and the cairns other climbers left.  Above treeline on Longs Peak, we had our first real fight. I wanted to turn back—thunderheads building west, that electric smell in the thin air. She called me cautious. I called her reckless. The wind shifted, carrying valley noise up to us: traffic, someone's dog, the world we'd left.  We learned each other's rhythms slowly. How she'd wait at false summits, sitting on lichen-covered stone while I caught up. How I'd count her breaths when she pushed too hard, remind her to drink from snowmelt rivulets. We tied into the same rope on technical pitches, learning knots that held.  Some days our compasses aligned perfectly—same pace, same purpose, that stillness after effort when we'd summit together. Other days we were separate climbers who happened to share a trail. The mountains taught us both: when to lead, when to follow, when waiting isn't weakness but wisdom.  I never named what we were. Friend felt insufficient. Lover felt presumptuous. We were rope partners, which meant everything.\n\nThe cairn stands thirty meters above us, stacked stones marking what the map calls the summit. I stop on a granite shelf where lichen grows in copper circles, where snowmelt collects in a depression worn smooth by ten thousand seasons.  \"We're not going up?\" Maya asks.  I shake my head. The wind shifts, carrying valley noise—a truck downshifting, someone's dog. The thunderheads that were distant an hour ago now tower directly west, their bases the color of old bruises.  \"This is enough,\" I say.  She looks at me like I've spoken a foreign language. At seventeen, I would have pushed for the cairn, would have needed the tally, the proof. Would have counted it against some internal ledger of summits touched, elevations gained.  Now I sit. The stillness after effort settles into my legs, my lungs. Maya remains standing, uncertain.  \"But we can see it,\" she says. \"We're so close.\"  \"Close enough.\" I unshoulder my pack. \"The summit's wherever you decide you're done climbing.\"  She sits finally, her breath still counting itself out in visible clouds. Below us, contour lines translate to actual ridges, actual distance. The thin air makes everything sharp-edged and far.  We don't speak. The echo of our voices, if we used them, would find nothing to return from.\n\nI came down from the Flatirons at noon, still tasting altitude in my sinuses. Mom stood at the counter slicing tomatoes, asked how it went.  \"Good,\" I said. \"Clear above nine thousand.\"  She wiped her hands. \"Did you go with anyone?\"  \"Solo. Easier that way.\"  Her knife paused. \"And you wore the—\"  \"Yeah, Mom. I wore it.\"  What I didn't say: how the wind shifted at the saddle, how I'd counted breaths through the scree field, thirty-seven per hundred feet. How the lichen on the summit cairn grew in perfect rosettes, yellow-green against granite. How the valley noise—traffic, dogs, someone's radio—rose as a single hum, flattened by distance into something almost holy.  She asked if I wanted lunch.  I wanted to explain the stillness after effort, that specific silence when your pulse finally drops and you can hear snowmelt trickling between rocks. Wanted to describe the light at altitude, how it sharpens every edge, makes contour lines visible on your own skin.  \"I ate,\" I said, though I hadn't.  She returned to her tomatoes. I stood there smelling basil and dish soap, the kitchen air thick as mud after the thin clarity above. The gap between what I'd seen and what I could say widened with each second, a crevasse I didn't yet have rope for.  I went upstairs.\n\nAt 11,400 feet, I place my palm on a boulder's lichen—chartreuse and rust, older than the town I drove from. The stone holds cold from last night, maybe 34 degrees by the way it pulls heat from my skin. A cairn stands three feet away, five rocks stacked by someone else's hands. I don't add to it. Don't rearrange it.  The impulse is there—to mark, to claim, to say *I was here*. But the lichen grew a centimeter in a decade. The cairn already interrupts the contour of this ridge. Every story I might tell becomes another stone on a pile that doesn't need more weight.  Silence as ethics: not the absence of sound but the refusal to inscribe. The wind shifts from southwest to west, carrying the smell of snowmelt from the couloir above. A marmot whistle echoes once, then stops. I count six breaths. The thunderheads building over the far peaks will arrive in two hours, maybe three.  I lift my hand. The lichen shows no mark of my touch. The cairn stands as I found it. I turn downslope, leaving no new stack, no carved initial, no flag tied to a branch. Some places ask for witness, not record. The page, too, can practice this—showing the mountain without claiming it.\n\nThe cairn at fourteen thousand feet marked nothing—just someone's optimism stacked in granite. I passed it at noon, legs still strong, ignoring the thunderheads massing over the western ridge. The contour lines on my map showed another thousand feet, maybe ninety minutes if I pushed.  I pushed.  The wind shifted at the false summit. What had been a breeze became something with teeth. My breath came in counts—four in, four out—but the thin air made mathematics irrelevant. Above me, the true peak. Below, valley noise faded to nothing.  I don't remember deciding to go on. Just the adolescent algebra: turning back equals failure.  The fall wasn't dramatic. A patch of verglas hidden under dust, my boot sliding, then the world tilting. I caught myself after ten feet, rope tangled around an outcrop, palms scraped raw against lichen-covered stone. No broken bones. Just stillness after effort, and in that stillness, something cracking that wasn't rock.  I descended in the strange light that comes before storms, watching snowmelt trace rivulets down the trail I'd climbed. At the cairn, I stopped and knocked the top stone loose.  The echo came back wrong—or didn't come back at all.  Next time, I told the mountain. Next time I'll listen.\n\nI sit on a granite shelf where the descent trail drops into switchbacks, legs dangling over nothing. The valley spreads below—a patchwork of roofs and roads—and its noise drifts up thinly: a dog barking, a truck downshifting, the faint hum of a world that kept turning while I climbed. Up here, the sound arrives stripped of urgency, like news from a country I used to live in.  The stillness after effort is its own altitude. My lungs have stopped their ragged counting. The wind has dropped to nothing. I can hear lichen growing on the cairn beside me, or imagine I can—that patient, imperceptible work of covering stone.  This is the hinge: ascent is only preface. The summit teaches you to see distance. This overlook teaches you what to carry down. Not the adolescent bravado of having stood on top, not the false summits or the thunderheads you outwaited. Just the breath you learned to count. The contour lines you traced with your boots. The knowledge that stillness isn't the absence of effort—it's what effort earns.  Below, a rivulet catches light, snowmelt tracing its old path down. I'll follow soon. But not yet.\n\nThree weeks after the rescue helicopter, we walked the fire road behind the high school. No summit. No plan except Mom's doctor-approved two miles on flat ground.  She stopped every hundred yards to name things. \"Mule's ear. See the shape?\" Her finger traced the leaf's long oval. \"And that's yarrow—the climbers used to chew it for altitude headaches.\"  I kicked gravel, wanted to be anywhere else. Sixteen and immortal again, already planning next summer's routes.  \"Pearly everlasting,\" she said at another stop. Touched the papery white flowers. \"Grows all the way up to eleven thousand feet. Doesn't care how thin the air gets.\"  The sun dropped behind the ridge. We'd covered maybe a mile in an hour.  \"We're going to be late,\" I said.  \"For what?\" She smiled, that new careful smile. \"There's no summit here. That's the point.\"  She crouched by a seep where snowmelt still trickled in July. Showed me the monkey flower's spotted throat, the way it grew in the cold water's edge.  \"Sometimes arriving late means you actually saw something,\" she said.  I didn't understand then. Didn't understand that she was teaching me a different kind of pace, one I'd need decades later when my own breath started counting differently.",
+  "draft_v2_concat": "The saddle arrives without fanfare. One moment the trail climbs through krummholz and scree, the next it crests into a pocket of air so still you can hear your pulse in your temples. I stop because stopping feels like the only honest response to this sudden absence of wind.  My breath comes hard and measured—four counts in, four counts out—a rhythm learned from my father on a different ridge in a different range. The pack straps have printed red lines across my collarbones. I can feel them without looking.  Below, the valley holds its noise: a logging truck downshifting on the switchbacks, maybe the distant static of the Clearwater over stones. Up here, the soundscape narrows to what's immediate. A horsefly orbits my left ear. Somewhere in the talus, a pika chips twice, then quits.  The topo map in my chest pocket shows this saddle as a tight bundle of contour lines between two unnamed peaks. On paper it looked like a simple matter of elevation gain. But standing in it, the saddle becomes its own terrain—a threshold where effort converts to stillness, where the body's hammer-thud quiets enough to hear the smaller mechanics of the world.\n\nWe were seventeen when we raced the scree field below Torreys Peak, boots skittering over loose talus like we were invincible. Jake threw insults upslope—\"My grandma climbs faster than you\"—and I fired back between breaths, lungs already tight at twelve thousand feet. The thin air didn't matter. Nothing mattered except reaching the cairn first.  We'd studied the contour lines on Jake's USGS map the night before, tracing our fingers along the switchbacks like we were reading prophecy. The summit was a circle, a destination, a place where we'd stand above everything. We didn't understand yet that mountains aren't conquered. That the stillness after effort isn't victory—it's just your body remembering how to breathe.  I beat Jake by thirty seconds. Touched the summit cairn and shouted into the wind, waiting for an echo that never came. Below us, valley noise rose faint—a truck downshifting, maybe, or a dog barking in Bakerville. The light had changed in the climb, sharper and colder, but we didn't notice. We were too busy taking photos, flexing against the sky.  On the descent, thunderheads built to the west. We ignored them. We were young enough to believe weather was something that happened to other people.\n\nThe trail switchbacks through lodgepole pine, each turn tighter than memory suggests. I count breaths—four in, four out—the way my knees now dictate pace rather than ambition. Fifty-three years old means listening to cartilage, to the small negotiations between bone and gradient.  A cairn marks the treeline. Someone stacked these stones with cold fingers, left a breadcrumb for strangers. I add one, palm-sized granite still warm from yesterday's sun.  The air thins. Not dramatically—this is only nine thousand feet—but enough that my chest registers the difference. Enough that I stop pretending I'm twenty-five, that I could sprint these switchbacks the way I once did, all adolescent bravado and borrowed confidence.  Stillness arrives between gusts. The valley noise—highway hum, chainsaw whine—fades to nothing. Just wind through lichen-crusted rock, just the metronome of my own breathing.  A false summit reveals another ridge beyond. The map said two miles. The contour lines lied, or I forgot how to read suffering into topography.  I sit on a boulder still cold from last week's snowmelt. A rivulet threads between stones, no wider than my thumb. I drink. I wait. I notice the thunderheads building west, the way light shifts when weather thinks about arriving.  This is the practice: not reaching, but moving. Not conquering, but attending.\n\nUncle Ray taught me knots on the porch—bowline, figure-eight, clove hitch—his fingers thick as dock pilings but precise. \"Rope remembers,\" he said, cinching a loop. \"Treat it right.\"  The topo map spread across the kitchen table showed contour lines tight as fingerprints. He traced elevation with a callused thumb. \"Lines close together mean steep. Far apart, easy walking. Read the land before you're on it.\"  My first summit: Mount Pilchuck, August 1987. His boots, two sizes too big, stuffed with wool socks. We switchbacked through Douglas fir into subalpine meadow, then granite scree that clicked underfoot. At the lookout tower, the Cascades rolled north and south—Rainier, Baker, Glacier Peak—each ridge a promise.  \"You feel it?\" Ray asked.  I nodded, breath still ragged. The sky felt like property I could claim, the peaks a catalog I'd check off. Adolescent certainty: if I could see it, I could summit it.  Ray studied the horizon, squinting at a line of thunderheads building west. \"Mountains don't care what you feel,\" he said quietly. \"They'll be here when you're dust.\"  I didn't hear him. I was already counting future peaks, mapping my conquest, certain the thin air would always taste this clean.\n\nThe inversion layer hung in the valley like surgical gauze, trapping Leadville's sounds—truck brakes, a dog's bark—beneath its membrane. Up here at eleven thousand feet, Cass heard the physics of altitude: a marmot's whistle that didn't echo, just stopped. Sound fell away differently when air thinned, each noise discrete as a bead on a string.  She counted her breaths. Four steps, inhale. Four steps, exhale. Her lungs pulled at atmosphere that wasn't quite there.  A cairn marked the trail junction, stones stacked with the deliberate care of someone who'd needed the marker in whiteout. She added one—palm-sized granite veined with lichen—and felt the stillness reframe itself. Not peace. Physics. At this elevation, wind either screamed or vanished. Right now: vanished.  Below, the valley's contour lines compressed into the actual folds of earth. She traced the route they'd climbed, switchbacks etched by snowmelt and a century of boots. The map in her pack showed what topology felt like: vertical distance as something you carried in your thighs.  Jenna was fifty yards ahead, moving steady. Not fast. Steady. The difference mattered at altitude, where adolescent bravado ran headfirst into oxygen debt.\n\nAt sixteen, I summited Longs Peak in a tank top, no pack, racing two college kids who'd started at dawn. I passed them at the Keyhole, lungs burning, legs piston-strong with adolescent bravado. The contour lines on their map meant nothing to me—I knew the route from one summer prior, every cairn, every false summit.  I reached the top at noon. Alone. The valley noise from above was a hush, just wind over stone and lichen, my breath counting down from the sprint.  Then the stillness broke.  My hair lifted. Static crawled across my scalp, arms, the fine hairs standing like antennae. The granite beneath my palms went slick—not with snowmelt, but something else, something charged. I looked west. Thunderheads, black and boiling, already erasing peaks.  I ran.  Down the cables, skidding on wet rock, no thought for rope or knots or the college kids I'd passed. The thunder arrived as I hit the boulder field—not sound but pressure, a fist in my chest. Lightning struck a spire two hundred yards north. The air tasted like copper.  I made the treeline as hail came.  That night, shaking in my tent, I understood: the mountain doesn't care about your legs. It doesn't care at all.\n\nThe body keeps its own accounts. Lungs expand against ribs—three breaths per step now, where two sufficed an hour ago. The scar on my left knee, white as quartz, pulls tight in cold that hasn't existed at sea level since March. My hands shake less at 11,000 feet than they did in the trailhead parking lot, some inverse relationship between elevation and the small betrayals of nerve endings.  I stop where the trail switchbacks through a stand of bristlecone, bark twisted like old rope. Breath clouds hang in air too thin to disperse them quickly. Below, the valley holds its noise—a dog barking, someone's truck door slamming—sounds that carry up here as discrete packets, unconnected to their sources.  The stillness after effort feels like subtraction. Heart rate dropping. Sweat cooling to salt lines on my shirt. In this thinning, something else enters: the granite's patient geometry, lichen mapping time in concentric rings of gray-green, the way contour lines on my map suddenly make sense as lived experience rather than abstraction.  A cairn marks the junction, stones stacked by hands I'll never know. I add one, palm-sized and dark with mica. The wind shifts, carrying the smell of snowmelt from somewhere higher.\n\nWe met on the Flatirons approach trail, both sixteen, both pretending we knew more than we did. Sarah moved faster uphill, her breath even where mine came ragged. I studied contour lines obsessively; she navigated by instinct and the cairns other climbers left.  Above treeline on Longs Peak, we had our first real fight. I wanted to turn back—thunderheads building west, that electric smell in the thin air. She called me cautious. I called her reckless. The wind shifted, carrying valley noise up to us: traffic, someone's dog, the world we'd left.  We learned each other's rhythms slowly. How she'd wait at false summits, sitting on lichen-covered stone while I caught up. How I'd count her breaths when she pushed too hard, remind her to drink from snowmelt rivulets. We tied into the same rope on technical pitches, learning knots that held.  Some days our compasses aligned perfectly—same pace, same purpose, that stillness after effort when we'd summit together. Other days we were separate climbers who happened to share a trail. The mountains taught us both: when to lead, when to follow, when waiting isn't weakness but wisdom.  I never named what we were. Friend felt insufficient. Lover felt presumptuous. We were rope partners, which meant everything.\n\nThe cairn stands thirty meters above us, stacked stones marking what the map calls the summit. I stop on a granite shelf where lichen grows in copper circles, where snowmelt collects in a depression worn smooth by ten thousand seasons.  \"We're not going up?\" Maya asks.  I shake my head. The wind shifts, carrying valley noise—a truck downshifting, someone's dog. The thunderheads that were distant an hour ago now tower directly west, their bases the color of old bruises.  \"This is enough,\" I say.  She looks at me like I've spoken a foreign language. At seventeen, I would have pushed for the cairn, would have needed the tally, the proof. Would have counted it against some internal ledger of summits touched, elevations gained.  Now I sit. The stillness after effort settles into my legs, my lungs. Maya remains standing, uncertain.  \"But we can see it,\" she says. \"We're so close.\"  \"Close enough.\" I unshoulder my pack. \"The summit's wherever you decide you're done climbing.\"  She sits finally, her breath still counting itself out in visible clouds. Below us, contour lines translate to actual ridges, actual distance. The thin air makes everything sharp-edged and far.  We don't speak. The echo of our voices, if we used them, would find nothing to return from.\n\nI came down from the Flatirons at noon, still tasting altitude in my sinuses. Mom stood at the counter slicing tomatoes, asked how it went.  \"Good,\" I said. \"Clear above nine thousand.\"  She wiped her hands. \"Did you go with anyone?\"  \"Solo. Easier that way.\"  Her knife paused. \"And you wore the—\"  \"Yeah, Mom. I wore it.\"  What I didn't say: how the wind shifted at the saddle, how I'd counted breaths through the scree field, thirty-seven per hundred feet. How the lichen on the summit cairn grew in perfect rosettes, yellow-green against granite. How the valley noise—traffic, dogs, someone's radio—rose as a single hum, flattened by distance into something almost holy.  She asked if I wanted lunch.  I wanted to explain the stillness after effort, that specific silence when your pulse finally drops and you can hear snowmelt trickling between rocks. Wanted to describe the light at altitude, how it sharpens every edge, makes contour lines visible on your own skin.  \"I ate,\" I said, though I hadn't.  She returned to her tomatoes. I stood there smelling basil and dish soap, the kitchen air thick as mud after the thin clarity above. The gap between what I'd seen and what I could say widened with each second, a crevasse I didn't yet have rope for.  I went upstairs.\n\nAt 11,400 feet, I place my palm on a boulder's lichen—chartreuse and rust, older than the town I drove from. The stone holds cold from last night, maybe 34 degrees by the way it pulls heat from my skin. A cairn stands three feet away, five rocks stacked by someone else's hands. I don't add to it. Don't rearrange it.  The impulse is there—to mark, to claim, to say *I was here*. But the lichen grew a centimeter in a decade. The cairn already interrupts the contour of this ridge. Every story I might tell becomes another stone on a pile that doesn't need more weight.  Silence as ethics: not the absence of sound but the refusal to inscribe. The wind shifts from southwest to west, carrying the smell of snowmelt from the couloir above. A marmot whistle echoes once, then stops. I count six breaths. The thunderheads building over the far peaks will arrive in two hours, maybe three.  I lift my hand. The lichen shows no mark of my touch. The cairn stands as I found it. I turn downslope, leaving no new stack, no carved initial, no flag tied to a branch. Some places ask for witness, not record. The page, too, can practice this—showing the mountain without claiming it.\n\nThe cairn at fourteen thousand feet marked nothing—just someone's optimism stacked in granite. I passed it at noon, legs still strong, ignoring the thunderheads massing over the western ridge. The contour lines on my map showed another thousand feet, maybe ninety minutes if I pushed.  I pushed.  The wind shifted at the false summit. What had been a breeze became something with teeth. My breath came in counts—four in, four out—but the thin air made mathematics irrelevant. Above me, the true peak. Below, valley noise faded to nothing.  I don't remember deciding to go on. Just the adolescent algebra: turning back equals failure.  The fall wasn't dramatic. A patch of verglas hidden under dust, my boot sliding, then the world tilting. I caught myself after ten feet, rope tangled around an outcrop, palms scraped raw against lichen-covered stone. No broken bones. Just stillness after effort, and in that stillness, something cracking that wasn't rock.  I descended in the strange light that comes before storms, watching snowmelt trace rivulets down the trail I'd climbed. At the cairn, I stopped and knocked the top stone loose.  The echo came back wrong—or didn't come back at all.  Next time, I told the mountain. Next time I'll listen.\n\nI sit on a granite shelf where the descent trail drops into switchbacks, legs dangling over nothing. The valley spreads below—a patchwork of roofs and roads—and its noise drifts up thinly: a dog barking, a truck downshifting, the faint hum of a world that kept turning while I climbed. Up here, the sound arrives stripped of urgency, like news from a country I used to live in.  The stillness after effort is its own altitude. My lungs have stopped their ragged counting. The wind has dropped to nothing. I can hear lichen growing on the cairn beside me, or imagine I can—that patient, imperceptible work of covering stone.  This is the hinge: ascent is only preface. The summit teaches you to see distance. This overlook teaches you what to carry down. Not the adolescent bravado of having stood on top, not the false summits or the thunderheads you outwaited. Just the breath you learned to count. The contour lines you traced with your boots. The knowledge that stillness isn't the absence of effort—it's what effort earns.  Below, a rivulet catches light, snowmelt tracing its old path down. I'll follow soon. But not yet.\n\nThree weeks after the rescue helicopter, we walked the fire road behind the high school. No summit. No plan except Mom's doctor-approved two miles on flat ground.  She stopped every hundred yards to name things. \"Mule's ear. See the shape?\" Her finger traced the leaf's long oval. \"And that's yarrow—the climbers used to chew it for altitude headaches.\"  I kicked gravel, wanted to be anywhere else. Sixteen and immortal again, already planning next summer's routes.  \"Pearly everlasting,\" she said at another stop. Touched the papery white flowers. \"Grows all the way up to eleven thousand feet. Doesn't care how thin the air gets.\"  The sun dropped behind the ridge. We'd covered maybe a mile in an hour.  \"We're going to be late,\" I said.  \"For what?\" She smiled, that new careful smile. \"There's no summit here. That's the point.\"  She crouched by a seep where snowmelt still trickled in July. Showed me the monkey flower's spotted throat, the way it grew in the cold water's edge.  \"Sometimes arriving late means you actually saw something,\" she said.  I didn't understand then. Didn't understand that she was teaching me a different kind of pace, one I'd need decades later when my own breath started counting differently.",
   "claim_graph": {
     "quotes": [
       {
-        "id": "kyiv_water_outages",
-        "file": "kyiv_water_outages.txt",
-        "quote": "Kyiv water utility Kyivvodokanal reported rolling outages affecting districts 4-7 on February 24, 2022, following infrastructure strikes. High-rise buildings above the fifth floor experienced complete water loss due to insufficient pressure from electric booster stations. The Dnipro river serves as the primary water source through three major intake stations. Soviet-era pipeline infrastructure, installed in the 1960s-1980s, requires electric pumping to maintain pressure in multi-story residentia"
+        "id": "life_and_death_of_a_climber",
+        "file": "life_and_death_of_a_climber.txt",
+        "quote": "AUTHOR INTENT (revised for explicit entity binding and safe factual anchors)\n\nPRIMARY ENTITY ANCHORS\n\nNikita Marwah — a real climber active in British Columbia and Washington between 2020 and 2023.\nDocumented to have died after summiting Canadian Border Peak in Chilliwack at age twenty-three.\nPublicly acknowledged through a family statement and funeral fundraiser.\nAll mentions must remain factual, respectful, and limited to verifiable or plausibly reconstructable contexts.\n\nNarrator — Andrew, cl"
       }
     ],
     "claims_by_scene": [
       {
-        "scene_id": "sirens-and-sinks",
+        "scene_id": "NOW-01",
         "claims": [
           {
-            "claim": "At 6:47 a.m., a kettle sits empty on the stove with its aluminum base cold.",
+            "claim": "The narrator reaches a saddle on a mountain trail after passing through krummholz and scree.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "When Olena turns the tap, it sputters air and then no water flows.",
+            "claim": "At the saddle, the air is so still the narrator can hear their pulse in their temples.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Her seventh-floor apartment currently has no water pressure.",
-            "substantiated": true,
-            "evidence_ids": [
-              "kyiv_water_outages"
-            ]
-          },
-          {
-            "claim": "This is the fourth morning in the month that her apartment lacks water pressure.",
+            "claim": "The narrator stops upon reaching the saddle.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "The scene is set in the city of Dnipro, Ukraine.",
+            "claim": "The narrator is breathing in a four-count in, four-count out rhythm learned from their father.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "The building’s water problems are attributed to missile damage to pumping stations approximately 60 kilometers away.",
+            "claim": "The pack straps have left red lines across the narrator’s collarbones.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "She fills the kettle using water from a blue jerrycan kept in the hallway.",
+            "claim": "From the saddle, the narrator hears a logging truck downshifting on switchbacks in the valley below.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Her phone receives Telegram updates that map which districts have power and water via user-reported outages.",
+            "claim": "A horsefly orbits the narrator’s left ear.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Gas service to the apartment is still functioning.",
+            "claim": "A pika in the talus chips twice and then stops.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "The Dnipro River is visible from her kitchen window under a March sky.",
+            "claim": "The narrator has a topo map in their chest pocket.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The topo map shows the saddle as a tight bundle of contour lines between two unnamed peaks.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "On paper, the saddle appeared to be a simple matter of elevation gain.",
             "substantiated": false,
             "evidence_ids": []
           }
         ]
       },
       {
-        "scene_id": "stairwell-commons",
+        "scene_id": "THEN-01",
         "claims": [
           {
-            "claim": "Handwritten notices taped to doors read \"Water 14:00, bring containers.\"",
+            "claim": "The narrator and Jake were seventeen during the climb.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "On the third-floor landing, a fire door is propped open with a blue jerrycan whose handle is wrapped in electrical tape.",
+            "claim": "They raced across the scree field below Torreys Peak.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Neighbors are coordinating via a building group chat on Telegram.",
+            "claim": "Their boots skittered over loose talus during the race.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Mykola says the water pressure is back in sector four and estimates it will last about ten minutes.",
+            "claim": "Jake shouted 'My grandma climbs faster than you' upslope.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Two floors below the third-floor landing, Svitlana is hauling a sloshing canister and pauses every six steps.",
+            "claim": "The narrator's lungs felt tight at around twelve thousand feet.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "A hand-drawn map on the stairwell wall shows the city's water grid with valves circled and question marks marking failed pipes.",
+            "claim": "The night before, they studied contour lines on Jake's USGS map.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "In the lobby, a neighbor opens a shrink-wrapped case of bottled water and distributes six-packs like rations.",
+            "claim": "The narrator reached and touched the summit cairn 30 seconds before Jake.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "The building's elevator doors are dark and their call buttons are unlit.",
+            "claim": "The narrator shouted into the wind at the summit but heard no echo.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Outside the building, the Dnipro River is visible under a low sky.",
+            "claim": "From the summit, they heard faint valley noise, possibly a truck downshifting or a dog barking in Bakerville.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Upstairs, a kettle is being boiled with only water (no tea) for safety.",
+            "claim": "The light became sharper and colder during the climb.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "The building's taps sputter, indicating irregular water flow.",
+            "claim": "On the descent, thunderheads were building to the west.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "They ignored the approaching weather, believing it happened to other people.",
             "substantiated": false,
             "evidence_ids": []
           }
         ]
       },
       {
-        "scene_id": "control-room-braid",
+        "scene_id": "NOW-02",
         "claims": [
           {
-            "claim": "The dispatch center is located on Heroiv Pratsi Street.",
+            "claim": "The trail switchbacks through lodgepole pine.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Oleksandr Koval had been rerouting water pressure for eleven hours.",
+            "claim": "The narrator counts breaths as four in and four out while hiking.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Water mains in the city ruptured under shelling two nights prior.",
+            "claim": "The narrator is fifty-three years old.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Koval instructed closing valve 17 in Sector 4-B.",
+            "claim": "A cairn marks the treeline.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "After the instruction, a digital marker blinked green on the screen.",
+            "claim": "The narrator adds a palm-sized granite stone to the cairn.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "An engineer in a flooded basement in Shevchenkivskyi turned a wheel the size of a tractor tire.",
+            "claim": "The elevation is about nine thousand feet.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Closing one valve in the system causes pressure to spike in another district.",
+            "claim": "A false summit reveals another ridge beyond.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Opening a bypass risks blowing a joint weakened by decades of deferred maintenance.",
+            "claim": "The map indicated a distance of two miles.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Flow to the hospital zone was confirmed with pressure holding at 2.1 bar.",
+            "claim": "The narrator sits on a boulder that is still cold from last week's snowmelt.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Koval kept a printout ranking neighborhoods by vulnerability, including elderly populations, dialysis clinics, and shelters.",
+            "claim": "A rivulet threads between stones, no wider than the narrator's thumb, and the narrator drinks from it.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Koval received a Telegram photo from Saltivka showing blue jerrycans lined outside an apartment block.",
+            "claim": "Thunderheads are building to the west.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Koval's decision tree had seventeen branches that he had memorized.",
+            "claim": "Between gusts, valley noises like highway hum and chainsaw whine fade to nothing.",
             "substantiated": false,
             "evidence_ids": []
           }
         ]
       },
       {
-        "scene_id": "domestic-triage",
+        "scene_id": "THEN-02",
         "claims": [
           {
-            "claim": "Olena wakes at 0530.",
+            "claim": "Uncle Ray taught the narrator to tie knots on the porch, specifically the bowline, figure-eight, and clove hitch.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Before the tap sputters dry, she fills two blue jerrycans, a kettle, and three saucepans with water.",
+            "claim": "Uncle Ray said \"Rope remembers\" while cinching a loop.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "At 0547 she receives a Telegram message stating that water will be off until 1400, maybe longer.",
-            "substantiated": true,
-            "evidence_ids": [
-              "kyiv_water_outages"
-            ]
-          },
-          {
-            "claim": "She screenshots the message and saves it to a folder labeled \"Utilities\" that now contains 47 images.",
+            "claim": "A topographic map was spread on the kitchen table while Uncle Ray discussed it.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "She rations one liter of water per toilet flush.",
+            "claim": "Uncle Ray explained that contour lines close together indicate steep terrain, while lines far apart indicate easier walking.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "She rations half a liter of water to rinse soap from her daughter's hair.",
+            "claim": "The narrator's first summit was Mount Pilchuck in August 1987.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "She rations a cupful of water to wipe counters.",
+            "claim": "The narrator wore Uncle Ray's boots two sizes too big, stuffed with wool socks, on the Mount Pilchuck climb.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "She drinks tea without sugar and gives the sugar ration to Mykola, who works the night shift at a filtration plant.",
+            "claim": "Their ascent included switchbacks through Douglas fir forest, then subalpine meadow, then granite scree.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "A stairwell notice reads: \"Elevator asleep indefinitely. Conserve stair lighting 1800-0600.\"",
+            "claim": "From the Mount Pilchuck lookout tower, they could see Mount Rainier, Mount Baker, and Glacier Peak.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Someone has added in pencil on the stairwell notice: \"Conserve dignity too?\"",
+            "claim": "Ray observed thunderheads building to the west near the summit.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "She climbs to the ninth floor carrying jerrycans.",
+            "claim": "Ray said, \"Mountains don't care what you feel. They'll be here when you're dust.\"",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "The Dnipro river is visible from her kitchen window.",
+            "claim": "At the lookout tower, Ray asked the narrator, \"You feel it?\"",
             "substantiated": false,
             "evidence_ids": []
           }
         ]
       },
       {
-        "scene_id": "infrastructure-memory",
+        "scene_id": "NOW-03",
         "claims": [
           {
-            "claim": "The Dnipro river is the primary water source for Kyiv's municipal water system.",
-            "substantiated": true,
-            "evidence_ids": [
-              "kyiv_water_outages"
-            ]
-          },
-          {
-            "claim": "Soviet-era pipeline infrastructure from the 1960s–1980s underpins Kyiv's water distribution network.",
-            "substantiated": true,
-            "evidence_ids": [
-              "kyiv_water_outages"
-            ]
-          },
-          {
-            "claim": "Kyiv's water system relies on electricity and pumps to maintain water flow and pressure.",
-            "substantiated": true,
-            "evidence_ids": [
-              "kyiv_water_outages"
-            ]
-          },
-          {
-            "claim": "Water outages in Kyiv have been tracked by district.",
-            "substantiated": true,
-            "evidence_ids": [
-              "kyiv_water_outages"
-            ]
-          },
-          {
-            "claim": "By the 1980s, Kyiv's water system included treatment plants on both banks of the river.",
+            "claim": "An inversion layer hung in the valley, trapping Leadville's sounds beneath it.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Reservoirs serving Kyiv's water system are located on elevated ground.",
+            "claim": "Cass was at an elevation of eleven thousand feet.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Pressure zones in the network are mapped to Kyiv's elevation differences.",
+            "claim": "A marmot's whistle did not echo at that location.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Disabling the Dnieper Station would leave the right bank of Kyiv without water.",
+            "claim": "Cass timed her breathing to four steps per inhale and four steps per exhale.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Severing a trunk line near Vydubychi would cut water to roughly 100,000 taps.",
+            "claim": "A cairn marked a trail junction, and Cass added a palm-sized granite stone veined with lichen to it.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Kyiv's first municipal water mains were laid in the 1930s.",
+            "claim": "At that moment, there was no wind.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "The original distribution pipes were cast iron with concrete lining.",
+            "claim": "Jenna was approximately fifty yards ahead of Cass.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Jenna was moving at a steady pace rather than fast.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The route they had climbed included switchbacks.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The switchbacks were etched by snowmelt and about a century of boots.",
             "substantiated": false,
             "evidence_ids": []
           }
         ]
       },
       {
-        "scene_id": "queue-economies",
+        "scene_id": "THEN-03",
         "claims": [
           {
-            "claim": "The water distribution point opens at 7:00.",
+            "claim": "The narrator summited Longs Peak at age sixteen.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "By 6:30, blue jerrycans are placed on the pavement to hold spots in line.",
+            "claim": "The narrator wore a tank top and carried no pack during the ascent.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Oksana counts twelve containers ahead of her in line.",
+            "claim": "The narrator was racing two college students who had started at dawn.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "She estimates a 40-minute wait if the truck is punctual.",
+            "claim": "The narrator passed the two college students at the Keyhole.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "The kiosk's bottled water price is 18 hryvnias for five liters and has not changed in three weeks.",
+            "claim": "The narrator reached the summit at noon.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "A main water line broke prior to this scene.",
+            "claim": "The narrator was alone on the summit.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Petro, the kiosk owner, receives frequent Telegram notifications but does not respond.",
+            "claim": "The narrator knew the route from having climbed it the previous summer.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Petro says transport and supplier costs are up but that he is holding prices.",
+            "claim": "The narrator observed thunderheads to the west that were obscuring nearby peaks.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Petro gives a six-pack of water to a pensioner who is four hryvnias short.",
+            "claim": "The narrator descended via the cables, skidding on wet rock and not using ropes or knots.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "A stairwell notice lists three neighbors selling water stockpiles at two hryvnias less than the kiosk price.",
+            "claim": "As the narrator reached the boulder field, thunder was felt as pressure in the chest rather than as sound.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Some nearby apartments have taps that produce no water.",
-            "substantiated": true,
-            "evidence_ids": [
-              "kyiv_water_outages"
-            ]
-          }
-        ]
-      },
-      {
-        "scene_id": "digital-mesh",
-        "claims": [
-          {
-            "claim": "By Thursday, multiple Telegram channels focused on water and outages were active, including @DniproWaterInfo, @VodokanalLive, and @MyDistrictH2O.",
+            "claim": "Lightning struck a spire approximately two hundred yards north of the narrator.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "At 2 a.m., Olena was using her phone in her kitchen.",
-            "substantiated": false,
-            "evidence_ids": []
-          },
-          {
-            "claim": "Olena cross-referenced three different outage maps that disagreed on which neighborhoods had water pressure.",
-            "substantiated": false,
-            "evidence_ids": []
-          },
-          {
-            "claim": "One outage map showed Olena’s block as green (indicating service) while her taps were sputtering and not providing water.",
-            "substantiated": false,
-            "evidence_ids": []
-          },
-          {
-            "claim": "A Telegram post claimed \"Levoberezhny restored 14:00\" but a video timestamped 14:47 showed dry faucets in that area.",
-            "substantiated": false,
-            "evidence_ids": []
-          },
-          {
-            "claim": "A crowdsourced spreadsheet tracked working public taps in the city.",
-            "substantiated": false,
-            "evidence_ids": []
-          },
-          {
-            "claim": "The crowdsourced spreadsheet of working public taps was updated approximately every fifteen minutes.",
-            "substantiated": false,
-            "evidence_ids": []
-          },
-          {
-            "claim": "Residents adopted a verification practice of corroborating information twice, checking with neighbors, and relying on personal observation.",
-            "substantiated": false,
-            "evidence_ids": []
-          },
-          {
-            "claim": "Pensioners learned to navigate Telegram reply threads to follow water-related information.",
-            "substantiated": false,
-            "evidence_ids": []
-          },
-          {
-            "claim": "Teenagers acted as information brokers, frequently refreshing their phones for updates.",
-            "substantiated": false,
-            "evidence_ids": []
-          },
-          {
-            "claim": "Conflicting claims circulated about tanker truck arrivals, with some messages saying they would come tomorrow and others saying next week.",
+            "claim": "The narrator reached the treeline as hail began to fall.",
             "substantiated": false,
             "evidence_ids": []
           }
         ]
       },
       {
-        "scene_id": "night-cycle",
+        "scene_id": "NOW-04",
         "claims": [
           {
-            "claim": "By around 6 p.m., the city's taps sputter as an evening water cutoff begins.",
+            "claim": "The narrator is at approximately 11,000 feet elevation.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Olena fills her bathtub before pressure dies to store water for the next day's dishes, hygiene, and tea.",
+            "claim": "The narrator is currently taking three breaths per step.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Blue jerrycans line Olena's hallway.",
+            "claim": "An hour earlier, two breaths per step sufficed for the narrator.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Citywide Telegram messages announce sector-specific water availability windows such as 'Sector 4: water 21:00-23:00.'",
+            "claim": "The narrator has a scar on the left knee that tightens in the cold.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Telegram messages indicate 'Dniprovskyi: maybe morning.'",
+            "claim": "The narrator stops where the trail switchbacks through a stand of bristlecone.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Residents consult maps to see which neighborhoods still have water pressure and which valves the utility has closed.",
+            "claim": "The narrator’s breath forms clouds that linger due to thin air.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Dmytro boils his daily water ration on a camping stove to sterilize it before storage.",
+            "claim": "From the valley below, a dog barking can be heard.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Dmytro rations approximately 1 liter for drinking and 0.5 liter for cooking, saving the remainder for uncertain days.",
+            "claim": "From the valley below, the sound of a truck door slamming can be heard.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Elevators are not operating, and lobby notices read 'No water—use stairs.'",
+            "claim": "Sweat has left salt lines on the narrator’s shirt.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Neighbors haul water supplies up stairwells, leaving damp boot prints on each landing.",
+            "claim": "A cairn marks a trail junction.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Water availability varies by district or sector across the city, indicating rolling outages.",
-            "substantiated": true,
-            "evidence_ids": [
-              "kyiv_water_outages"
-            ]
+            "claim": "The narrator adds a palm-sized, dark, mica-bearing stone to the cairn.",
+            "substantiated": false,
+            "evidence_ids": []
           },
           {
-            "claim": "Some residential buildings in the city have no water service.",
-            "substantiated": true,
-            "evidence_ids": [
-              "kyiv_water_outages"
-            ]
+            "claim": "A shifting wind carries the smell of snowmelt from higher up.",
+            "substantiated": false,
+            "evidence_ids": []
           }
         ]
       },
       {
-        "scene_id": "pressure-returns-coda",
+        "scene_id": "THEN-04",
         "claims": [
           {
-            "claim": "At 11:47 p.m., the tap sputters and produces about three seconds of water flow before stopping.",
+            "claim": "The narrator and Sarah met on the Flatirons approach trail.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Olena does not fill the kettle when the tap first sputters.",
+            "claim": "At the time they met, both the narrator and Sarah were sixteen years old.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "The blue jerrycan by the radiator holds two liters of water.",
+            "claim": "Sarah moved faster uphill than the narrator, with even breath while the narrator's was ragged.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Lights turn on in apartment 34 across the courtyard.",
+            "claim": "The narrator studied contour lines obsessively.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "A Telegram channel reports water pressure returning to sectors 7 through 12.",
+            "claim": "Sarah navigated by instinct and by following cairns left by other climbers.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "The Telegram update describes the restoration as partial.",
+            "claim": "Above treeline on Longs Peak, they had their first real fight.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "The Telegram update advises residents to monitor for sediment.",
+            "claim": "During that fight, the narrator wanted to turn back because thunderheads were building to the west and there was an electric smell in the thin air.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "After a stronger pulse from the tap, Olena places a pot underneath to catch the water.",
+            "claim": "In that exchange, Sarah called the narrator cautious and the narrator called Sarah reckless.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Bottled water crackles in the next room as her daughter rations it without being asked.",
+            "claim": "The narrator would count Sarah’s breaths when she pushed too hard and remind her to drink from snowmelt rivulets.",
             "substantiated": false,
             "evidence_ids": []
           },
           {
-            "claim": "Olena’s phone glows against the kitchen tile.",
+            "claim": "On technical pitches, they tied into the same rope and learned knots that held.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "At times they summited together with the same pace and purpose.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator did not label the relationship as friend or lover and instead considered them rope partners.",
+            "substantiated": false,
+            "evidence_ids": []
+          }
+        ]
+      },
+      {
+        "scene_id": "NOW-05",
+        "claims": [
+          {
+            "claim": "The cairn stands thirty meters above the narrator and Maya.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The cairn is made of stacked stones marking what the map calls the summit.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator stops on a granite shelf with copper-colored lichen circles.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Snowmelt collects in a smooth-worn depression on the granite shelf.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator decides not to continue to the cairn and says, \"This is enough.\"",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The wind carries valley noises including a truck downshifting and a dog.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Thunderheads that were distant an hour earlier now tower directly west.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Maya says they are close and can see the summit cairn.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator tells Maya, \"The summit's wherever you decide you're done climbing.\"",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Maya initially remains standing, uncertain, but eventually sits.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Maya's breath is visible in clouds.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "From their vantage, map contour lines correspond to visible ridges and distance below.",
+            "substantiated": false,
+            "evidence_ids": []
+          }
+        ]
+      },
+      {
+        "scene_id": "THEN-05",
+        "claims": [
+          {
+            "claim": "The narrator returned from the Flatirons at noon.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator's mother was at the kitchen counter slicing tomatoes.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator reported that conditions were clear above 9,000 feet.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator hiked solo.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The mother asked whether the narrator wore a specific item, and the narrator confirmed wearing it.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator counted breaths through the scree field at a rate of 37 per 100 feet.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Lichen on the summit cairn formed yellow-green rosettes against granite.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "From higher elevation, valley noises including traffic, dogs, and a radio merged into a single hum.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The mother asked if the narrator wanted lunch.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator told the mother they had already eaten, despite not having eaten.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "In the kitchen, the narrator smelled basil and dish soap.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "After the conversation, the narrator went upstairs.",
+            "substantiated": false,
+            "evidence_ids": []
+          }
+        ]
+      },
+      {
+        "scene_id": "NOW-06",
+        "claims": [
+          {
+            "claim": "The scene takes place at an elevation of 11,400 feet.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator places their palm on lichen growing on a boulder.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The lichen's colors are chartreuse and rust.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "A cairn stands three feet away from the narrator.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The cairn is composed of five stacked rocks.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator does not add to or rearrange the cairn.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator estimates the stone surface temperature at about 34 degrees Fahrenheit.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The wind shifts from southwest to west during the scene.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "A marmot whistle echoes once and then stops.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Thunderheads building over distant peaks are expected to arrive in two to three hours.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The lichen shows no visible mark after the narrator lifts their hand.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator descends without leaving a new stack, carved initials, or a flag tied to a branch.",
+            "substantiated": false,
+            "evidence_ids": []
+          }
+        ]
+      },
+      {
+        "scene_id": "THEN-06",
+        "claims": [
+          {
+            "claim": "A cairn at 14,000 feet marked no specific trail or feature.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator passed the 14,000-foot cairn at noon.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Thunderheads were massing over the western ridge at the time.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The map showed roughly another 1,000 feet of elevation remaining to the summit.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator continued upward toward a false summit before the true peak.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The wind intensified at the false summit.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator slipped on a patch of verglas hidden under dust.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The fall distance was about ten feet before the narrator caught themself.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "A rope became tangled around an outcrop during the fall.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator sustained scraped palms but no broken bones.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "During descent, the narrator observed snowmelt forming rivulets on the trail.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "At the cairn during descent, the narrator knocked the top stone loose.",
+            "substantiated": false,
+            "evidence_ids": []
+          }
+        ]
+      },
+      {
+        "scene_id": "NOW-07",
+        "claims": [
+          {
+            "claim": "The narrator is sitting on a granite shelf where the descent trail begins to switchback.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator's legs are dangling over a drop.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "A valley with roofs and roads is visible below the narrator.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Faint sounds from the valley, including a dog barking and a truck downshifting, can be heard.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The wind has dropped to stillness at the narrator's location.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator's breathing has steadied after exertion.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "There is a cairn beside the narrator.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator imagines hearing lichen growing on the cairn.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "A rivulet below is catching light.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The rivulet is snowmelt tracing an old path downhill.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator intends to descend soon but is not yet leaving.",
+            "substantiated": false,
+            "evidence_ids": []
+          }
+        ]
+      },
+      {
+        "scene_id": "THEN-07",
+        "claims": [
+          {
+            "claim": "The walk took place three weeks after the rescue helicopter incident.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "They walked the fire road behind the high school.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Their only plan was Mom's doctor-approved two miles on flat ground.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "She stopped approximately every hundred yards to identify plants.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "She identified mule's ear and traced the leaf's long oval shape.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "She identified yarrow and said climbers used to chew it for altitude headaches.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "She identified pearly everlasting and touched its papery white flowers.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "She said pearly everlasting grows up to eleven thousand feet.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "They covered about one mile in approximately one hour.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "She showed a monkey flower at a seep where July snowmelt still trickled, growing at the cold water's edge.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "She said, \"Sometimes arriving late means you actually saw something.\"",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The narrator was sixteen and already planning next summer's routes.",
             "substantiated": false,
             "evidence_ids": []
           }
@@ -829,17 +1237,22 @@
   },
   "metrics": {
     "beat_within": {
-      "sirens-and-sinks": true,
-      "stairwell-commons": true,
-      "control-room-braid": true,
-      "domestic-triage": true,
-      "infrastructure-memory": true,
-      "queue-economies": false,
-      "digital-mesh": true,
-      "night-cycle": true,
-      "pressure-returns-coda": true
+      "NOW-01": true,
+      "THEN-01": true,
+      "NOW-02": true,
+      "THEN-02": true,
+      "NOW-03": true,
+      "THEN-03": true,
+      "NOW-04": true,
+      "THEN-04": true,
+      "NOW-05": true,
+      "THEN-05": true,
+      "NOW-06": true,
+      "THEN-06": true,
+      "NOW-07": true,
+      "THEN-07": true
     },
-    "word_count_v2": 1873,
+    "word_count_v2": 2998,
     "within_band": false
   },
   "word_target_low": 3000,

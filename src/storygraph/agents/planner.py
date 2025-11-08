@@ -15,19 +15,30 @@ def _split(prompt: str):
 
 def render(user_tmpl: str, premise: str, venue: str,
            preferred: str = "braided|dual_timeline",
-           source_tags: str = "", voice_tags: str = "", constraints: str = "") -> str:
+           codex: str = "", notes_fragments: str = "") -> str:
     return (user_tmpl
             .replace("{premise}", premise)
             .replace("{venue}", venue)
             .replace("{preferred}", preferred)
-            .replace("{source_tags}", source_tags)
-            .replace("{voice_tags}", voice_tags)
-            .replace("{constraints}", constraints))
+            .replace("{codex}", codex)
+            .replace("{notes_fragments}", notes_fragments))
 
-def run(state: StoryState, model: str = None) -> StoryState:
+def run(state: StoryState, model: str = None, context: dict = None) -> StoryState:
     assert model, "Planner agent requires model parameter from centralized config"
     system, output_schema, user_tmpl = _split(PROMPT)
-    user = render(user_tmpl, state.premise, state.venue)
+    
+    # Extract context for prompt
+    codex_text = ""
+    notes_fragments = ""
+    if context:
+        from ..context_loader import format_codex_for_prompt, extract_notes_fragments
+        if "codex" in context:
+            codex_text = format_codex_for_prompt(context["codex"])
+        if "notes" in context:
+            notes_fragments = extract_notes_fragments(context["notes"])
+    
+    user = render(user_tmpl, state.premise, state.venue, 
+                  codex=codex_text, notes_fragments=notes_fragments)
     obj = LLMClient(LLMConfig(model=model, seed=state.seed)).complete_json(system, user, output_schema)
 
     if "beats" not in obj or "template" not in obj:

@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+story_output.json
+exports/
+
 # Distribution / packaging
 .Python
 build/

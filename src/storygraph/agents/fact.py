@@ -50,12 +50,14 @@ def _promote_flags_to_claims(obj: Dict) -> Dict:
 def run(
     state: StoryState,
     model: str = None,
-    sources_dir: str = "data/sources"
+    sources_dir: str = "data/sources",
+    context: dict = None
 ) -> StoryState:
     """
-    Phase-1b FactAgent:
+    Phase-1b FactAgent with codex integration:
 
     ✓ collects local text files as quote evidence  
+    ✓ includes codex verified claims as reference
     ✓ sends each drafted scene to the LLM  
     ✓ expects JSON:
         {
@@ -86,6 +88,13 @@ def run(
                     "quote": fp.read_text(encoding="utf-8")[:500],
                 }
             )
+    
+    # Add codex verified claims as reference
+    codex_claims_text = ""
+    if context and "codex" in context:
+        codex = context["codex"]
+        if codex.get("claims"):
+            codex_claims_text = "\n\nVERIFIED CLAIMS FROM CODEX:\n" + "\n".join(codex["claims"][:20])
 
     # -------------------------------------------------
     # 2) Prepare prompt
@@ -107,7 +116,7 @@ def run(
             user_tmpl
             .replace("{scene_id}", beat_id)
             .replace("{scene_text}", scene.text)
-            .replace("{quotes}", json.dumps(quotes, ensure_ascii=False))
+            .replace("{quotes}", json.dumps(quotes, ensure_ascii=False) + codex_claims_text)
         )
 
         # LLM call

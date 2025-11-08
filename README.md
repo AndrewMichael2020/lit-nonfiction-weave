@@ -1,6 +1,6 @@
 # Lit-Nonfiction-Weave
 
-**Computational tools for literary nonfiction craft—exploring systematic approaches to narrative structure, editorial judgment, and collaborative writing with AI systems.**
+**Computational tools for literary nonfiction craft—exploring systematic approaches to narrative structure, editorial judgment, and collaborative writing with genAI systems.**
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
