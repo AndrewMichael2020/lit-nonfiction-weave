@@ -24,7 +24,8 @@ def render(user_tmpl: str, premise: str, venue: str,
             .replace("{voice_tags}", voice_tags)
             .replace("{constraints}", constraints))
 
-def run(state: StoryState, model: str = "openai/gpt-5") -> StoryState:
+def run(state: StoryState, model: str = None) -> StoryState:
+    assert model, "Planner agent requires model parameter from centralized config"
     system, output_schema, user_tmpl = _split(PROMPT)
     user = render(user_tmpl, state.premise, state.venue)
     obj = LLMClient(LLMConfig(model=model, seed=state.seed)).complete_json(system, user, output_schema)

@@ -107,7 +107,7 @@ class LLMClient:
             resp = self.client.responses.create(
                 model=model_name,
                 input=combined,
-                max_output_tokens=4096,
+                max_output_tokens=16384,  # Increased for larger outputs
             )
 
             raw = resp.output_text or ""
@@ -174,7 +174,7 @@ class LLMClient:
             model=self.cfg.model.split("/", 1)[1],
             temperature=self.cfg.temperature,
             system=sys,
-            max_tokens=8192,  # Increased from 4096 for longer outputs like revision patches
+            max_tokens=16384,  # Increased further for large revision outputs  
             messages=[{"role": "user", "content": user}],
         )
 

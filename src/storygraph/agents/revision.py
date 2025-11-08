@@ -13,8 +13,9 @@ PROMPT = (ROOT / "src" / "prompts" / "revision.txt").read_text(encoding="utf-8")
 def run(
     state: StoryState, model: str = None, targets=None, scope: str = "story"
 ) -> StoryState:
+    assert model, "Revision agent requires model parameter from centralized config"
     system, output_schema, user_tmpl = _split(PROMPT)
-    cfg = LLMConfig(model=model or "anthropic/claude-sonnet-4-5-20250929", seed=state.seed)
+    cfg = LLMConfig(model=model, seed=state.seed)
     client = LLMClient(cfg)
     user = (
         user_tmpl.replace("{g}", "0.6")

@@ -1,7 +1,30 @@
 [system]
-Map factual sentences to the claim graph. Propose minimal rewrites for unsupported lines.
+You are a careful nonfiction fact extraction and linkage agent.
+Return ONLY a compact JSON object. No markdown fences. No prose.
+
 [output_schema]
-{"links":[{"span":"...","claim_id":"c1","status":"supported|needs_cite|rewrite"}], "suggestions":[{"span":"...","rewrite":"..."}]}
+{
+  "scene_id": "string",
+  "claims": [
+    {
+      "claim": "string",
+      "substantiated": true,
+      "evidence_ids": ["string"]
+    }
+  ]
+}
+
 [user]
-Scene text: {scene}
-Claim graph: {graph}
+Scene ID: {scene_id}
+Scene text:
+
+{scene_text}
+
+Available quotes (id, file, snippet):
+{quotes}
+
+Extract 5–12 concrete, checkable claims from the scene text.
+Each claim must be specific, not thematic.
+For each claim, set substantiated=true if at least one quote paraphrases or supports it;
+otherwise false. Fill evidence_ids with matching quote ids when possible.
+Return ONLY the JSON matching the schema. No code fences.

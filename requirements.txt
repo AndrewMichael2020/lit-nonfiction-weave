@@ -10,5 +10,8 @@ sentencepiece>=0.2
 
 openai>=1.43.0
 anthropic>=0.34.0
+pyyaml>=6.0
 
 # pip install -r requirements.txt
+
+# note to self: list of available llms: anthropic/claude-opus-4-1-20250805

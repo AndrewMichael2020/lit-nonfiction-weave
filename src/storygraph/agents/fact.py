@@ -1,5 +1,5 @@
 from __future__ import annotations
-import pathlib
+import json, re, pathlib
 from typing import Dict, List
 from ..state import StoryState        # ✅ ClaimGraph removed
 from ..llm import LLMClient, LLMConfig
@@ -19,6 +19,28 @@ def _split(prompt: str):
     schema = prompt.split("[output_schema]\n", 1)[1].split("[user]", 1)[0].strip()
     user = prompt.split("[user]\n", 1)[1].strip()
     return sys, schema, user
+
+def _strip_fences(txt: str) -> str:
+    t = txt.strip()
+    if t.startswith("```"):
+        t = re.sub(r"^```(?:json)?\s*", "", t)
+        t = re.sub(r"\s*```$", "", t)
+    return t
+
+def _promote_flags_to_claims(obj: Dict) -> Dict:
+    """If no 'claims' but there is 'flags': [{'span':..., 'type':'fact'}...], promote to claims"""
+    if obj.get("claims"):
+        return obj
+    flags = obj.get("flags") or []
+    claims = []
+    for f in flags:
+        if isinstance(f, dict) and f.get("type") == "fact":
+            txt = f.get("span") or f.get("text") or ""
+            if txt:
+                claims.append({"claim": txt, "substantiated": False, "evidence_ids": []})
+    if claims:
+        obj["claims"] = claims
+    return obj
 
 
 # -----------------------------------------------------
@@ -68,9 +90,10 @@ def run(
     # -------------------------------------------------
     # 2) Prepare prompt
     # -------------------------------------------------
+    assert model, "Fact agent requires model parameter from centralized config"
     system, output_schema, user_tmpl = _split(PROMPT)
 
-    cfg = LLMConfig(model=model or "openai/gpt-5", seed=state.seed)
+    cfg = LLMConfig(model=model, seed=state.seed)
     client = LLMClient(cfg)
 
     results: List[Dict] = []
@@ -84,22 +107,41 @@ def run(
             user_tmpl
             .replace("{scene_id}", beat_id)
             .replace("{scene_text}", scene.text)
-            .replace("{quotes}", str(quotes))
+            .replace("{quotes}", json.dumps(quotes, ensure_ascii=False))
         )
 
         # LLM call
         data = client.complete_json(system, user, output_schema)
 
-        # Coerce and patch missing fields
+        # Coerce and sanitize
+        if isinstance(data, str):
+            data = _strip_fences(data)
+            try:
+                data = json.loads(data)
+            except Exception:
+                data = {}
+        
         obj = coerce_json(data) or {}
+        obj = _promote_flags_to_claims(obj)
+
+        # Minimal guard: ensure keys
         obj.setdefault("scene_id", beat_id)
         obj.setdefault("claims", [])
+
+        # Debug count
+        print(f"[FACT DEBUG] Scene {beat_id}: claims={len(obj['claims'])}")
+        if obj.get('claims'):
+            print(f"[FACT DEBUG] First claim: {obj['claims'][0]}")
 
         results.append(obj)
 
     # -------------------------------------------------
     # 4) Save to StoryState
     # -------------------------------------------------
+    print(f"[FACT DEBUG] Saving claim_graph with {len(results)} scenes")
+    total_claims = sum(len(r.get('claims', [])) for r in results)
+    print(f"[FACT DEBUG] Total claims across all scenes: {total_claims}")
+    
     state.claim_graph = {
         "quotes": quotes,
         "claims_by_scene": results

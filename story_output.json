@@ -6,303 +6,840 @@
     "template": "braided",
     "beats": [
       {
-        "id": "dawn-taps",
-        "purpose": "Open on a sensory micro-scene—pre-dawn in Kyiv as taps cough air and the apartment wakes into scarcity—establish narrator, stakes, and water-as-metronome motif (Strand A: lived day).",
-        "target_words": 180
-      },
-      {
-        "id": "grid-water-nexus",
-        "purpose": "Zoom out to explain how Kyiv’s water depends on electricity, pumps, and pressure; why outages cascade; introduce missile targeting of infrastructure and provisional redundancies (Strand B: reported context).",
-        "target_words": 180
-      },
-      {
-        "id": "stairwell-commons",
-        "purpose": "Return to the building: neighbor WhatsApp/Telegram pings, a bucket brigade, etiquette of rationing on upper floors; sketch informal governance and social trust (Strand A).",
-        "target_words": 160
-      },
-      {
-        "id": "utility-worker-voice",
-        "purpose": "Bring in a city utility engineer describing valves, reroutes, generator fuel, and triage decisions; ground the system in human labor and risk (Strand B: expert testimony).",
-        "target_words": 170
-      },
-      {
-        "id": "pipes-and-memory",
-        "purpose": "Brief historical braid: Soviet-era pipes, the Dnipro lifeline, lessons from 2014–2022, and how legacy design meets wartime improvisation (Strand C: historical memory).",
-        "target_words": 150
-      },
-      {
-        "id": "dry-noon-economy",
-        "purpose": "Midday vignettes: cafes boiling, co-working bathrooms taped off, pop-up filtration, sanitizer scarcity; show micro-economies and etiquette of need (Strand A).",
-        "target_words": 160
-      },
-      {
-        "id": "city-hall-resilience",
-        "purpose": "Policy lens: municipal distribution points, EU/US aid for modular pumps, storage bladders, 72-hour preparedness messaging; accountability and trade-offs (Strand B).",
+        "id": "sirens-and-sinks",
+        "purpose": "Open at dawn with an empty kettle and a sputtering tap, establishing the sensory reality of outage life and the broader stakes of infrastructure targeted by war, in a tone suitable for The Atlantic’s analytical reportage.",
         "target_words": 190
       },
       {
-        "id": "sirens-and-valves",
-        "purpose": "Interleave siren cycle with utility operations; map the energy–water nexus, ecological risks, and the choreography of repair under threat (Strand B with atmospheric return to A).",
-        "target_words": 170
+        "id": "stairwell-commons",
+        "purpose": "Descend into the stairwell where neighbors coordinate runs for water, sketching a microcosm of civic trust, improvisation, and fatigue; frame the building as a social organism adapting in real time.",
+        "target_words": 190
       },
       {
-        "id": "domestic-calculus",
-        "purpose": "Home logistics of scarcity: sponge baths, laundry triage, elderly care, kids’ routines; ethics of comfort vs conservation (Strand A).",
-        "target_words": 160
+        "id": "control-room-braid",
+        "purpose": "Braid in a reported thread from utility dispatchers and engineers rerouting around damaged mains, describing screens, valves, and decision trees to show the hidden choreography keeping a city alive.",
+        "target_words": 200
       },
       {
-        "id": "commons-and-trust",
-        "purpose": "Reflective synthesis: water as a civic commons, institutions tested, neighborliness as infrastructure; resist easy heroism while honoring competence (Braiding A+B+C).",
-        "target_words": 170
+        "id": "domestic-triage",
+        "purpose": "Render the household calculus of rationing—tea, washing, sanitation—showing how outages reorder time and dignity, and how habit becomes policy at the sink.",
+        "target_words": 190
       },
       {
-        "id": "brown-trickle",
-        "purpose": "Evening return: the first brownish trickle; flushing protocols, filters, gratitude edged with iodine; texture of provisional normalcy (Strand A closure).",
-        "target_words": 170
+        "id": "infrastructure-memory",
+        "purpose": "Provide historical context on Kyiv’s water system and the Dnipro’s place in the city’s life, tracing vulnerabilities from Soviet-era design to contemporary targeting without lapsing into nostalgia.",
+        "target_words": 200
       },
       {
-        "id": "dnipro-night-coda",
-        "purpose": "Coda by the river: Dnipro’s dark mirror, a city balanced between resilience and routine; open-ended tomorrow (Braided thematic resonance).",
-        "target_words": 140
+        "id": "queue-economies",
+        "purpose": "At a neighborhood distribution point and kiosks, map the ethics and economics of bottled water, price stability, and quiet profiteering; balance empathy with scrutiny.",
+        "target_words": 190
+      },
+      {
+        "id": "digital-mesh",
+        "purpose": "Show the Telegram channels, outage maps, and ad hoc spreadsheets that constitute a new public square, exploring trust, rumor, and the state’s bandwidth under stress.",
+        "target_words": 190
+      },
+      {
+        "id": "night-cycle",
+        "purpose": "As evening falls, track coping rituals—bathtub reservoirs, sterilization hacks, quiet floors where elevators sleep—linking the city’s circadian rhythm to damaged grids.",
+        "target_words": 190
+      },
+      {
+        "id": "pressure-returns-coda",
+        "purpose": "Close with the tentative rush of water returning, resisting triumphalism; reflect on endurance as a civic practice and the fragile normal that Kyiv keeps remaking.",
+        "target_words": 190
       }
     ],
     "motifs": [
-      "taps-coughing-air",
-      "buckets-in-stairwells",
-      "telegram-alerts",
-      "generator-hum",
-      "brown-trickle",
-      "dnipro-river",
-      "boiled-kettle",
-      "neighbor-network",
-      "siren-and-silence",
-      "plastic-bottles",
-      "handwritten-signs",
-      "wet-wipes",
-      "elevators-stilled",
-      "candles-and-iodine",
-      "valves-and-pressure",
-      "bucket-brigade",
-      "water-as-commons"
+      "sputtering taps",
+      "blue jerrycans",
+      "Telegram pings",
+      "maps glowing in dark rooms",
+      "plastic crackle of bottled water",
+      "city veins and valves",
+      "kettle steam without tea",
+      "echoing stairwells",
+      "handwritten notices on doors",
+      "Dnipro breadth under low sky",
+      "elevators asleep",
+      "footprints of damp boots"
     ]
   },
   "drafts": {
-    "dawn-taps": {
-      "scene_id": "dawn-taps",
-      "text": "The tap coughs twice before the brown trickle starts. I count—one Mississippi, two—timing how long until it sputters dry again. In the kitchen's half-light, I position the bucket beneath the faucet, watching rust-colored water pool at the bottom. The pipes in our building groan like something wounded. Through the wall, I hear Mrs. Kovalenko's tap doing the same dance: cough, trickle, silence. We're all awake at 4:47 AM, racing daylight and the water schedule that nobody quite knows anymore. My phone buzzes—another Telegram alert about which districts have pressure today. Southwestern. Not us. I check the five-liter bottles lined against the wall, calculating: two for drinking, one for cooking, half for the toilet tank. The generator kicks on three floors down, its diesel hum vibrating through the building's bones. Someone's charging phones and power banks while they can. The tap gives one last wheeze and stops. I lift the bucket—maybe eight liters—and carry it to the bathroom where three others wait. Outside, the first siren of the day winds up, then drops to nothing.",
+    "sirens-and-sinks": {
+      "scene_id": "sirens-and-sinks",
+      "text": "The kettle sits empty on the stove at 6:47 a.m., its aluminum base cold. Olena turns the tap—a sputter, a cough of air, then nothing. The silence where water should run carries its own weight.  This is the fourth morning this month without pressure in her seventh-floor apartment. The building's pipes, like thousands across Dnipro, have become instruments measuring what missiles do to pumping stations sixty kilometers away. Infrastructure is not backdrop here; it is plot.  She fills the kettle from a blue jerrycan in the hallway, its plastic handle worn smooth by her neighbors' hands. The water sloshes with a particular sound—the acoustic signature of rationing. Her phone pings: Telegram channels mapping which districts have power, which have water, the city's circulatory system rendered in crowded threads and user-reported outages.  Through the kitchen window, the Dnipro River spreads gray under March sky. The city's namesake artery flows oblivious while the veins and valves humans built above it fail in sequence. Olena lights the gas—that still works—and watches steam rise without tea to steep. The kettle's whistle, when it comes, sounds like a question no one in the stairwell can answer.",
       "flags": [
         {
-          "span": "racing daylight and the water schedule that nobody quite knows anymore",
+          "span": "Infrastructure is not backdrop here; it is plot.",
+          "type": "overabstract"
+        },
+        {
+          "span": "missiles do to pumping stations sixty kilometers away",
           "type": "fact"
         },
         {
-          "span": "Telegram alert about which districts have pressure today",
-          "type": "fact"
-        }
-      ]
-    },
-    "grid-water-nexus": {
-      "scene_id": "grid-water-nexus",
-      "text": "Kyiv's water system runs on electricity. Every liter climbing from the Dnipro River to a tenth-floor tap needs power—for intake pumps pulling river water, treatment plants cleaning it, booster stations pushing it through 2,800 kilometers of pipe. When missiles strike substations, the cascade begins. Pumps stop. Pressure drops. Air enters the lines. Upper floors lose service first, then middle floors. Ground-level taps might trickle brown water for hours before running dry. The city maintains backup generators at critical stations, diesel reserves measured in days not weeks. Engineers rotate power between districts, two hours here, four hours there, trying to maintain minimum pressure to prevent contamination from groundwater seeping through cracked pipes. Each outage requires a careful restart—too fast and water hammer can rupture aging mains, too slow and biofilm grows in stagnant pipes. Residents learn the rhythm: when Telegram channels report strikes on energy infrastructure, they fill bathtubs, pots, bottles. When generators hum, they know which neighborhoods have priority—hospitals first, then schools, then residential blocks by a logic nobody fully explains.",
-      "flags": [
-        {
-          "span": "2,800 kilometers of pipe",
-          "type": "fact"
-        },
-        {
-          "span": "water hammer can rupture aging mains",
+          "span": "fourth morning this month",
           "type": "fact"
         }
       ]
     },
     "stairwell-commons": {
       "scene_id": "stairwell-commons",
-      "text": "The Telegram notification cuts through generator hum: \"Water at 14:00, thirty minutes max.\" Oksana's building chat erupts. Seventh floor needs four buckets. Third floor offers to fill for the elderly couple on ninth. Someone posts the valve pressure readings from this morning.  In the stairwell, the bucket brigade forms without discussion. Residents emerge from apartments carrying every container—paint buckets, cooking pots, cut-open plastic bottles. The elevator stands stilled, its shaft now storage for emergency supplies. A handwritten sign by the ground floor tap: \"15 liters per apartment. Children and elderly first.\"  The brown trickle starts exactly at 14:00. Neighbors who haven't spoken in months coordinate the filling, passing buckets up concrete stairs. Someone's grandmother directs traffic from her landing, tracking who's gotten their share on the back of an envelope. The water stops at 14:28. Everyone knows to save the last liter for boiling.  Upstairs, wet wipes hang drying on balcony lines for reuse. The commons aren't discussed—they simply exist in the counting, sharing, waiting.",
-      "flags": []
-    },
-    "utility-worker-voice": {
-      "scene_id": "utility-worker-voice",
-      "text": "Vadym's hands are cracked from valve work, the metal wheels leaving rust-red lines across his palms. \"Sector seven needs pressure,\" he says into his radio, standing knee-deep in the maintenance tunnel beneath Heroiv Pratsi. \"But if we open that main, we lose sectors four through six.\" The generator beside him coughs diesel fumes. Twenty liters of fuel left, maybe thirty if they run it lean. Above, he knows, residents are filling buckets, posting handwritten signs about which floors have flow. \"The Dnipro pumping station took a hit Tuesday,\" he explains to the young technician beside him, showing her the reroute map, its lines crossed and recrossed in pencil. \"So we're running everything through Station Three, but that means—\" The lights flicker. The generator stutters, recovers. \"That means choosing. This building gets two hours. That one gets four. The hospital gets constant, no matter what.\" His radio crackles with another voice: burst pipe on Peremohy, water pooling in the basement. He marks it on his chart. Triage. Everything is triage now.",
+      "text": "The stairwell smells of wet concrete and boot rubber. Olena descends past handwritten notices taped to doors—\"Water 14:00, bring containers\"—their edges curling in the damp. On the third-floor landing, Mykola props open the fire door with a blue jerrycan, its handle wrapped in electrical tape. His phone glows: Telegram pings cascading through the building's group chat, neighbors coordinating like dispatchers.  \"Pressure's back in sector four,\" he says, not looking up. \"Ten minutes, maybe.\"  Two floors down, Svitlana hauls a sloshing canister, pausing every six steps. The stairwell echoes with footfalls, a rhythm of fatigue and function. Someone has sketched a hand-drawn map on the wall—blue marker tracing the city's water grid, valves circled, question marks where pipes failed.  Olena reaches the lobby. Plastic crackle: a neighbor tears open a shrink-wrapped case of bottled water, distributing six-packs like rations. The elevator doors stand dark, their call buttons unlit. Outside, the Dnipro stretches under low sky, indifferent.  Upstairs, a kettle whistles without tea—just boiling for safety. The building breathes: sputtering taps, shuffling boots, the hum of a social organism rewiring itself one errand at a time.",
       "flags": [
         {
-          "span": "The Dnipro pumping station took a hit Tuesday",
-          "type": "fact"
-        }
-      ]
-    },
-    "pipes-and-memory": {
-      "scene_id": "pipes-and-memory",
-      "text": "The pipes remember everything. Cast iron arteries from 1962, when Khrushchev promised running water would make Soviet citizens modern. Now they wheeze brown trickle through apartments where grandmothers learned during 2014 to fill every vessel when the taps still run clear. The Dnipro flows eternal, but pumping stations need electricity. After Kakhovka, after the first winter of targeted infrastructure, the building's valves speak a language everyone understands: two coughs of air, then nothing. Marina's mother survived the '90s collapse. She taught her: bathtub first, then pots, then bottles. The neighbors on the fifth floor share a Telegram channel now—WATER RETURNED 14:30, FILL EVERYTHING. Someone posts a photo of Soviet-era blueprints showing where the building's emergency valves hide. Someone else shares their grandfather's trick with wet wipes and boiled snow. The bucket brigade forms without planning, muscle memory from 2022's blackouts, when the elevators stilled for weeks. History teaches through the body. Through the weight of water carried up stairs.",
-      "flags": [
-        {
-          "span": "Cast iron arteries from 1962, when Khrushchev promised running water would make Soviet citizens modern",
-          "type": "fact"
+          "span": "indifferent",
+          "type": "overabstract"
         },
         {
-          "span": "After Kakhovka",
-          "type": "fact"
-        }
-      ]
-    },
-    "dry-noon-economy": {
-      "scene_id": "dry-noon-economy",
-      "text": "The café on Yaroslaviv Val runs its espresso machine twice daily now—11:00 and 15:00, when the district pump station operates. Between those hours, a handwritten sign: 'Coffee from thermos only.' The barista keeps wet wipes under the counter, trades them for exact change. No one mentions the price doubling.  Next door, the co-working space has yellow tape across both bathroom doors. 'Use McDonald's on Khreshchatyk,' someone has written in Sharpie, then crossed out, replaced with: 'Closed too.' A programmer fills his laptop-cooling pad with bottled water, the plastic crinkling as he types. The generator hums through another power cut.  Outside, a woman sells five-liter bottles from a baby stroller, 80 hryvnia each, yesterday's price crossed out—it was 60. She keeps the bottles covered with a wet towel, checking her phone for Telegram alerts about which district gets pressure next. The queue forms without discussion, everyone knowing their place from yesterday.",
-      "flags": []
-    },
-    "city-hall-resilience": {
-      "scene_id": "city-hall-resilience",
-      "text": "The municipal distribution point operates from what used to be a parking garage beneath City Hall. Concrete pillars bear handwritten signs in Ukrainian and English: 'WATER 14:00-16:00.' A generator hums against the far wall, powering the modular pump system that EU aid delivered three weeks ago.  Oksana checks the pressure gauge—forty-two bars, enough to fill the storage bladders for another hour. The brown trickle from the Dnipro treatment plant stopped yesterday. What flows now comes from emergency reserves, rationed through a system of valves and timers that nobody fully trusts.  'Seventy-two hours,' the preparedness posters claim in bold type. 'Every household ready.' But the buckets lined up in the stairwell tell a different story. Mrs. Kovalenko from the third floor hasn't collected her ration in two days. The Telegram alert system shows her as 'active,' but neighbors report her taps coughing only air.  The trade-offs multiply with each decision. Open the valves wider, serve more families, risk running dry before the next delivery. Keep them restricted, maintain reserves, watch the bucket brigade grow longer each morning.",
-      "flags": []
-    },
-    "sirens-and-valves": {
-      "scene_id": "sirens-and-valves",
-      "text": "The siren cuts mid-cycle—three seconds of wail, then nothing. In the silence, Oksana counts: one Mississippi, two Mississippi. At five, water hammers through the pipes below. Someone's opened the main valve early.\n\nShe grabs her yellow bucket, the one with the crack sealed with bathroom caulk, and takes the stairs two at a time. Fourth floor, third, second—each landing has its own bucket brigade forming. Mrs. Kovalenko holds her granddaughter's hand while balancing a soup pot against her hip.\n\n\"Twenty minutes,\" Petro calls up from the basement. His headlamp sweeps across the valve wheel. \"Maybe thirty if the pressure holds.\"\n\nThe Dnipro pumping station took a hit Tuesday. Or Wednesday. The days blur when you measure time between sirens, between the brown trickle that comes and goes.\n\nOksana fills her bucket halfway—leave room for the neighbors who haven't made it down yet. The water runs rust-colored, then clear, then rust again. Someone's phone buzzes with a Telegram alert: \"Northern district without power.\"\n\nThe generator kicks on two floors up, its diesel rhythm mixing with the water's rush.",
-      "flags": [
-        {
-          "span": "The Dnipro pumping station took a hit Tuesday",
-          "type": "fact"
-        }
-      ]
-    },
-    "domestic-calculus": {
-      "scene_id": "domestic-calculus",
-      "text": "Marina counted wet wipes like currency—seven for Babusya's morning wash, three for Taras before school. The bucket by the door held yesterday's dishwater, waiting for the toilet tank. Through the wall, she heard Oksana's generator cough to life, then die. Fourth attempt this morning.  Taras stood in the doorway, school uniform half-buttoned. \"Mama, Sasha's family left for Poland.\"  \"We stay.\" She wrung the sponge over the basin, catching every drop. \"Help Babusya with her stockings.\"  The telegram alert buzzed: water at 14:00-15:00, districts 3-7. She marked it on the calendar next to yesterday's crossed-out window. Downstairs, buckets already lined the stairwell like soldiers. Mrs. Kovalenko would guard them—she always did.  \"Can we wash my football kit today?\"  \"Next week.\" The brown trickle from this morning would serve for floors. She'd boil it first, add iodine. The kit could wait. Everything could wait except the necessary calculations: water for drinking, water for medicine, water for the barest dignity.",
-      "flags": []
-    },
-    "commons-and-trust": {
-      "scene_id": "commons-and-trust",
-      "text": "The water returns Tuesday morning—a brown trickle, then coughing air, then something clear enough to boil. Marina texts the building's Telegram group: \"Third floor has pressure.\" Within minutes, everyone knows which taps work, who needs buckets carried, whose grandmother can't manage the stairs.\n\nThis is how the city works now: not through heroics but through ten thousand small competencies. The woman who knows which pharmacy still has iodine tablets. The teenager who rewired the building's generator to run on half the diesel. The janitor who became an expert on water pressure, teaching residents to open valves in sequence so the pipes don't blow.\n\n\"The infrastructure isn't the pipes,\" Oksana tells her daughter, watching neighbors form a bucket brigade in the stairwell. \"It's this.\" She gestures at the handwritten schedule taped to the wall—who fetches water when, who checks on whom.\n\nThe Dnipro still flows. The treatment plant still functions, mostly. But between the river and the tap, the real system reveals itself: trust moving hand to hand, bucket to bucket, up six flights of stairs.",
-      "flags": [
-        {
-          "span": "The infrastructure isn't the pipes",
+          "span": "social organism rewiring itself",
           "type": "overabstract"
         }
       ]
     },
-    "brown-trickle": {
-      "scene_id": "brown-trickle",
-      "text": "The tap coughed twice before releasing its offering—a thin stream the color of weak tea. Oksana held her breath, watching it sputter into the plastic basin. After thirty-seven hours, this counted as victory.\n\n\"It's running,\" she called down the hallway. Doors opened along the corridor. Mrs. Petrenko emerged first, bucket in hand, her apartment key on a string around her neck.\n\nThe water darkened, then lightened, pulsing through gradients of brown. Oksana counted—her mother had taught her this during the first weeks. Twenty seconds dark, forty seconds lighter, the rhythm of pipes remembering how to carry.\n\nShe added three drops of iodine to her first bottle. The chemical bloom spread like smoke. Through the kitchen window, other buildings showed the same ritual: shadows bent over sinks, the careful choreography of collection.\n\nHer phone buzzed. The building's Telegram channel: \"3rd floor has pressure. Check your valves.\"\n\nBy the time she'd filled four bottles, the stream had steadied to pale amber. Good enough for boiling. Good enough for gratitude. Tomorrow the filters would do their work. Tonight, she had water that moved.",
+    "control-room-braid": {
+      "scene_id": "control-room-braid",
+      "text": "In the dispatch center on Heroiv Pratsi Street, three monitors cast blue light across Oleksandr Koval's face. He'd been rerouting water pressure for eleven hours. His finger traced a schematic—the city's arterial grid, red lines pulsing where mains had ruptured under shelling two nights prior.  \"Sector 4-B, close valve 17,\" he said into the headset. On screen, a digital marker blinked green. Somewhere in Shevchenkivskyi, an engineer in a flooded basement turned a wheel the size of a tractor tire.  The system was a living thing: close one valve, pressure spiked in another district. Open a bypass, risk blowing a joint weakened by decades of deferred maintenance. Koval's decision tree had seventeen branches. He'd memorized them all.  \"Confirming flow to hospital zone,\" a voice crackled through. \"Pressure holding at 2.1 bar.\"  On his desk: cold tea, a half-eaten sandwich, a printout of neighborhoods ranked by vulnerability—elderly populations, dialysis clinics, shelters. His Telegram pinged: a photo from Saltivka, blue jerrycans lined outside an apartment block, residents waiting with the stillness of people who'd learned patience as survival skill.  Koval toggled to the next schematic. The hidden choreography continued. The city drank, or it didn't, based on decisions made in rooms like this.",
       "flags": [
         {
-          "span": "thirty-seven hours",
+          "span": "Heroiv Pratsi Street",
           "type": "fact"
         },
         {
-          "span": "Twenty seconds dark, forty seconds lighter",
+          "span": "three monitors",
+          "type": "fact"
+        },
+        {
+          "span": "eleven hours",
+          "type": "fact"
+        },
+        {
+          "span": "two nights prior",
+          "type": "fact"
+        },
+        {
+          "span": "Shevchenkivskyi",
+          "type": "fact"
+        },
+        {
+          "span": "2.1 bar",
+          "type": "fact"
+        },
+        {
+          "span": "Saltivka",
+          "type": "fact"
+        },
+        {
+          "span": "seventeen branches",
           "type": "fact"
         }
       ]
     },
-    "dnipro-night-coda": {
-      "scene_id": "dnipro-night-coda",
-      "text": "The Dnipro moves black beneath the bridge, carrying the city's reflection in broken pieces. Along the embankment, a woman fills plastic bottles from a public tap while her daughter holds the flashlight steady. The water runs brown for three seconds before clearing—everyone counts now, everyone knows the rhythm.\n\nAbove them, apartment blocks stand like graph paper against the sky, some windows lit by candles, others by the blue glow of phones checking Telegram. A generator coughs to life in a courtyard, its hum joining the chorus that rises from a dozen other blocks. Someone's marked the working taps with spray paint: \"ВОДА ТУТ\"—water here.\n\nThe river doesn't care about curfews or air raid schedules. It moves the same as it did before, as it will tomorrow, carrying whatever the city gives it—plastic bottles, reflected light, the sound of neighbors calling bucket numbers up stairwells. The woman caps the last bottle. Her daughter switches off the flashlight. They walk home through streets that have learned to navigate themselves in darkness.",
+    "domestic-triage": {
+      "scene_id": "domestic-triage",
+      "text": "Olena wakes at 0530, before the tap sputters dry. She fills two blue jerrycans, the kettle, three saucepans. The Telegram ping arrives at 0547: water off until 1400, maybe longer. She screenshots the message, adds it to a folder labeled \"Utilities\" that now holds forty-seven images.  At the sink, she parcels yesterday's dishwater into today's toilet flush. The calculus is automatic now—one liter per flush, half a liter to rinse soap from her daughter's hair, a cupful to wipe counters. Habit has become policy. She boils water for tea but drinks it black; the sugar ration goes to Mykola, who works the night shift at the filtration plant.  In the stairwell, a handwritten notice: \"Elevator asleep indefinitely. Conserve stair lighting 1800-0600.\" Someone has added in pencil, \"Conserve dignity too?\" Olena climbs to the ninth floor, jerrycans pulling at her shoulders, footprints of damp boots marking each landing.  Through the kitchen window, the Dnipro spreads under low sky, vast and indifferent. The city's veins and valves are failing, but the river flows on, unrationed, untapped, mocking the plastic crackle of bottled water stacked in her hallway. She pours carefully. Not a drop wasted.",
       "flags": [
         {
-          "span": "The Dnipro moves black beneath the bridge",
+          "span": "the river flows on, unrationed, untapped, mocking the plastic crackle",
+          "type": "overabstract"
+        },
+        {
+          "span": "filtration plant",
           "type": "fact"
         },
         {
-          "span": "ВОДА ТУТ",
+          "span": "0530",
           "type": "fact"
+        },
+        {
+          "span": "ninth floor",
+          "type": "fact"
+        }
+      ]
+    },
+    "infrastructure-memory": {
+      "scene_id": "infrastructure-memory",
+      "text": "The Dnipro carved Kyiv into hills and lowlands long before Soviet engineers laid the first water mains in the 1930s, threading pipes beneath cobblestone and clay. Those pipes—cast iron, concrete-lined—were built for a city half this size, designed when redundancy meant a second pump station, not distributed nodes. By the 1980s, the system sprawled: treatment plants on both banks, reservoirs perched on high ground, pressure zones mapped to elevation. It worked because it was vast and dumb, a single organism with the river as its heart.  That centralization became the vulnerability. Knock out the Dnieper Station and the right bank goes dry. Sever the trunk line near Vydubychi and a hundred thousand taps sputter to silence. The engineers who built it never imagined someone would target water as doctrine, that maps glowing in dark rooms would trace every valve and junction, that blue jerrycans would line stairwells like sandbags.  Now the system's logic is inverted: what made it efficient makes it fragile. Handwritten notices on apartment doors track outages by district. Footprints of damp boots mark the path to working spigots. The river still flows, broad and indifferent under low sky, but the city's veins depend on electricity, on pumps, on the assumption that infrastructure is neutral. It never was.",
+      "flags": [
+        {
+          "span": "The Dnipro carved Kyiv into hills and lowlands long before Soviet engineers laid the first water mains in the 1930s",
+          "type": "fact"
+        },
+        {
+          "span": "Those pipes—cast iron, concrete-lined—were built for a city half this size",
+          "type": "fact"
+        },
+        {
+          "span": "By the 1980s, the system sprawled: treatment plants on both banks, reservoirs perched on high ground",
+          "type": "fact"
+        },
+        {
+          "span": "Knock out the Dnieper Station and the right bank goes dry",
+          "type": "fact"
+        },
+        {
+          "span": "Sever the trunk line near Vydubychi",
+          "type": "fact"
+        }
+      ]
+    },
+    "queue-economies": {
+      "scene_id": "queue-economies",
+      "text": "The distribution point opens at seven. By six-thirty, blue jerrycans already claim positions on the pavement, placeholders for bodies still warming beds in apartments where sputtering taps yield nothing. Oksana arrives with her own containers, counts twelve ahead of her, does the math: forty minutes if the truck is punctual, longer if it isn't.  Inside the kiosk, bottled water stacks to the ceiling. Prices haven't changed in three weeks—18 hryvnias for five liters, same as before the main line broke. Stability that feels either like mercy or strategy. The owner, Petro, moves between shelves with practiced efficiency, the plastic crackle of shrink-wrap following his hands. His Telegram pings constantly; he glances, doesn't answer.  \"You're doing well,\" someone mutters in line.  Petro's face reveals nothing. \"Costs are up. Transport, suppliers raising rates. I'm holding what I can.\"  True or performance? Oksana watches him pocket cash, watches him also hand a six-pack to the pensioner who's four hryvnias short. Both things exist. In the stairwell of her building, a handwritten notice lists three neighbors selling their own stockpiles, undercutting the kiosk by two hryvnias. Quiet profiteering spreads like frost, everyone's ethics tested by empty taps and full bathtubs elsewhere.  The queue shuffles forward. Jerrycans scrape concrete. Oksana lifts hers when her turn comes.",
+      "flags": [
+        {
+          "span": "Stability that feels either like mercy or strategy.",
+          "type": "overabstract"
+        },
+        {
+          "span": "Costs are up. Transport, suppliers raising rates.",
+          "type": "fact"
+        },
+        {
+          "span": "Quiet profiteering spreads like frost",
+          "type": "cliche"
+        }
+      ]
+    },
+    "digital-mesh": {
+      "scene_id": "digital-mesh",
+      "text": "By Thursday the city's digital nervous system had rewired itself. Telegram channels multiplied—@DniproWaterInfo, @VodokanalLive, @MyDistrictH2O—each claiming authority, none quite trusted. Olena scrolled through her phone at 2 a.m., screen glow painting her kitchen blue, cross-referencing three different outage maps that disagreed on which neighborhoods had pressure. One showed her block green. Her sputtering taps said otherwise.  The channels pulsed with contradictions: \"Levoberezhny restored 14:00\"—but someone three comments down posted a video of dry faucets timestamped 14:47. A crowdsourced spreadsheet tracked working public taps, updated every fifteen minutes by strangers who'd become infrastructure scribes. Trust became arithmetic: corroborate twice, verify with neighbors, believe your own ears.  In darkened apartments across the city, screens glowed like votive candles. Pensioners learned to parse Telegram's reply threads. Teenagers became information brokers, their phones hot from constant refresh. The state's bandwidth—both digital and institutional—strained under the load of a population suddenly fluent in decentralized verification.  Rumor and fact blurred in the blue light. Someone claimed tanker trucks tomorrow. Someone else said next week. The maps updated, contradicted, converged. The new public square had no fountain, only the plastic crackle of bottled water and the Dnipro's breadth under low sky, indifferent to the pings.",
+      "flags": [
+        {
+          "span": "By Thursday",
+          "type": "fact",
+          "note": "Requires verification of timeline—when did digital coordination intensify relative to crisis start?"
+        },
+        {
+          "span": "Telegram channels multiplied—@DniproWaterInfo, @VodokanalLive, @MyDistrictH2O",
+          "type": "fact",
+          "note": "Need actual channel names/examples from Dnipro water crisis or similar Ukrainian infrastructure events"
+        },
+        {
+          "span": "crowdsourced spreadsheet tracked working public taps",
+          "type": "fact",
+          "note": "Verify if such crowdsourced tools were actually used during Dnipro outages or similar crises"
+        }
+      ]
+    },
+    "night-cycle": {
+      "scene_id": "night_cycle_coping_rituals",
+      "text": "By six p.m., the city shifts into its damaged circadian rhythm. Sputtering taps announce the evening cutoff. Olena fills her bathtub before the pressure dies—a porcelain reservoir holding tomorrow's dishes, tomorrow's hygiene, tomorrow's tea. The blue jerrycans line her hallway like sentries.  Across town, Telegram pings cascade through darkening apartments. \"Sector 4: water 21:00-23:00.\" \"Dniprovskyi: maybe morning.\" Maps glow in dim rooms, fingers tracing which neighborhoods still have pressure, which valves the utility has closed.  Dmytro boils his daily ration on a camping stove—sterilization before storage. Kettle steam rises without tea following, moisture that serves no comfort. The plastic crackle of bottled water punctuates his routine: one liter for drinking, half a liter for cooking, the rest rationed across days he cannot predict.  The elevators sleep. Handwritten notices on lobby doors: \"No water—use stairs.\" Echoing stairwells fill with the trudge of neighbors hauling supplies upward, damp boot prints marking each landing.  From her window, Olena watches the Dnipro's breadth under low sky. The river flows, indifferent and full, while the city's veins and valves ration every drop. She texts her sister the same message she sends each night: \"We have enough. We manage.\"",
+      "flags": [
+        {
+          "span": "indifferent and full",
+          "type": "overabstract"
+        }
+      ]
+    },
+    "pressure-returns-coda": {
+      "scene_id": "pressure-returns-coda",
+      "text": "The tap sputters at 11:47 p.m.—not a promise, just a possibility. Olena doesn't fill the kettle yet. She watches the stream thin to thread, counts three seconds of flow before it dies again. The blue jerrycan by the radiator still holds two liters. Enough.  Across the courtyard, lights blink on in apartment 34. Someone else testing. Someone else waiting. The Telegram channel updates: pressure returning to sectors 7 through 12, partial restoration, monitor for sediment. Her phone glows against the kitchen tile, a small moon of information.  This is not victory. This is Tuesday.  She thinks of the Dnipro beyond the rooftops, its breadth indifferent under low sky, moving whether the taps run or not. The city's veins and valves, broken and mended and broken again. Endurance as a civic practice—not the kind that makes headlines, but the kind that fills jerrycans at 6 a.m., that leaves handwritten notices on stairwell doors, that knows which neighbor has a working hotplate.  The tap coughs once more. A stronger pulse. Olena places a pot underneath, lets it catch what comes. The plastic crackle of bottled water from the next room. Her daughter, rationing without being asked.  Fragile normal. They keep remaking it.",
+      "flags": [
+        {
+          "span": "its breadth indifferent under low sky, moving whether the taps run or not",
+          "type": "fact",
+          "note": "Verify Dnipro River visibility from typical Kyiv residential areas and seasonal sky conditions"
+        },
+        {
+          "span": "Telegram channel updates: pressure returning to sectors 7 through 12",
+          "type": "fact",
+          "note": "Confirm typical format and sector numbering system used in Kyiv municipal water service notifications"
         }
       ]
     }
   },
-  "draft_v1_concat": "The tap coughs twice before the brown trickle starts. I count—one Mississippi, two—timing how long until it sputters dry again. In the kitchen's half-light, I position the bucket beneath the faucet, watching rust-colored water pool at the bottom. The pipes in our building groan like something wounded. Through the wall, I hear Mrs. Kovalenko's tap doing the same dance: cough, trickle, silence. We're all awake at 4:47 AM, racing daylight and the water schedule that nobody quite knows anymore. My phone buzzes—another Telegram alert about which districts have pressure today. Southwestern. Not us. I check the five-liter bottles lined against the wall, calculating: two for drinking, one for cooking, half for the toilet tank. The generator kicks on three floors down, its diesel hum vibrating through the building's bones. Someone's charging phones and power banks while they can. The tap gives one last wheeze and stops. I lift the bucket—maybe eight liters—and carry it to the bathroom where three others wait. Outside, the first siren of the day winds up, then drops to nothing.\n\nKyiv's water system runs on electricity. Every liter climbing from the Dnipro River to a tenth-floor tap needs power—for intake pumps pulling river water, treatment plants cleaning it, booster stations pushing it through 2,800 kilometers of pipe. When missiles strike substations, the cascade begins. Pumps stop. Pressure drops. Air enters the lines. Upper floors lose service first, then middle floors. Ground-level taps might trickle brown water for hours before running dry. The city maintains backup generators at critical stations, diesel reserves measured in days not weeks. Engineers rotate power between districts, two hours here, four hours there, trying to maintain minimum pressure to prevent contamination from groundwater seeping through cracked pipes. Each outage requires a careful restart—too fast and water hammer can rupture aging mains, too slow and biofilm grows in stagnant pipes. Residents learn the rhythm: when Telegram channels report strikes on energy infrastructure, they fill bathtubs, pots, bottles. When generators hum, they know which neighborhoods have priority—hospitals first, then schools, then residential blocks by a logic nobody fully explains.\n\nThe Telegram notification cuts through generator hum: \"Water at 14:00, thirty minutes max.\" Oksana's building chat erupts. Seventh floor needs four buckets. Third floor offers to fill for the elderly couple on ninth. Someone posts the valve pressure readings from this morning.  In the stairwell, the bucket brigade forms without discussion. Residents emerge from apartments carrying every container—paint buckets, cooking pots, cut-open plastic bottles. The elevator stands stilled, its shaft now storage for emergency supplies. A handwritten sign by the ground floor tap: \"15 liters per apartment. Children and elderly first.\"  The brown trickle starts exactly at 14:00. Neighbors who haven't spoken in months coordinate the filling, passing buckets up concrete stairs. Someone's grandmother directs traffic from her landing, tracking who's gotten their share on the back of an envelope. The water stops at 14:28. Everyone knows to save the last liter for boiling.  Upstairs, wet wipes hang drying on balcony lines for reuse. The commons aren't discussed—they simply exist in the counting, sharing, waiting.\n\nVadym's hands are cracked from valve work, the metal wheels leaving rust-red lines across his palms. \"Sector seven needs pressure,\" he says into his radio, standing knee-deep in the maintenance tunnel beneath Heroiv Pratsi. \"But if we open that main, we lose sectors four through six.\" The generator beside him coughs diesel fumes. Twenty liters of fuel left, maybe thirty if they run it lean. Above, he knows, residents are filling buckets, posting handwritten signs about which floors have flow. \"The Dnipro pumping station took a hit Tuesday,\" he explains to the young technician beside him, showing her the reroute map, its lines crossed and recrossed in pencil. \"So we're running everything through Station Three, but that means—\" The lights flicker. The generator stutters, recovers. \"That means choosing. This building gets two hours. That one gets four. The hospital gets constant, no matter what.\" His radio crackles with another voice: burst pipe on Peremohy, water pooling in the basement. He marks it on his chart. Triage. Everything is triage now.\n\nThe pipes remember everything. Cast iron arteries from 1962, when Khrushchev promised running water would make Soviet citizens modern. Now they wheeze brown trickle through apartments where grandmothers learned during 2014 to fill every vessel when the taps still run clear. The Dnipro flows eternal, but pumping stations need electricity. After Kakhovka, after the first winter of targeted infrastructure, the building's valves speak a language everyone understands: two coughs of air, then nothing. Marina's mother survived the '90s collapse. She taught her: bathtub first, then pots, then bottles. The neighbors on the fifth floor share a Telegram channel now—WATER RETURNED 14:30, FILL EVERYTHING. Someone posts a photo of Soviet-era blueprints showing where the building's emergency valves hide. Someone else shares their grandfather's trick with wet wipes and boiled snow. The bucket brigade forms without planning, muscle memory from 2022's blackouts, when the elevators stilled for weeks. History teaches through the body. Through the weight of water carried up stairs.\n\nThe café on Yaroslaviv Val runs its espresso machine twice daily now—11:00 and 15:00, when the district pump station operates. Between those hours, a handwritten sign: 'Coffee from thermos only.' The barista keeps wet wipes under the counter, trades them for exact change. No one mentions the price doubling.  Next door, the co-working space has yellow tape across both bathroom doors. 'Use McDonald's on Khreshchatyk,' someone has written in Sharpie, then crossed out, replaced with: 'Closed too.' A programmer fills his laptop-cooling pad with bottled water, the plastic crinkling as he types. The generator hums through another power cut.  Outside, a woman sells five-liter bottles from a baby stroller, 80 hryvnia each, yesterday's price crossed out—it was 60. She keeps the bottles covered with a wet towel, checking her phone for Telegram alerts about which district gets pressure next. The queue forms without discussion, everyone knowing their place from yesterday.\n\nThe municipal distribution point operates from what used to be a parking garage beneath City Hall. Concrete pillars bear handwritten signs in Ukrainian and English: 'WATER 14:00-16:00.' A generator hums against the far wall, powering the modular pump system that EU aid delivered three weeks ago.  Oksana checks the pressure gauge—forty-two bars, enough to fill the storage bladders for another hour. The brown trickle from the Dnipro treatment plant stopped yesterday. What flows now comes from emergency reserves, rationed through a system of valves and timers that nobody fully trusts.  'Seventy-two hours,' the preparedness posters claim in bold type. 'Every household ready.' But the buckets lined up in the stairwell tell a different story. Mrs. Kovalenko from the third floor hasn't collected her ration in two days. The Telegram alert system shows her as 'active,' but neighbors report her taps coughing only air.  The trade-offs multiply with each decision. Open the valves wider, serve more families, risk running dry before the next delivery. Keep them restricted, maintain reserves, watch the bucket brigade grow longer each morning.\n\nThe siren cuts mid-cycle—three seconds of wail, then nothing. In the silence, Oksana counts: one Mississippi, two Mississippi. At five, water hammers through the pipes below. Someone's opened the main valve early.\n\nShe grabs her yellow bucket, the one with the crack sealed with bathroom caulk, and takes the stairs two at a time. Fourth floor, third, second—each landing has its own bucket brigade forming. Mrs. Kovalenko holds her granddaughter's hand while balancing a soup pot against her hip.\n\n\"Twenty minutes,\" Petro calls up from the basement. His headlamp sweeps across the valve wheel. \"Maybe thirty if the pressure holds.\"\n\nThe Dnipro pumping station took a hit Tuesday. Or Wednesday. The days blur when you measure time between sirens, between the brown trickle that comes and goes.\n\nOksana fills her bucket halfway—leave room for the neighbors who haven't made it down yet. The water runs rust-colored, then clear, then rust again. Someone's phone buzzes with a Telegram alert: \"Northern district without power.\"\n\nThe generator kicks on two floors up, its diesel rhythm mixing with the water's rush.\n\nMarina counted wet wipes like currency—seven for Babusya's morning wash, three for Taras before school. The bucket by the door held yesterday's dishwater, waiting for the toilet tank. Through the wall, she heard Oksana's generator cough to life, then die. Fourth attempt this morning.  Taras stood in the doorway, school uniform half-buttoned. \"Mama, Sasha's family left for Poland.\"  \"We stay.\" She wrung the sponge over the basin, catching every drop. \"Help Babusya with her stockings.\"  The telegram alert buzzed: water at 14:00-15:00, districts 3-7. She marked it on the calendar next to yesterday's crossed-out window. Downstairs, buckets already lined the stairwell like soldiers. Mrs. Kovalenko would guard them—she always did.  \"Can we wash my football kit today?\"  \"Next week.\" The brown trickle from this morning would serve for floors. She'd boil it first, add iodine. The kit could wait. Everything could wait except the necessary calculations: water for drinking, water for medicine, water for the barest dignity.\n\nThe water returns Tuesday morning—a brown trickle, then coughing air, then something clear enough to boil. Marina texts the building's Telegram group: \"Third floor has pressure.\" Within minutes, everyone knows which taps work, who needs buckets carried, whose grandmother can't manage the stairs.\n\nThis is how the city works now: not through heroics but through ten thousand small competencies. The woman who knows which pharmacy still has iodine tablets. The teenager who rewired the building's generator to run on half the diesel. The janitor who became an expert on water pressure, teaching residents to open valves in sequence so the pipes don't blow.\n\n\"The infrastructure isn't the pipes,\" Oksana tells her daughter, watching neighbors form a bucket brigade in the stairwell. \"It's this.\" She gestures at the handwritten schedule taped to the wall—who fetches water when, who checks on whom.\n\nThe Dnipro still flows. The treatment plant still functions, mostly. But between the river and the tap, the real system reveals itself: trust moving hand to hand, bucket to bucket, up six flights of stairs.\n\nThe tap coughed twice before releasing its offering—a thin stream the color of weak tea. Oksana held her breath, watching it sputter into the plastic basin. After thirty-seven hours, this counted as victory.\n\n\"It's running,\" she called down the hallway. Doors opened along the corridor. Mrs. Petrenko emerged first, bucket in hand, her apartment key on a string around her neck.\n\nThe water darkened, then lightened, pulsing through gradients of brown. Oksana counted—her mother had taught her this during the first weeks. Twenty seconds dark, forty seconds lighter, the rhythm of pipes remembering how to carry.\n\nShe added three drops of iodine to her first bottle. The chemical bloom spread like smoke. Through the kitchen window, other buildings showed the same ritual: shadows bent over sinks, the careful choreography of collection.\n\nHer phone buzzed. The building's Telegram channel: \"3rd floor has pressure. Check your valves.\"\n\nBy the time she'd filled four bottles, the stream had steadied to pale amber. Good enough for boiling. Good enough for gratitude. Tomorrow the filters would do their work. Tonight, she had water that moved.\n\nThe Dnipro moves black beneath the bridge, carrying the city's reflection in broken pieces. Along the embankment, a woman fills plastic bottles from a public tap while her daughter holds the flashlight steady. The water runs brown for three seconds before clearing—everyone counts now, everyone knows the rhythm.\n\nAbove them, apartment blocks stand like graph paper against the sky, some windows lit by candles, others by the blue glow of phones checking Telegram. A generator coughs to life in a courtyard, its hum joining the chorus that rises from a dozen other blocks. Someone's marked the working taps with spray paint: \"ВОДА ТУТ\"—water here.\n\nThe river doesn't care about curfews or air raid schedules. It moves the same as it did before, as it will tomorrow, carrying whatever the city gives it—plastic bottles, reflected light, the sound of neighbors calling bucket numbers up stairwells. The woman caps the last bottle. Her daughter switches off the flashlight. They walk home through streets that have learned to navigate themselves in darkness.",
-  "draft_v2_concat": "The tap coughs twice before the brown trickle starts. I count—one Mississippi, two—timing how long until it sputters dry again. In the kitchen's half-light, I position the bucket beneath the faucet, watching rust-colored water pool at the bottom. The pipes in our building groan like something wounded. Through the wall, I hear Mrs. Kovalenko's tap doing the same dance: cough, trickle, silence. We're all awake at 4:47 AM, racing daylight and the water schedule that nobody quite knows anymore. My phone buzzes—another Telegram alert about which districts have pressure today. Southwestern. Not us. I check the five-liter bottles lined against the wall, calculating: two for drinking, one for cooking, half for the toilet tank. The generator kicks on three floors down, its diesel hum vibrating through the building's bones. Someone's charging phones and power banks while they can. The tap gives one last wheeze and stops. I lift the bucket—maybe eight liters—and carry it to the bathroom where three others wait. Outside, the first siren of the day winds up, then drops to nothing.\n\nKyiv's water system runs on electricity. Every liter climbing from the Dnipro River to a tenth-floor tap needs power—for intake pumps pulling river water, treatment plants cleaning it, booster stations pushing it through 2,800 kilometers of pipe. When missiles strike substations, the cascade begins. Pumps stop. Pressure drops. Air enters the lines. Upper floors lose service first, then middle floors. Ground-level taps might trickle brown water for hours before running dry. The city maintains backup generators at critical stations, diesel reserves measured in days not weeks. Engineers rotate power between districts, two hours here, four hours there, trying to maintain minimum pressure to prevent contamination from groundwater seeping through cracked pipes. Each outage requires a careful restart—too fast and water hammer can rupture aging mains, too slow and biofilm grows in stagnant pipes. Residents learn the rhythm: when Telegram channels report strikes on energy infrastructure, they fill bathtubs, pots, bottles. When generators hum, they know which neighborhoods have priority—hospitals first, then schools, then residential blocks by a logic nobody fully explains.\n\nThe Telegram notification cuts through generator hum: \"Water at 14:00, thirty minutes max.\" Oksana's building chat erupts. Seventh floor needs four buckets. Third floor offers to fill for the elderly couple on ninth. Someone posts the valve pressure readings from this morning.  In the stairwell, the bucket brigade forms without discussion. Residents emerge from apartments carrying every container—paint buckets, cooking pots, cut-open plastic bottles. The elevator stands stilled, its shaft now storage for emergency supplies. A handwritten sign by the ground floor tap: \"15 liters per apartment. Children and elderly first.\"  The brown trickle starts exactly at 14:00. Neighbors who haven't spoken in months coordinate the filling, passing buckets up concrete stairs. Someone's grandmother directs traffic from her landing, tracking who's gotten their share on the back of an envelope. The water stops at 14:28. Everyone knows to save the last liter for boiling.  Upstairs, wet wipes hang drying on balcony lines for reuse. The commons aren't discussed—they simply exist in the counting, sharing, waiting.\n\nVadym's hands are cracked from valve work, the metal wheels leaving rust-red lines across his palms. \"Sector seven needs pressure,\" he says into his radio, standing knee-deep in the maintenance tunnel beneath Heroiv Pratsi. \"But if we open that main, we lose sectors four through six.\" The generator beside him coughs diesel fumes. Twenty liters of fuel left, maybe thirty if they run it lean. Above, he knows, residents are filling buckets, posting handwritten signs about which floors have flow. \"The Dnipro pumping station took a hit Tuesday,\" he explains to the young technician beside him, showing her the reroute map, its lines crossed and recrossed in pencil. \"So we're running everything through Station Three, but that means—\" The lights flicker. The generator stutters, recovers. \"That means choosing. This building gets two hours. That one gets four. The hospital gets constant, no matter what.\" His radio crackles with another voice: burst pipe on Peremohy, water pooling in the basement. He marks it on his chart. Triage. Everything is triage now.\n\nThe pipes remember everything. Cast iron arteries from 1962, when Khrushchev promised running water would make Soviet citizens modern. Now they wheeze brown trickle through apartments where grandmothers learned during 2014 to fill every vessel when the taps still run clear. The Dnipro flows eternal, but pumping stations need electricity. After Kakhovka, after the first winter of targeted infrastructure, the building's valves speak a language everyone understands: two coughs of air, then nothing. Marina's mother survived the '90s collapse. She taught her: bathtub first, then pots, then bottles. The neighbors on the fifth floor share a Telegram channel now—WATER RETURNED 14:30, FILL EVERYTHING. Someone posts a photo of Soviet-era blueprints showing where the building's emergency valves hide. Someone else shares their grandfather's trick with wet wipes and boiled snow. The bucket brigade forms without planning, muscle memory from 2022's blackouts, when the elevators stilled for weeks. History teaches through the body. Through the weight of water carried up stairs.\n\nThe café on Yaroslaviv Val runs its espresso machine twice daily now—11:00 and 15:00, when the district pump station operates. Between those hours, a handwritten sign: 'Coffee from thermos only.' The barista keeps wet wipes under the counter, trades them for exact change. No one mentions the price doubling.  Next door, the co-working space has yellow tape across both bathroom doors. 'Use McDonald's on Khreshchatyk,' someone has written in Sharpie, then crossed out, replaced with: 'Closed too.' A programmer fills his laptop-cooling pad with bottled water, the plastic crinkling as he types. The generator hums through another power cut.  Outside, a woman sells five-liter bottles from a baby stroller, 80 hryvnia each, yesterday's price crossed out—it was 60. She keeps the bottles covered with a wet towel, checking her phone for Telegram alerts about which district gets pressure next. The queue forms without discussion, everyone knowing their place from yesterday.\n\nThe municipal distribution point operates from what used to be a parking garage beneath City Hall. Concrete pillars bear handwritten signs in Ukrainian and English: 'WATER 14:00-16:00.' A generator hums against the far wall, powering the modular pump system that EU aid delivered three weeks ago.  Oksana checks the pressure gauge—forty-two bars, enough to fill the storage bladders for another hour. The brown trickle from the Dnipro treatment plant stopped yesterday. What flows now comes from emergency reserves, rationed through a system of valves and timers that nobody fully trusts.  'Seventy-two hours,' the preparedness posters claim in bold type. 'Every household ready.' But the buckets lined up in the stairwell tell a different story. Mrs. Kovalenko from the third floor hasn't collected her ration in two days. The Telegram alert system shows her as 'active,' but neighbors report her taps coughing only air.  The trade-offs multiply with each decision. Open the valves wider, serve more families, risk running dry before the next delivery. Keep them restricted, maintain reserves, watch the bucket brigade grow longer each morning.\n\nThe siren cuts mid-cycle—three seconds of wail, then nothing. In the silence, Oksana counts: one Mississippi, two Mississippi. At five, water hammers through the pipes below. Someone's opened the main valve early.\n\nShe grabs her yellow bucket, the one with the crack sealed with bathroom caulk, and takes the stairs two at a time. Fourth floor, third, second—each landing has its own bucket brigade forming. Mrs. Kovalenko holds her granddaughter's hand while balancing a soup pot against her hip.\n\n\"Twenty minutes,\" Petro calls up from the basement. His headlamp sweeps across the valve wheel. \"Maybe thirty if the pressure holds.\"\n\nThe Dnipro pumping station took a hit Tuesday. Or Wednesday. The days blur when you measure time between sirens, between the brown trickle that comes and goes.\n\nOksana fills her bucket halfway—leave room for the neighbors who haven't made it down yet. The water runs rust-colored, then clear, then rust again. Someone's phone buzzes with a Telegram alert: \"Northern district without power.\"\n\nThe generator kicks on two floors up, its diesel rhythm mixing with the water's rush.\n\nMarina counted wet wipes like currency—seven for Babusya's morning wash, three for Taras before school. The bucket by the door held yesterday's dishwater, waiting for the toilet tank. Through the wall, she heard Oksana's generator cough to life, then die. Fourth attempt this morning.  Taras stood in the doorway, school uniform half-buttoned. \"Mama, Sasha's family left for Poland.\"  \"We stay.\" She wrung the sponge over the basin, catching every drop. \"Help Babusya with her stockings.\"  The telegram alert buzzed: water at 14:00-15:00, districts 3-7. She marked it on the calendar next to yesterday's crossed-out window. Downstairs, buckets already lined the stairwell like soldiers. Mrs. Kovalenko would guard them—she always did.  \"Can we wash my football kit today?\"  \"Next week.\" The brown trickle from this morning would serve for floors. She'd boil it first, add iodine. The kit could wait. Everything could wait except the necessary calculations: water for drinking, water for medicine, water for the barest dignity.\n\nThe water returns Tuesday morning—a brown trickle, then coughing air, then something clear enough to boil. Marina texts the building's Telegram group: \"Third floor has pressure.\" Within minutes, everyone knows which taps work, who needs buckets carried, whose grandmother can't manage the stairs.\n\nThis is how the city works now: not through heroics but through ten thousand small competencies. The woman who knows which pharmacy still has iodine tablets. The teenager who rewired the building's generator to run on half the diesel. The janitor who became an expert on water pressure, teaching residents to open valves in sequence so the pipes don't blow.\n\n\"The infrastructure isn't the pipes,\" Oksana tells her daughter, watching neighbors form a bucket brigade in the stairwell. \"It's this.\" She gestures at the handwritten schedule taped to the wall—who fetches water when, who checks on whom.\n\nThe Dnipro still flows. The treatment plant still functions, mostly. But between the river and the tap, the real system reveals itself: trust moving hand to hand, bucket to bucket, up six flights of stairs.\n\nThe tap coughed twice before releasing its offering—a thin stream the color of weak tea. Oksana held her breath, watching it sputter into the plastic basin. After thirty-seven hours, this counted as victory.\n\n\"It's running,\" she called down the hallway. Doors opened along the corridor. Mrs. Petrenko emerged first, bucket in hand, her apartment key on a string around her neck.\n\nThe water darkened, then lightened, pulsing through gradients of brown. Oksana counted—her mother had taught her this during the first weeks. Twenty seconds dark, forty seconds lighter, the rhythm of pipes remembering how to carry.\n\nShe added three drops of iodine to her first bottle. The chemical bloom spread like smoke. Through the kitchen window, other buildings showed the same ritual: shadows bent over sinks, the careful choreography of collection.\n\nHer phone buzzed. The building's Telegram channel: \"3rd floor has pressure. Check your valves.\"\n\nBy the time she'd filled four bottles, the stream had steadied to pale amber. Good enough for boiling. Good enough for gratitude. Tomorrow the filters would do their work. Tonight, she had water that moved.\n\nThe Dnipro moves black beneath the bridge, carrying the city's reflection in broken pieces. Along the embankment, a woman fills plastic bottles from a public tap while her daughter holds the flashlight steady. The water runs brown for three seconds before clearing—everyone counts now, everyone knows the rhythm.\n\nAbove them, apartment blocks stand like graph paper against the sky, some windows lit by candles, others by the blue glow of phones checking Telegram. A generator coughs to life in a courtyard, its hum joining the chorus that rises from a dozen other blocks. Someone's marked the working taps with spray paint: \"ВОДА ТУТ\"—water here.\n\nThe river doesn't care about curfews or air raid schedules. It moves the same as it did before, as it will tomorrow, carrying whatever the city gives it—plastic bottles, reflected light, the sound of neighbors calling bucket numbers up stairwells. The woman caps the last bottle. Her daughter switches off the flashlight. They walk home through streets that have learned to navigate themselves in darkness.",
+  "draft_v1_concat": "The kettle sits empty on the stove at 6:47 a.m., its aluminum base cold. Olena turns the tap—a sputter, a cough of air, then nothing. The silence where water should run carries its own weight.  This is the fourth morning this month without pressure in her seventh-floor apartment. The building's pipes, like thousands across Dnipro, have become instruments measuring what missiles do to pumping stations sixty kilometers away. Infrastructure is not backdrop here; it is plot.  She fills the kettle from a blue jerrycan in the hallway, its plastic handle worn smooth by her neighbors' hands. The water sloshes with a particular sound—the acoustic signature of rationing. Her phone pings: Telegram channels mapping which districts have power, which have water, the city's circulatory system rendered in crowded threads and user-reported outages.  Through the kitchen window, the Dnipro River spreads gray under March sky. The city's namesake artery flows oblivious while the veins and valves humans built above it fail in sequence. Olena lights the gas—that still works—and watches steam rise without tea to steep. The kettle's whistle, when it comes, sounds like a question no one in the stairwell can answer.\n\nThe stairwell smells of wet concrete and boot rubber. Olena descends past handwritten notices taped to doors—\"Water 14:00, bring containers\"—their edges curling in the damp. On the third-floor landing, Mykola props open the fire door with a blue jerrycan, its handle wrapped in electrical tape. His phone glows: Telegram pings cascading through the building's group chat, neighbors coordinating like dispatchers.  \"Pressure's back in sector four,\" he says, not looking up. \"Ten minutes, maybe.\"  Two floors down, Svitlana hauls a sloshing canister, pausing every six steps. The stairwell echoes with footfalls, a rhythm of fatigue and function. Someone has sketched a hand-drawn map on the wall—blue marker tracing the city's water grid, valves circled, question marks where pipes failed.  Olena reaches the lobby. Plastic crackle: a neighbor tears open a shrink-wrapped case of bottled water, distributing six-packs like rations. The elevator doors stand dark, their call buttons unlit. Outside, the Dnipro stretches under low sky, indifferent.  Upstairs, a kettle whistles without tea—just boiling for safety. The building breathes: sputtering taps, shuffling boots, the hum of a social organism rewiring itself one errand at a time.\n\nIn the dispatch center on Heroiv Pratsi Street, three monitors cast blue light across Oleksandr Koval's face. He'd been rerouting water pressure for eleven hours. His finger traced a schematic—the city's arterial grid, red lines pulsing where mains had ruptured under shelling two nights prior.  \"Sector 4-B, close valve 17,\" he said into the headset. On screen, a digital marker blinked green. Somewhere in Shevchenkivskyi, an engineer in a flooded basement turned a wheel the size of a tractor tire.  The system was a living thing: close one valve, pressure spiked in another district. Open a bypass, risk blowing a joint weakened by decades of deferred maintenance. Koval's decision tree had seventeen branches. He'd memorized them all.  \"Confirming flow to hospital zone,\" a voice crackled through. \"Pressure holding at 2.1 bar.\"  On his desk: cold tea, a half-eaten sandwich, a printout of neighborhoods ranked by vulnerability—elderly populations, dialysis clinics, shelters. His Telegram pinged: a photo from Saltivka, blue jerrycans lined outside an apartment block, residents waiting with the stillness of people who'd learned patience as survival skill.  Koval toggled to the next schematic. The hidden choreography continued. The city drank, or it didn't, based on decisions made in rooms like this.\n\nOlena wakes at 0530, before the tap sputters dry. She fills two blue jerrycans, the kettle, three saucepans. The Telegram ping arrives at 0547: water off until 1400, maybe longer. She screenshots the message, adds it to a folder labeled \"Utilities\" that now holds forty-seven images.  At the sink, she parcels yesterday's dishwater into today's toilet flush. The calculus is automatic now—one liter per flush, half a liter to rinse soap from her daughter's hair, a cupful to wipe counters. Habit has become policy. She boils water for tea but drinks it black; the sugar ration goes to Mykola, who works the night shift at the filtration plant.  In the stairwell, a handwritten notice: \"Elevator asleep indefinitely. Conserve stair lighting 1800-0600.\" Someone has added in pencil, \"Conserve dignity too?\" Olena climbs to the ninth floor, jerrycans pulling at her shoulders, footprints of damp boots marking each landing.  Through the kitchen window, the Dnipro spreads under low sky, vast and indifferent. The city's veins and valves are failing, but the river flows on, unrationed, untapped, mocking the plastic crackle of bottled water stacked in her hallway. She pours carefully. Not a drop wasted.\n\nThe Dnipro carved Kyiv into hills and lowlands long before Soviet engineers laid the first water mains in the 1930s, threading pipes beneath cobblestone and clay. Those pipes—cast iron, concrete-lined—were built for a city half this size, designed when redundancy meant a second pump station, not distributed nodes. By the 1980s, the system sprawled: treatment plants on both banks, reservoirs perched on high ground, pressure zones mapped to elevation. It worked because it was vast and dumb, a single organism with the river as its heart.  That centralization became the vulnerability. Knock out the Dnieper Station and the right bank goes dry. Sever the trunk line near Vydubychi and a hundred thousand taps sputter to silence. The engineers who built it never imagined someone would target water as doctrine, that maps glowing in dark rooms would trace every valve and junction, that blue jerrycans would line stairwells like sandbags.  Now the system's logic is inverted: what made it efficient makes it fragile. Handwritten notices on apartment doors track outages by district. Footprints of damp boots mark the path to working spigots. The river still flows, broad and indifferent under low sky, but the city's veins depend on electricity, on pumps, on the assumption that infrastructure is neutral. It never was.\n\nThe distribution point opens at seven. By six-thirty, blue jerrycans already claim positions on the pavement, placeholders for bodies still warming beds in apartments where sputtering taps yield nothing. Oksana arrives with her own containers, counts twelve ahead of her, does the math: forty minutes if the truck is punctual, longer if it isn't.  Inside the kiosk, bottled water stacks to the ceiling. Prices haven't changed in three weeks—18 hryvnias for five liters, same as before the main line broke. Stability that feels either like mercy or strategy. The owner, Petro, moves between shelves with practiced efficiency, the plastic crackle of shrink-wrap following his hands. His Telegram pings constantly; he glances, doesn't answer.  \"You're doing well,\" someone mutters in line.  Petro's face reveals nothing. \"Costs are up. Transport, suppliers raising rates. I'm holding what I can.\"  True or performance? Oksana watches him pocket cash, watches him also hand a six-pack to the pensioner who's four hryvnias short. Both things exist. In the stairwell of her building, a handwritten notice lists three neighbors selling their own stockpiles, undercutting the kiosk by two hryvnias. Quiet profiteering spreads like frost, everyone's ethics tested by empty taps and full bathtubs elsewhere.  The queue shuffles forward. Jerrycans scrape concrete. Oksana lifts hers when her turn comes.\n\nBy Thursday the city's digital nervous system had rewired itself. Telegram channels multiplied—@DniproWaterInfo, @VodokanalLive, @MyDistrictH2O—each claiming authority, none quite trusted. Olena scrolled through her phone at 2 a.m., screen glow painting her kitchen blue, cross-referencing three different outage maps that disagreed on which neighborhoods had pressure. One showed her block green. Her sputtering taps said otherwise.  The channels pulsed with contradictions: \"Levoberezhny restored 14:00\"—but someone three comments down posted a video of dry faucets timestamped 14:47. A crowdsourced spreadsheet tracked working public taps, updated every fifteen minutes by strangers who'd become infrastructure scribes. Trust became arithmetic: corroborate twice, verify with neighbors, believe your own ears.  In darkened apartments across the city, screens glowed like votive candles. Pensioners learned to parse Telegram's reply threads. Teenagers became information brokers, their phones hot from constant refresh. The state's bandwidth—both digital and institutional—strained under the load of a population suddenly fluent in decentralized verification.  Rumor and fact blurred in the blue light. Someone claimed tanker trucks tomorrow. Someone else said next week. The maps updated, contradicted, converged. The new public square had no fountain, only the plastic crackle of bottled water and the Dnipro's breadth under low sky, indifferent to the pings.\n\nBy six p.m., the city shifts into its damaged circadian rhythm. Sputtering taps announce the evening cutoff. Olena fills her bathtub before the pressure dies—a porcelain reservoir holding tomorrow's dishes, tomorrow's hygiene, tomorrow's tea. The blue jerrycans line her hallway like sentries.  Across town, Telegram pings cascade through darkening apartments. \"Sector 4: water 21:00-23:00.\" \"Dniprovskyi: maybe morning.\" Maps glow in dim rooms, fingers tracing which neighborhoods still have pressure, which valves the utility has closed.  Dmytro boils his daily ration on a camping stove—sterilization before storage. Kettle steam rises without tea following, moisture that serves no comfort. The plastic crackle of bottled water punctuates his routine: one liter for drinking, half a liter for cooking, the rest rationed across days he cannot predict.  The elevators sleep. Handwritten notices on lobby doors: \"No water—use stairs.\" Echoing stairwells fill with the trudge of neighbors hauling supplies upward, damp boot prints marking each landing.  From her window, Olena watches the Dnipro's breadth under low sky. The river flows, indifferent and full, while the city's veins and valves ration every drop. She texts her sister the same message she sends each night: \"We have enough. We manage.\"\n\nThe tap sputters at 11:47 p.m.—not a promise, just a possibility. Olena doesn't fill the kettle yet. She watches the stream thin to thread, counts three seconds of flow before it dies again. The blue jerrycan by the radiator still holds two liters. Enough.  Across the courtyard, lights blink on in apartment 34. Someone else testing. Someone else waiting. The Telegram channel updates: pressure returning to sectors 7 through 12, partial restoration, monitor for sediment. Her phone glows against the kitchen tile, a small moon of information.  This is not victory. This is Tuesday.  She thinks of the Dnipro beyond the rooftops, its breadth indifferent under low sky, moving whether the taps run or not. The city's veins and valves, broken and mended and broken again. Endurance as a civic practice—not the kind that makes headlines, but the kind that fills jerrycans at 6 a.m., that leaves handwritten notices on stairwell doors, that knows which neighbor has a working hotplate.  The tap coughs once more. A stronger pulse. Olena places a pot underneath, lets it catch what comes. The plastic crackle of bottled water from the next room. Her daughter, rationing without being asked.  Fragile normal. They keep remaking it.",
+  "draft_v2_concat": "The kettle sits empty on the stove at 6:47 a.m., its aluminum base cold. Olena turns the tap—a sputter, a cough of air, then nothing. The silence where water should run carries its own weight.  This is the fourth morning this month without pressure in her seventh-floor apartment. The building's pipes, like thousands across Dnipro, have become instruments measuring what missiles do to pumping stations sixty kilometers away. Infrastructure is not backdrop here; it is plot.  She fills the kettle from a blue jerrycan in the hallway, its plastic handle worn smooth by her neighbors' hands. The water sloshes with a particular sound—the acoustic signature of rationing. Her phone pings: Telegram channels mapping which districts have power, which have water, the city's circulatory system rendered in crowded threads and user-reported outages.  Through the kitchen window, the Dnipro River spreads gray under March sky. The city's namesake artery flows oblivious while the veins and valves humans built above it fail in sequence. Olena lights the gas—that still works—and watches steam rise without tea to steep. The kettle's whistle, when it comes, sounds like a question no one in the stairwell can answer.\n\nThe stairwell smells of wet concrete and boot rubber. Olena descends past handwritten notices taped to doors—\"Water 14:00, bring containers\"—their edges curling in the damp. On the third-floor landing, Mykola props open the fire door with a blue jerrycan, its handle wrapped in electrical tape. His phone glows: Telegram pings cascading through the building's group chat, neighbors coordinating like dispatchers.  \"Pressure's back in sector four,\" he says, not looking up. \"Ten minutes, maybe.\"  Two floors down, Svitlana hauls a sloshing canister, pausing every six steps. The stairwell echoes with footfalls, a rhythm of fatigue and function. Someone has sketched a hand-drawn map on the wall—blue marker tracing the city's water grid, valves circled, question marks where pipes failed.  Olena reaches the lobby. Plastic crackle: a neighbor tears open a shrink-wrapped case of bottled water, distributing six-packs like rations. The elevator doors stand dark, their call buttons unlit. Outside, the Dnipro stretches under low sky, indifferent.  Upstairs, a kettle whistles without tea—just boiling for safety. The building breathes: sputtering taps, shuffling boots, the hum of a social organism rewiring itself one errand at a time.\n\nIn the dispatch center on Heroiv Pratsi Street, three monitors cast blue light across Oleksandr Koval's face. He'd been rerouting water pressure for eleven hours. His finger traced a schematic—the city's arterial grid, red lines pulsing where mains had ruptured under shelling two nights prior.  \"Sector 4-B, close valve 17,\" he said into the headset. On screen, a digital marker blinked green. Somewhere in Shevchenkivskyi, an engineer in a flooded basement turned a wheel the size of a tractor tire.  The system was a living thing: close one valve, pressure spiked in another district. Open a bypass, risk blowing a joint weakened by decades of deferred maintenance. Koval's decision tree had seventeen branches. He'd memorized them all.  \"Confirming flow to hospital zone,\" a voice crackled through. \"Pressure holding at 2.1 bar.\"  On his desk: cold tea, a half-eaten sandwich, a printout of neighborhoods ranked by vulnerability—elderly populations, dialysis clinics, shelters. His Telegram pinged: a photo from Saltivka, blue jerrycans lined outside an apartment block, residents waiting with the stillness of people who'd learned patience as survival skill.  Koval toggled to the next schematic. The hidden choreography continued. The city drank, or it didn't, based on decisions made in rooms like this.\n\nOlena wakes at 0530, before the tap sputters dry. She fills two blue jerrycans, the kettle, three saucepans. The Telegram ping arrives at 0547: water off until 1400, maybe longer. She screenshots the message, adds it to a folder labeled \"Utilities\" that now holds forty-seven images.  At the sink, she parcels yesterday's dishwater into today's toilet flush. The calculus is automatic now—one liter per flush, half a liter to rinse soap from her daughter's hair, a cupful to wipe counters. Habit has become policy. She boils water for tea but drinks it black; the sugar ration goes to Mykola, who works the night shift at the filtration plant.  In the stairwell, a handwritten notice: \"Elevator asleep indefinitely. Conserve stair lighting 1800-0600.\" Someone has added in pencil, \"Conserve dignity too?\" Olena climbs to the ninth floor, jerrycans pulling at her shoulders, footprints of damp boots marking each landing.  Through the kitchen window, the Dnipro spreads under low sky, vast and indifferent. The city's veins and valves are failing, but the river flows on, unrationed, untapped, mocking the plastic crackle of bottled water stacked in her hallway. She pours carefully. Not a drop wasted.\n\nThe Dnipro carved Kyiv into hills and lowlands long before Soviet engineers laid the first water mains in the 1930s, threading pipes beneath cobblestone and clay. Those pipes—cast iron, concrete-lined—were built for a city half this size, designed when redundancy meant a second pump station, not distributed nodes. By the 1980s, the system sprawled: treatment plants on both banks, reservoirs perched on high ground, pressure zones mapped to elevation. It worked because it was vast and dumb, a single organism with the river as its heart.  That centralization became the vulnerability. Knock out the Dnieper Station and the right bank goes dry. Sever the trunk line near Vydubychi and a hundred thousand taps sputter to silence. The engineers who built it never imagined someone would target water as doctrine, that maps glowing in dark rooms would trace every valve and junction, that blue jerrycans would line stairwells like sandbags.  Now the system's logic is inverted: what made it efficient makes it fragile. Handwritten notices on apartment doors track outages by district. Footprints of damp boots mark the path to working spigots. The river still flows, broad and indifferent under low sky, but the city's veins depend on electricity, on pumps, on the assumption that infrastructure is neutral. It never was.\n\nThe distribution point opens at seven. By six-thirty, blue jerrycans already claim positions on the pavement, placeholders for bodies still warming beds in apartments where sputtering taps yield nothing. Oksana arrives with her own containers, counts twelve ahead of her, does the math: forty minutes if the truck is punctual, longer if it isn't.  Inside the kiosk, bottled water stacks to the ceiling. Prices haven't changed in three weeks—18 hryvnias for five liters, same as before the main line broke. Stability that feels either like mercy or strategy. The owner, Petro, moves between shelves with practiced efficiency, the plastic crackle of shrink-wrap following his hands. His Telegram pings constantly; he glances, doesn't answer.  \"You're doing well,\" someone mutters in line.  Petro's face reveals nothing. \"Costs are up. Transport, suppliers raising rates. I'm holding what I can.\"  True or performance? Oksana watches him pocket cash, watches him also hand a six-pack to the pensioner who's four hryvnias short. Both things exist. In the stairwell of her building, a handwritten notice lists three neighbors selling their own stockpiles, undercutting the kiosk by two hryvnias. Quiet profiteering spreads like frost, everyone's ethics tested by empty taps and full bathtubs elsewhere.  The queue shuffles forward. Jerrycans scrape concrete. Oksana lifts hers when her turn comes.\n\nBy Thursday the city's digital nervous system had rewired itself. Telegram channels multiplied—@DniproWaterInfo, @VodokanalLive, @MyDistrictH2O—each claiming authority, none quite trusted. Olena scrolled through her phone at 2 a.m., screen glow painting her kitchen blue, cross-referencing three different outage maps that disagreed on which neighborhoods had pressure. One showed her block green. Her sputtering taps said otherwise.  The channels pulsed with contradictions: \"Levoberezhny restored 14:00\"—but someone three comments down posted a video of dry faucets timestamped 14:47. A crowdsourced spreadsheet tracked working public taps, updated every fifteen minutes by strangers who'd become infrastructure scribes. Trust became arithmetic: corroborate twice, verify with neighbors, believe your own ears.  In darkened apartments across the city, screens glowed like votive candles. Pensioners learned to parse Telegram's reply threads. Teenagers became information brokers, their phones hot from constant refresh. The state's bandwidth—both digital and institutional—strained under the load of a population suddenly fluent in decentralized verification.  Rumor and fact blurred in the blue light. Someone claimed tanker trucks tomorrow. Someone else said next week. The maps updated, contradicted, converged. The new public square had no fountain, only the plastic crackle of bottled water and the Dnipro's breadth under low sky, indifferent to the pings.\n\nBy six p.m., the city shifts into its damaged circadian rhythm. Sputtering taps announce the evening cutoff. Olena fills her bathtub before the pressure dies—a porcelain reservoir holding tomorrow's dishes, tomorrow's hygiene, tomorrow's tea. The blue jerrycans line her hallway like sentries.  Across town, Telegram pings cascade through darkening apartments. \"Sector 4: water 21:00-23:00.\" \"Dniprovskyi: maybe morning.\" Maps glow in dim rooms, fingers tracing which neighborhoods still have pressure, which valves the utility has closed.  Dmytro boils his daily ration on a camping stove—sterilization before storage. Kettle steam rises without tea following, moisture that serves no comfort. The plastic crackle of bottled water punctuates his routine: one liter for drinking, half a liter for cooking, the rest rationed across days he cannot predict.  The elevators sleep. Handwritten notices on lobby doors: \"No water—use stairs.\" Echoing stairwells fill with the trudge of neighbors hauling supplies upward, damp boot prints marking each landing.  From her window, Olena watches the Dnipro's breadth under low sky. The river flows, indifferent and full, while the city's veins and valves ration every drop. She texts her sister the same message she sends each night: \"We have enough. We manage.\"\n\nThe tap sputters at 11:47 p.m.—not a promise, just a possibility. Olena doesn't fill the kettle yet. She watches the stream thin to thread, counts three seconds of flow before it dies again. The blue jerrycan by the radiator still holds two liters. Enough.  Across the courtyard, lights blink on in apartment 34. Someone else testing. Someone else waiting. The Telegram channel updates: pressure returning to sectors 7 through 12, partial restoration, monitor for sediment. Her phone glows against the kitchen tile, a small moon of information.  This is not victory. This is Tuesday.  She thinks of the Dnipro beyond the rooftops, its breadth indifferent under low sky, moving whether the taps run or not. The city's veins and valves, broken and mended and broken again. Endurance as a civic practice—not the kind that makes headlines, but the kind that fills jerrycans at 6 a.m., that leaves handwritten notices on stairwell doors, that knows which neighbor has a working hotplate.  The tap coughs once more. A stronger pulse. Olena places a pot underneath, lets it catch what comes. The plastic crackle of bottled water from the next room. Her daughter, rationing without being asked.  Fragile normal. They keep remaking it.",
   "claim_graph": {
-    "quotes": [],
+    "quotes": [
+      {
+        "id": "kyiv_water_outages",
+        "file": "kyiv_water_outages.txt",
+        "quote": "Kyiv water utility Kyivvodokanal reported rolling outages affecting districts 4-7 on February 24, 2022, following infrastructure strikes. High-rise buildings above the fifth floor experienced complete water loss due to insufficient pressure from electric booster stations. The Dnipro river serves as the primary water source through three major intake stations. Soviet-era pipeline infrastructure, installed in the 1960s-1980s, requires electric pumping to maintain pressure in multi-story residentia"
+      }
+    ],
     "claims_by_scene": [
       {
-        "links": [],
-        "suggestions": [],
-        "scene_id": "dawn-taps",
-        "claims": []
+        "scene_id": "sirens-and-sinks",
+        "claims": [
+          {
+            "claim": "At 6:47 a.m., a kettle sits empty on the stove with its aluminum base cold.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "When Olena turns the tap, it sputters air and then no water flows.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Her seventh-floor apartment currently has no water pressure.",
+            "substantiated": true,
+            "evidence_ids": [
+              "kyiv_water_outages"
+            ]
+          },
+          {
+            "claim": "This is the fourth morning in the month that her apartment lacks water pressure.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The scene is set in the city of Dnipro, Ukraine.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The building’s water problems are attributed to missile damage to pumping stations approximately 60 kilometers away.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "She fills the kettle using water from a blue jerrycan kept in the hallway.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Her phone receives Telegram updates that map which districts have power and water via user-reported outages.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Gas service to the apartment is still functioning.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The Dnipro River is visible from her kitchen window under a March sky.",
+            "substantiated": false,
+            "evidence_ids": []
+          }
+        ]
       },
       {
-        "links": [],
-        "suggestions": [],
-        "scene_id": "grid-water-nexus",
-        "claims": []
-      },
-      {
-        "links": [],
-        "suggestions": [],
         "scene_id": "stairwell-commons",
-        "claims": []
+        "claims": [
+          {
+            "claim": "Handwritten notices taped to doors read \"Water 14:00, bring containers.\"",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "On the third-floor landing, a fire door is propped open with a blue jerrycan whose handle is wrapped in electrical tape.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Neighbors are coordinating via a building group chat on Telegram.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Mykola says the water pressure is back in sector four and estimates it will last about ten minutes.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Two floors below the third-floor landing, Svitlana is hauling a sloshing canister and pauses every six steps.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "A hand-drawn map on the stairwell wall shows the city's water grid with valves circled and question marks marking failed pipes.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "In the lobby, a neighbor opens a shrink-wrapped case of bottled water and distributes six-packs like rations.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The building's elevator doors are dark and their call buttons are unlit.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Outside the building, the Dnipro River is visible under a low sky.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Upstairs, a kettle is being boiled with only water (no tea) for safety.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The building's taps sputter, indicating irregular water flow.",
+            "substantiated": false,
+            "evidence_ids": []
+          }
+        ]
       },
       {
-        "links": [],
-        "suggestions": [],
-        "scene_id": "utility-worker-voice",
-        "claims": []
+        "scene_id": "control-room-braid",
+        "claims": [
+          {
+            "claim": "The dispatch center is located on Heroiv Pratsi Street.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Oleksandr Koval had been rerouting water pressure for eleven hours.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Water mains in the city ruptured under shelling two nights prior.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Koval instructed closing valve 17 in Sector 4-B.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "After the instruction, a digital marker blinked green on the screen.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "An engineer in a flooded basement in Shevchenkivskyi turned a wheel the size of a tractor tire.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Closing one valve in the system causes pressure to spike in another district.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Opening a bypass risks blowing a joint weakened by decades of deferred maintenance.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Flow to the hospital zone was confirmed with pressure holding at 2.1 bar.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Koval kept a printout ranking neighborhoods by vulnerability, including elderly populations, dialysis clinics, and shelters.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Koval received a Telegram photo from Saltivka showing blue jerrycans lined outside an apartment block.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Koval's decision tree had seventeen branches that he had memorized.",
+            "substantiated": false,
+            "evidence_ids": []
+          }
+        ]
       },
       {
-        "links": [],
-        "suggestions": [],
-        "scene_id": "pipes-and-memory",
-        "claims": []
+        "scene_id": "domestic-triage",
+        "claims": [
+          {
+            "claim": "Olena wakes at 0530.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Before the tap sputters dry, she fills two blue jerrycans, a kettle, and three saucepans with water.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "At 0547 she receives a Telegram message stating that water will be off until 1400, maybe longer.",
+            "substantiated": true,
+            "evidence_ids": [
+              "kyiv_water_outages"
+            ]
+          },
+          {
+            "claim": "She screenshots the message and saves it to a folder labeled \"Utilities\" that now contains 47 images.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "She rations one liter of water per toilet flush.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "She rations half a liter of water to rinse soap from her daughter's hair.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "She rations a cupful of water to wipe counters.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "She drinks tea without sugar and gives the sugar ration to Mykola, who works the night shift at a filtration plant.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "A stairwell notice reads: \"Elevator asleep indefinitely. Conserve stair lighting 1800-0600.\"",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Someone has added in pencil on the stairwell notice: \"Conserve dignity too?\"",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "She climbs to the ninth floor carrying jerrycans.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The Dnipro river is visible from her kitchen window.",
+            "substantiated": false,
+            "evidence_ids": []
+          }
+        ]
       },
       {
-        "links": [],
-        "suggestions": [],
-        "scene_id": "dry-noon-economy",
-        "claims": []
+        "scene_id": "infrastructure-memory",
+        "claims": [
+          {
+            "claim": "The Dnipro river is the primary water source for Kyiv's municipal water system.",
+            "substantiated": true,
+            "evidence_ids": [
+              "kyiv_water_outages"
+            ]
+          },
+          {
+            "claim": "Soviet-era pipeline infrastructure from the 1960s–1980s underpins Kyiv's water distribution network.",
+            "substantiated": true,
+            "evidence_ids": [
+              "kyiv_water_outages"
+            ]
+          },
+          {
+            "claim": "Kyiv's water system relies on electricity and pumps to maintain water flow and pressure.",
+            "substantiated": true,
+            "evidence_ids": [
+              "kyiv_water_outages"
+            ]
+          },
+          {
+            "claim": "Water outages in Kyiv have been tracked by district.",
+            "substantiated": true,
+            "evidence_ids": [
+              "kyiv_water_outages"
+            ]
+          },
+          {
+            "claim": "By the 1980s, Kyiv's water system included treatment plants on both banks of the river.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Reservoirs serving Kyiv's water system are located on elevated ground.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Pressure zones in the network are mapped to Kyiv's elevation differences.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Disabling the Dnieper Station would leave the right bank of Kyiv without water.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Severing a trunk line near Vydubychi would cut water to roughly 100,000 taps.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Kyiv's first municipal water mains were laid in the 1930s.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The original distribution pipes were cast iron with concrete lining.",
+            "substantiated": false,
+            "evidence_ids": []
+          }
+        ]
       },
       {
-        "links": [],
-        "suggestions": [],
-        "scene_id": "city-hall-resilience",
-        "claims": []
+        "scene_id": "queue-economies",
+        "claims": [
+          {
+            "claim": "The water distribution point opens at 7:00.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "By 6:30, blue jerrycans are placed on the pavement to hold spots in line.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Oksana counts twelve containers ahead of her in line.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "She estimates a 40-minute wait if the truck is punctual.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The kiosk's bottled water price is 18 hryvnias for five liters and has not changed in three weeks.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "A main water line broke prior to this scene.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Petro, the kiosk owner, receives frequent Telegram notifications but does not respond.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Petro says transport and supplier costs are up but that he is holding prices.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Petro gives a six-pack of water to a pensioner who is four hryvnias short.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "A stairwell notice lists three neighbors selling water stockpiles at two hryvnias less than the kiosk price.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Some nearby apartments have taps that produce no water.",
+            "substantiated": true,
+            "evidence_ids": [
+              "kyiv_water_outages"
+            ]
+          }
+        ]
       },
       {
-        "links": [],
-        "suggestions": [],
-        "scene_id": "sirens-and-valves",
-        "claims": []
+        "scene_id": "digital-mesh",
+        "claims": [
+          {
+            "claim": "By Thursday, multiple Telegram channels focused on water and outages were active, including @DniproWaterInfo, @VodokanalLive, and @MyDistrictH2O.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "At 2 a.m., Olena was using her phone in her kitchen.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Olena cross-referenced three different outage maps that disagreed on which neighborhoods had water pressure.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "One outage map showed Olena’s block as green (indicating service) while her taps were sputtering and not providing water.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "A Telegram post claimed \"Levoberezhny restored 14:00\" but a video timestamped 14:47 showed dry faucets in that area.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "A crowdsourced spreadsheet tracked working public taps in the city.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The crowdsourced spreadsheet of working public taps was updated approximately every fifteen minutes.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Residents adopted a verification practice of corroborating information twice, checking with neighbors, and relying on personal observation.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Pensioners learned to navigate Telegram reply threads to follow water-related information.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Teenagers acted as information brokers, frequently refreshing their phones for updates.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Conflicting claims circulated about tanker truck arrivals, with some messages saying they would come tomorrow and others saying next week.",
+            "substantiated": false,
+            "evidence_ids": []
+          }
+        ]
       },
       {
-        "links": [],
-        "suggestions": [],
-        "scene_id": "domestic-calculus",
-        "claims": []
+        "scene_id": "night-cycle",
+        "claims": [
+          {
+            "claim": "By around 6 p.m., the city's taps sputter as an evening water cutoff begins.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Olena fills her bathtub before pressure dies to store water for the next day's dishes, hygiene, and tea.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Blue jerrycans line Olena's hallway.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Citywide Telegram messages announce sector-specific water availability windows such as 'Sector 4: water 21:00-23:00.'",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Telegram messages indicate 'Dniprovskyi: maybe morning.'",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Residents consult maps to see which neighborhoods still have water pressure and which valves the utility has closed.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Dmytro boils his daily water ration on a camping stove to sterilize it before storage.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Dmytro rations approximately 1 liter for drinking and 0.5 liter for cooking, saving the remainder for uncertain days.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Elevators are not operating, and lobby notices read 'No water—use stairs.'",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Neighbors haul water supplies up stairwells, leaving damp boot prints on each landing.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Water availability varies by district or sector across the city, indicating rolling outages.",
+            "substantiated": true,
+            "evidence_ids": [
+              "kyiv_water_outages"
+            ]
+          },
+          {
+            "claim": "Some residential buildings in the city have no water service.",
+            "substantiated": true,
+            "evidence_ids": [
+              "kyiv_water_outages"
+            ]
+          }
+        ]
       },
       {
-        "links": [],
-        "suggestions": [],
-        "scene_id": "commons-and-trust",
-        "claims": []
-      },
-      {
-        "links": [],
-        "suggestions": [],
-        "scene_id": "brown-trickle",
-        "claims": []
-      },
-      {
-        "links": [],
-        "suggestions": [],
-        "scene_id": "dnipro-night-coda",
-        "claims": []
+        "scene_id": "pressure-returns-coda",
+        "claims": [
+          {
+            "claim": "At 11:47 p.m., the tap sputters and produces about three seconds of water flow before stopping.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Olena does not fill the kettle when the tap first sputters.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The blue jerrycan by the radiator holds two liters of water.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Lights turn on in apartment 34 across the courtyard.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "A Telegram channel reports water pressure returning to sectors 7 through 12.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The Telegram update describes the restoration as partial.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "The Telegram update advises residents to monitor for sediment.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "After a stronger pulse from the tap, Olena places a pot underneath to catch the water.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Bottled water crackles in the next room as her daughter rations it without being asked.",
+            "substantiated": false,
+            "evidence_ids": []
+          },
+          {
+            "claim": "Olena’s phone glows against the kitchen tile.",
+            "substantiated": false,
+            "evidence_ids": []
+          }
+        ]
       }
     ]
   },
   "metrics": {
     "beat_within": {
-      "dawn-taps": true,
-      "grid-water-nexus": true,
+      "sirens-and-sinks": true,
       "stairwell-commons": true,
-      "utility-worker-voice": true,
-      "pipes-and-memory": true,
-      "dry-noon-economy": true,
-      "city-hall-resilience": true,
-      "sirens-and-valves": true,
-      "domestic-calculus": true,
-      "commons-and-trust": true,
-      "brown-trickle": true,
-      "dnipro-night-coda": false
+      "control-room-braid": true,
+      "domestic-triage": true,
+      "infrastructure-memory": true,
+      "queue-economies": false,
+      "digital-mesh": true,
+      "night-cycle": true,
+      "pressure-returns-coda": true
     },
-    "word_count_v2": 2128,
+    "word_count_v2": 1873,
     "within_band": false
   },
   "word_target_low": 3000,

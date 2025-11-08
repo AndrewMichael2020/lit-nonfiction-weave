@@ -7,13 +7,14 @@ class Pipeline:
     def __init__(self, seed: int = 137):
         self.state = StoryState(seed=seed)
 
-    def run_minimal(self, premise: str, venue: str):
+    def run_minimal(self, premise: str, venue: str, models: dict = None):
         s = self.state
         s.premise, s.venue = premise, venue
-        s = planner.run(s)
-        s = draft.run(s)
-        s = fact.run(s)
-        s = revision.run(s)
+        models = models or {}
+        s = planner.run(s, model=models.get("planner"))
+        s = draft.run(s, model=models.get("draft"))
+        s = fact.run(s, model=models.get("fact"))
+        s = revision.run(s, model=models.get("revision"))
         # metrics
         drafts = {k: v.text for k, v in s.drafts.items()}
         targets = {b.id: b.target_words for b in s.outline.beats}

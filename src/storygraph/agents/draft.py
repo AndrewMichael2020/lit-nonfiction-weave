@@ -18,11 +18,12 @@ def _split(prompt: str):
 
 def run(
     state: StoryState,
-    model: str = "anthropic/claude-opus-4-1-20250805",
+    model: str = None,
     voice_matrix: Dict | None = None,
     vernacular_inline: str = "",
 ) -> StoryState:
     assert state.outline, "Planner must run first"
+    assert model, "Draft agent requires model parameter from centralized config"
     system, output_schema, user_tmpl = _split(PROMPT)
 
     client = LLMClient(LLMConfig(model=model, seed=state.seed))
