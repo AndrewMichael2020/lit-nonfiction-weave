@@ -2,7 +2,7 @@
 
 ## Fragments
 - "Wind moved like breath between rock fins."  ridge, morning  
-- "She walked ahead without checking if I followed."  
+- "She ran ahead hoping that I followed."  
 - "The snow squeaked under her small boots; no sound after that."  
 - "Phone light in Whistler parking lot, midnight."  
 - "Border Peak ridge. A sky so white it erased edges."
@@ -10,14 +10,14 @@
 ## Places
 - Canadian Border Peak upper ridge and summit cornice  
 - Tomyhoi glacier benches in early season  
-- Mount Wedge moraine at dusk  
-- Baker lower Coleman Glacier, tents glowing blue  
+- Mount Wedg's Wedghemount Lake at dusk  
+- Baker lower Easton Glacier, tents glowing blue  
 - Whistler bus stop, highway sodium lights  
 
 ## People
 REAL PEOPLE: 
 - Nikita. Focus on her speed, warmth, and quiet pauses rather than dialogue.  
-- Chris. Laughter that cuts through fatigue.  
+- Chris. Laughter, strength that cuts through fatigue.  
 - Steven. Hands steady on stove lid.  
 - Narrator. Always slightly behind.  
 

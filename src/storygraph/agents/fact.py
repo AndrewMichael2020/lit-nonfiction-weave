@@ -72,6 +72,10 @@ def run(
         }
     ✓ aggregates into state.claim_graph
     """
+    
+    print("\n[FACT] Starting fact extraction agent...")
+    print(f"[FACT] Model: {model}")
+    print(f"[FACT] Scenes to process: {len(state.drafts)}")
 
     # -------------------------------------------------
     # 1) Gather source quotes
@@ -95,7 +99,10 @@ def run(
         codex = context["codex"]
         if codex.get("claims"):
             codex_claims_text = "\n\nVERIFIED CLAIMS FROM CODEX:\n" + "\n".join(codex["claims"][:20])
+            print(f"[FACT] Added {len(codex['claims'][:20])} verified claims from codex")
 
+    print(f"[FACT] Source quotes: {len(quotes)} files")
+    
     # -------------------------------------------------
     # 2) Prepare prompt
     # -------------------------------------------------
@@ -110,7 +117,8 @@ def run(
     # -------------------------------------------------
     # 3) Run scene-by-scene fact checking
     # -------------------------------------------------
-    for beat_id, scene in state.drafts.items():
+    for i, (beat_id, scene) in enumerate(state.drafts.items(), 1):
+        print(f"[FACT] Scene {i}/{len(state.drafts)}: {beat_id}")
 
         user = (
             user_tmpl
@@ -118,6 +126,8 @@ def run(
             .replace("{scene_text}", scene.text)
             .replace("{quotes}", json.dumps(quotes, ensure_ascii=False) + codex_claims_text)
         )
+        
+        print(f"[FACT]   Prompt: {len(user)} chars, calling LLM...")
 
         # LLM call
         data = client.complete_json(system, user, output_schema)
@@ -136,20 +146,16 @@ def run(
         # Minimal guard: ensure keys
         obj.setdefault("scene_id", beat_id)
         obj.setdefault("claims", [])
-
-        # Debug count
-        print(f"[FACT DEBUG] Scene {beat_id}: claims={len(obj['claims'])}")
-        if obj.get('claims'):
-            print(f"[FACT DEBUG] First claim: {obj['claims'][0]}")
+        
+        print(f"[FACT]   ✓ Extracted {len(obj.get('claims', []))} claims")
 
         results.append(obj)
 
     # -------------------------------------------------
     # 4) Save to StoryState
     # -------------------------------------------------
-    print(f"[FACT DEBUG] Saving claim_graph with {len(results)} scenes")
     total_claims = sum(len(r.get('claims', [])) for r in results)
-    print(f"[FACT DEBUG] Total claims across all scenes: {total_claims}")
+    print(f"[FACT] ✓ Complete: {total_claims} total claims across {len(results)} scenes")
     
     state.claim_graph = {
         "quotes": quotes,

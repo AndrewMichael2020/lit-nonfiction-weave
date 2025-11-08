@@ -23,6 +23,11 @@ def run(
 ) -> StoryState:
     assert state.outline, "Planner must run first"
     assert model, "Draft agent requires model parameter from centralized config"
+    
+    print("\n[DRAFT] Starting draft agent...")
+    print(f"[DRAFT] Model: {model}")
+    print(f"[DRAFT] Beats to draft: {len(state.outline.beats)}")
+    
     system, output_schema, user_tmpl = _split(PROMPT)
 
     # Extract context for prompt
@@ -32,13 +37,17 @@ def run(
         from ..context_loader import format_codex_for_prompt, extract_notes_fragments
         if "codex" in context:
             codex_text = format_codex_for_prompt(context["codex"])
+            print(f"[DRAFT] Codex context: {len(codex_text)} chars")
         if "notes" in context:
             notes_fragments = extract_notes_fragments(context["notes"])
+            print(f"[DRAFT] Notes fragments: {len(notes_fragments)} chars")
 
     client = LLMClient(LLMConfig(model=model, seed=state.seed))
     drafts: Dict[str, SceneDraft] = {}
 
-    for b in state.outline.beats:
+    for i, b in enumerate(state.outline.beats, 1):
+        print(f"[DRAFT] Beat {i}/{len(state.outline.beats)}: {b.id} ({b.target_words} words)")
+        
         user = (
             user_tmpl.replace("{beat_id}", b.id)
             .replace("{purpose}", b.purpose)
@@ -47,6 +56,8 @@ def run(
             .replace("{codex}", codex_text)
             .replace("{notes_fragments}", notes_fragments)
         )
+        
+        print(f"[DRAFT]   Prompt: {len(user)} chars, calling LLM...")
         obj = client.complete_json(system, user, output_schema)
 
         # hard guard: require 'text'
@@ -55,6 +66,9 @@ def run(
                 f"DraftAgent: model did not return 'text'. Got keys: {list(obj.keys())}. Raw: {str(obj)[:400]}"
             )
 
+        word_count = len(obj["text"].split())
+        print(f"[DRAFT]   ✓ Generated {word_count} words")
+        
         drafts[b.id] = SceneDraft(
             scene_id=obj.get("scene_id", b.id),
             text=obj["text"],
@@ -63,4 +77,8 @@ def run(
 
     state.drafts = drafts
     state.draft_v1_concat = "\n\n".join(d.text for d in drafts.values())
+    
+    total_words = len(state.draft_v1_concat.split())
+    print(f"[DRAFT] ✓ Complete: {len(drafts)} scenes, {total_words} total words")
+    
     return state

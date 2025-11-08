@@ -13,10 +13,16 @@ PROMPT = (ROOT / "src" / "prompts" / "revision.txt").read_text(encoding="utf-8")
 def run(
     state: StoryState, model: str = None, targets=None, scope: str = "story"
 ) -> StoryState:
+    print("[REVISION] Starting revision agent...")
+    print(f"[REVISION] Model: {model}")
+    print(f"[REVISION] Scope: {scope}")
+    print(f"[REVISION] Input text: {len(state.draft_v1_concat)} chars")
+    
     assert model, "Revision agent requires model parameter from centralized config"
     system, output_schema, user_tmpl = _split(PROMPT)
     cfg = LLMConfig(model=model, seed=state.seed)
     client = LLMClient(cfg)
+    
     user = (
         user_tmpl.replace("{g}", "0.6")
         .replace("{c}", "0.2")
@@ -26,13 +32,21 @@ def run(
         .replace("{scope}", scope)
         .replace("{text}", state.draft_v1_concat)
     )
+    
+    print(f"[REVISION] Prompt: {len(user)} chars, calling LLM...")
+    
     data = client.complete_json(system, user, output_schema)
     obj = coerce_json(data)
+    
     # naive: apply patches if any, else copy v1
     if obj.get("patches"):
+        print(f"[REVISION] Applying {len(obj['patches'])} patches...")
         state.draft_v2_concat = state.draft_v1_concat  # patch application TBD
     else:
+        print("[REVISION] No patches needed, copying V1 to V2")
         state.draft_v2_concat = state.draft_v1_concat
+    
+    print(f"[REVISION] ✓ Complete: {len(state.draft_v2_concat)} chars")
     return state
 
 

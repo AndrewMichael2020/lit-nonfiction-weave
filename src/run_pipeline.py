@@ -208,13 +208,14 @@ OUTPUT_JSON.write_text(_dump_state_json(state), encoding="utf-8")
 print(f"\nSaved story output to: {OUTPUT_JSON}")
 
 # -------------------------------------------------------------------
-# 7) Export Markdown with beat headers
+# 7) Export Markdown with beat headers (V1 and V2)
 # -------------------------------------------------------------------
 EXPORTS_DIR = ROOT / "exports"
 EXPORTS_DIR.mkdir(parents=True, exist_ok=True)
-OUTPUT_MD = EXPORTS_DIR / "story_v2.md"
+OUTPUT_MD_V1 = EXPORTS_DIR / "story_v1.md"
+OUTPUT_MD_V2 = EXPORTS_DIR / "story_v2.md"
 
-def _mk_markdown(s: StoryState) -> str:
+def _mk_markdown(s: StoryState, use_v2: bool = True) -> str:
     lines = []
     title = (s.premise or "Story").strip()
     venue = (s.venue or "").strip()
@@ -263,11 +264,18 @@ def _mk_markdown(s: StoryState) -> str:
 
     if s.draft_v2_concat:
         lines.append("---")
-        lines.append("### Combined Draft (V2)")
+        draft_text = s.draft_v2_concat if use_v2 else s.draft_v1_concat
+        version_label = "V2" if use_v2 else "V1"
+        lines.append(f"### Combined Draft ({version_label})")
         lines.append("")
-        lines.append(s.draft_v2_concat.strip())
+        lines.append(draft_text.strip())
 
     return "\n".join(lines)
 
-OUTPUT_MD.write_text(_mk_markdown(state), encoding="utf-8")
-print(f"Saved Markdown to: {OUTPUT_MD}")
+# Export V1 (draft before revision)
+OUTPUT_MD_V1.write_text(_mk_markdown(state, use_v2=False), encoding="utf-8")
+print(f"Saved V1 Markdown to: {OUTPUT_MD_V1}")
+
+# Export V2 (draft after revision)
+OUTPUT_MD_V2.write_text(_mk_markdown(state, use_v2=True), encoding="utf-8")
+print(f"Saved V2 Markdown to: {OUTPUT_MD_V2}")
