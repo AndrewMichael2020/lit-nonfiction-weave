@@ -1,0 +1,114 @@
+Top Anthropic Models (as of November 2025)
+Based on the search results, here are the current top Anthropic models:
+Claude 4 Family:
+
+Claude Sonnet 4.5 (claude-sonnet-4-5-20250929) - Released September 29, 2025. The best coding model in the world and strongest for building complex agents ClaudeAnthropic
+Claude Opus 4.1 (claude-opus-4-1-20250805) - Released August 5, 2025. The most powerful Claude model to date with better code generation, search reasoning, and instruction adherence Data StudiosWikipedia
+Claude Sonnet 4 (claude-sonnet-4-20250514) - Released May 22, 2025 Wikipedia
+Claude Haiku 4.5 (claude-haiku-4-5-20251001) - Released October 15, 2025. Fast model with near-frontier performance at one-third the cost AnthropicWikipedia
+
+Correct Model Name:
+Yes, claude-opus-4-20250514 is active and callable from the API. The model identifier for Claude Opus 4 is claude-opus-4-20250514, which you must specify in your API requests ApidogAI/ML API.
+
+The Problem with Your Code
+Looking at your error, the issue is not with the model name. The problem is that your JSON sanitizer is failing. The Anthropic API is returning valid JSON, but it's wrapped in markdown code fences:
+RuntimeError: Anthropic returned invalid JSON even after sanitation:
+```json
+{
+  "scene_id": "dawn_taps",
+  ...
+}
+```
+The Root Cause
+In your _extract_and_sanitize_json method at line ~206 of llm.py, you're using:
+pythonm = re.search(r"\{.*\}", text, flags=re.DOTALL)
+This regex is too greedy and includes the closing markdown fence ``` after the JSON, making it invalid.
+The FixFixed JSON Sanitizer for llm.pyCode def _extract_and_sanitize_json(self, text: str):
+    """
+    Extracts the first {...} block; fixes:
+    - markdown code fences (```json ... ```)
+    - unescaped newlines inside strings
+    - trailing commas
+    - broken/unterminated strings
+    - garAlternative: Better Approach
+Since Anthropic is already returning valid JSON (just wrapped in markdown), you could also improve the extraction logic:Fixed JSON Sanitizer for llm.pyCode ∙ Version 2 def _extract_and_sanitize_json(self, text: str):
+    """
+    Extracts the first {...} block; fixes:
+    - markdown code fences (```json ... ```)
+    - unescaped newlines inside strings
+    - trailing commas
+    - broken/unterminated strings
+    - garQuick Summary
+
+Model name claude-opus-4-20250514 is correct and active ✅
+The problem is your JSON extractor - it's including markdown backticks in the extraction
+Solution: Update the _extract_and_sanitize_json method to strip markdown code fences first
+The JSON from Anthropic is actually valid - your sanitizer just needs to handle the markdown wrapper
+
+Replace your _extract_and_sanitize_json method in llm.py with the improved version I provided, and your pipeline should work!
+
+
+def _extract_and_sanitize_json(self, text: str):
+    """
+    Extracts the first {...} block; fixes:
+    - markdown code fences (```json ... ```)
+    - unescaped newlines inside strings
+    - trailing commas
+    - broken/unterminated strings
+    - garbage after JSON
+    """
+    
+    # First, strip markdown code fences if present
+    cleaned = text.strip()
+    if cleaned.startswith('```'):
+        # Remove opening fence (```json or just ```)
+        cleaned = re.sub(r'^```(?:json)?\s*', '', cleaned)
+        # Remove closing fence
+        cleaned = re.sub(r'\s*```\s*
+
+    # fix newlines inside string values
+    chunk = re.sub(r'"\s*\n\s*"', '" "', chunk)
+
+    # remove all other newlines (inside strings)
+    chunk = chunk.replace("\n", " ")
+
+    # remove trailing commas in objects/arrays
+    chunk = re.sub(r',\s*}', "}", chunk)
+    chunk = re.sub(r',\s*]', "]", chunk)
+
+    # optional: fix common unterminated string pattern:
+    chunk = re.sub(r'"([^"]*)$', r'"\1"', chunk)
+
+    try:
+        return json.loads(chunk)
+    except Exception:
+        return None
+, '', cleaned)
+    
+    # extract first {...}
+    m = re.search(r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}', cleaned, flags=re.DOTALL)
+    if not m:
+        # fallback to simpler greedy match
+        m = re.search(r"\{.*\}", cleaned, flags=re.DOTALL)
+    if not m:
+        return None
+
+    chunk = m.group(0)
+
+    # fix newlines inside string values
+    chunk = re.sub(r'"\s*\n\s*"', '" "', chunk)
+
+    # remove all other newlines (inside strings)
+    chunk = chunk.replace("\n", " ")
+
+    # remove trailing commas in objects/arrays
+    chunk = re.sub(r',\s*}', "}", chunk)
+    chunk = re.sub(r',\s*]', "]", chunk)
+
+    # optional: fix common unterminated string pattern:
+    chunk = re.sub(r'"([^"]*)$', r'"\1"', chunk)
+
+    try:
+        return json.loads(chunk)
+    except Exception:
+        return None

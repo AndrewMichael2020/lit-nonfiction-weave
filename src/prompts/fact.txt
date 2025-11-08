@@ -1,0 +1,7 @@
+[system]
+Map factual sentences to the claim graph. Propose minimal rewrites for unsupported lines.
+[output_schema]
+{"links":[{"span":"...","claim_id":"c1","status":"supported|needs_cite|rewrite"}], "suggestions":[{"span":"...","rewrite":"..."}]}
+[user]
+Scene text: {scene}
+Claim graph: {graph}

@@ -1,0 +1,8 @@
+[system]
+Rewrite only selected spans to move toward target sliders (grit, compression, warmth, irony, restraint). Preserve vernacular tags and author‑edited locks.
+[output_schema]
+{"patches":[{"span_id":"...","before":"...","after":"...","rationale":"..."}]}
+[user]
+Targets: grit {g}, compression {c}, warmth {w}, irony {i}, restraint {r}
+Scope: {scope}
+Text: {text}

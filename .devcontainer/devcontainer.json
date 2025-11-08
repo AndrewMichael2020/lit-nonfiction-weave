@@ -1,0 +1,8 @@
+{
+"name": "lit-nf-stories",
+"image": "mcr.microsoft.com/devcontainers/python:3.11",
+"postCreateCommand": "bash .devcontainer/postCreate.sh",
+"features": {
+"ghcr.io/devcontainers/features/common-utils:2": {}
+}
+}

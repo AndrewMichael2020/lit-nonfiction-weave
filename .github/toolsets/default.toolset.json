@@ -1,0 +1,12 @@
+{
+  "deny": [
+    { "tool": "edit_file", "path": "docs/**" }
+  ],
+  "allow": [
+    "read_file",
+    "search/codebase",
+    "create_file",
+    "run_in_terminal",
+    "open_pr"
+  ]
+}
