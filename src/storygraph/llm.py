@@ -174,7 +174,7 @@ class LLMClient:
             model=self.cfg.model.split("/", 1)[1],
             temperature=self.cfg.temperature,
             system=sys,
-            max_tokens=4096,
+            max_tokens=8192,  # Increased from 4096 for longer outputs like revision patches
             messages=[{"role": "user", "content": user}],
         )
 
@@ -183,13 +183,26 @@ class LLMClient:
         # direct load
         try:
             return json.loads(text)
-        except Exception:
+        except Exception as e:
+            print(f"[DEBUG] Direct JSON parse failed: {e}")
             pass
 
         # fallback
         sanitized = self._extract_and_sanitize_json(text)
         if sanitized:
             return sanitized
+
+        # Enhanced debugging output
+        print("\n" + "="*80)
+        print("ANTHROPIC JSON PARSE FAILURE")
+        print("="*80)
+        print(f"Model: {self.cfg.model}")
+        print(f"Raw response length: {len(text)} chars")
+        print(f"\nFirst 500 chars of raw response:")
+        print(repr(text[:500]))
+        print(f"\nLast 500 chars of raw response:")
+        print(repr(text[-500:]))
+        print("="*80 + "\n")
 
         raise RuntimeError(
             "Anthropic returned invalid JSON even after sanitation:\n"
@@ -210,52 +223,63 @@ class LLMClient:
         - garbage after JSON
         """
         
-        # First, strip markdown code fences if present
+        # Strip markdown code fences first - be more aggressive
         cleaned = text.strip()
-        if cleaned.startswith('```'):
-            # Remove opening fence (```json or just ```)
-            cleaned = re.sub(r'^```(?:json)?\s*', '', cleaned)
-            # Remove closing fence
-            cleaned = re.sub(r'\s*```\s*$', '', cleaned)
         
-        # extract first {...} using balanced brace matching
+        # Remove opening fence with optional json/JSON language identifier
+        cleaned = re.sub(r'^```(?:json|JSON)?\s*\n?', '', cleaned, flags=re.IGNORECASE)
+        
+        # Remove closing fence
+        cleaned = re.sub(r'\n?```\s*$', '', cleaned)
+        
+        # Also strip any remaining leading/trailing whitespace
+        cleaned = cleaned.strip()
+        
+        # Extract first {...} using balanced brace matching
         brace_count = 0
         start_idx = cleaned.find('{')
         if start_idx == -1:
+            print("[DEBUG SANITIZER] No opening brace found")
             return None
         
+        end_idx = None
         for i, char in enumerate(cleaned[start_idx:], start_idx):
             if char == '{':
                 brace_count += 1
             elif char == '}':
                 brace_count -= 1
                 if brace_count == 0:
-                    chunk = cleaned[start_idx:i+1]
+                    end_idx = i
                     break
-        else:
+        
+        if end_idx is None:
+            print(f"[DEBUG SANITIZER] No matching closing brace (brace_count={brace_count})")
             return None
-
-        # fix newlines inside string values - be more aggressive about cleaning
+        
+        chunk = cleaned[start_idx:end_idx + 1]
+        print(f"[DEBUG SANITIZER] Extracted chunk length: {len(chunk)} chars")
+        print(f"[DEBUG SANITIZER] Chunk ends with: {repr(chunk[-50:])}")
+        
+        # Fix newlines inside string values - be more aggressive about cleaning
         chunk = re.sub(r'"\s*\n\s*"', '" "', chunk)
         
         # Replace literal \n sequences in strings with spaces
         chunk = chunk.replace('\\n', ' ')
         
-        # remove actual newlines (inside strings)
+        # Remove actual newlines (inside strings)
         chunk = chunk.replace('\n', ' ')
 
-        # remove trailing commas in objects/arrays
-        chunk = re.sub(r",\s*}", "}", chunk)
-        chunk = re.sub(r",\s*]", "]", chunk)
-
-        # Strip any trailing content after the final }
-        chunk = chunk.rstrip()
-        if chunk.endswith('}'):
-            # Find the last } and cut there
-            last_brace = chunk.rfind('}')
-            chunk = chunk[:last_brace + 1]
+        # Remove trailing commas in objects/arrays
+        chunk = re.sub(r',\s*}', '}', chunk)
+        chunk = re.sub(r',\s*]', ']', chunk)
 
         try:
-            return json.loads(chunk)
-        except Exception:
+            result = json.loads(chunk)
+            print("[DEBUG SANITIZER] Successfully parsed JSON")
+            return result
+        except Exception as e:
+            print(f"[DEBUG SANITIZER] JSON parse failed: {e}")
+            print(f"[DEBUG SANITIZER] Failed chunk first 200 chars: {repr(chunk[:200])}")
+            print(f"[DEBUG SANITIZER] Failed chunk last 200 chars: {repr(chunk[-200:])}")
             return None
+        
