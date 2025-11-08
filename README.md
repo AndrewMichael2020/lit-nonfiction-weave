@@ -47,19 +47,33 @@ graph LR
     C --> D[Fact Agent]
     D --> E[Revision Agent]
     E --> F[Publication-Ready Story]
+    F --> G[Export & Persistence]
+    G --> H[Claim Graph with Metrics]
 ```
 
 ### **Core Components**
 - **Planner Agent:** Story structure and beat planning using literary templates
 - **Draft Agent:** Scene-by-scene content generation with voice consistency
-- **Fact Agent:** Automated claim verification against source documents
-- **Revision Agent:** Style refinement and editorial standards enforcement
-- **Research Agent:** Source material processing and claim graph generation
+- **Fact Agent:** Structured claim extraction + verification against source documents; promotes fallback keys to maintain schema integrity
+- **Revision Agent:** Style refinement and editorial standards enforcement (voice, pacing, specificity)
+- **Research Agent:** Source material preprocessing, evidence surfacing, claim grounding seeds
+- **Claim Graph:** Aggregated scene‑level claims (substantiated/needs review) with evidence linkage for downstream editorial passes
+- **Persistence Layer:** Exports `story_output.json` (structured state with meta) and Markdown with  intended "venue" guidelines labeling 
 
 ### **Supported Models**
-- **OpenAI:** GPT-5, o1, o3 via Responses API
-- **Anthropic:** Claude Opus 4.1, Claude Sonnet 4.5, Claude Haiku 4.5
-- **Extensible:** Plugin architecture for additional model providers
+- **OpenAI:** `openai/gpt-5` (+ experimental reasoning variants `o1`, `o3` via Responses API) — configurable per stage
+- **Anthropic:** `anthropic/claude-opus-4-1`, `anthropic/claude-sonnet-4-5-20250929`, `anthropic/claude-haiku-4-5` (date/version pinned for reproducibility)
+- **Profile-Driven:** No hard‑coded defaults; all stage models resolved via `config/llm_profiles.yaml` or environment overrides
+- **Extensible:** Simple adapter pattern allows adding providers with a small backend wrapper
+
+### **Current Progress Snapshot**
+| Area | Status |
+|------|--------|
+| Centralized LLM configuration | Implemented (`config/llm_profiles.yaml`) |
+| Per‑stage model overrides | Implemented (env `LLM_*` vars) |
+| JSON output sanitation | Hardened (fence stripping + brace extraction) |
+| Fact claim extraction | Stable (~100 claims in sample run) |
+| Evidence loading | Basic text source ingestion working |
 
 ---
 
