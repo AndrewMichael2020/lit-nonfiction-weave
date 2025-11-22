@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lit-Nonfiction-Weave</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lit-Nonfiction-Weave</h1>
+        <p>Computational tools for literary nonfiction craft—exploring systematic approaches to narrative structure, editorial judgment, and collaborative writing with genAI systems.</p>
+
+        <div class="form-container">
+            <input type="text" id="premise" placeholder="Enter the premise of your story...">
+            <input type="text" id="venue" placeholder="Enter the venue (e.g., The New Yorker)">
+            <button id="generate-btn">Generate Story</button>
+        </div>
+
+        <div class="output-container">
+            <h2>Generated Story</h2>
+            <div id="story-output" class="output-box"></div>
+        </div>
+
+        <div class="metrics-container">
+            <h2>Metrics</h2>
+            <div id="metrics-output" class="output-box"></div>
+        </div>
+
+        <div class="claims-container">
+            <h2>Claim Graph</h2>
+            <div id="claims-output" class="output-box"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
